@@ -54,6 +54,7 @@ district_city = {
     planet_modifier = {
         planet_housing_add = 5
         planet_max_buildings_add = 1
+        job_clerk_add = 1
     }
     triggered_planet_modifier = {
         potential = {
@@ -126,6 +127,9 @@ district_city = {
     }
     triggered_planet_modifier = {
         potential = {
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
             exists = owner
             owner = {
                 has_active_tradition = tr_prosperity_interstellar_franchising
@@ -134,6 +138,39 @@ district_city = {
         }
         modifier = {
             job_clerk_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            exists = owner
+            owner = {
+                OR = {
+                    has_valid_civic = civic_merchant_guilds
+                    has_valid_civic = civic_corporate_dominion
+                }
+                has_active_tradition = tr_mercantile_commercial_enterprise
+            }
+        }
+        modifier = {
+            job_merchant_add = 0.25
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            exists = owner
+            owner = {
+                is_megacorp = yes
+                has_active_tradition = tr_mercantile_commercial_enterprise
+            }
+        }
+        modifier = {
+            job_executive_add = 0.25
         }
     }
     triggered_planet_modifier = {
@@ -172,6 +209,37 @@ district_city = {
             }
         }
         text = job_clerk_effect_desc
+    }
+    triggered_desc = {
+        text = job_merchant_effect_desc
+        trigger = {
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            exists = owner
+            owner = {
+                OR = {
+                    has_valid_civic = civic_corporate_dominion
+                    has_valid_civic = civic_merchant_guilds
+                }
+                has_active_tradition = tr_prosperity_interstellar_franchising
+                has_active_tradition = tr_mercantile_commercial_enterprise
+            }
+        }
+    }
+    triggered_desc = {
+        text = job_executive_effect_desc
+        trigger = {
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            exists = owner
+            owner = {
+                is_megacorp = yes
+                has_active_tradition = tr_prosperity_interstellar_franchising
+                has_active_tradition = tr_mercantile_commercial_enterprise
+            }
+        }
     }
     ai_resource_production = {
         alloys = 10

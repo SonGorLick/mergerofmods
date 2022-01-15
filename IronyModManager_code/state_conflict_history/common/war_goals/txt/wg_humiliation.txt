@@ -1,0 +1,119 @@
+wg_humiliation = {
+    casus_belli = cb_humiliation
+    hide_if_no_cb = no
+    defender_default = yes
+    galactic_empire_joins_defender = {
+        from = {
+            is_galactic_emperor = yes
+        }
+        imperial_authority >= 100
+    }
+    allowed_peace_offers = {
+        status_quo
+        surrender
+        demand_surrender
+    }
+    surrender_acceptance = -25
+    potential = {
+        has_total_war_cb = no
+        or = {
+            is_ai = no
+            and = {
+                has_claim = FROM
+                or = {
+                    is_neighbor_of = FROM
+                    any_country = {
+                        or = {
+                            is_in_federation_with = prev
+                            has_defensive_pact = prev
+                        }
+                        is_neighbor_of = from
+                    }
+                }
+            }
+        }
+        NAND = {
+            is_galactic_emperor = yes
+            from = {
+                is_galactic_community_member = yes
+            }
+        }
+    }
+    possible = {
+        custom_tooltip = {
+            fail_text = has_claimed_all_systems
+            from = {
+                is_country_type = default
+                any_owned_planet = {
+                    is_colony = yes
+                    root = {
+                        NOT = {
+                            has_claim = prev.solar_system
+                        }
+                    }
+                }
+            }
+        }
+        custom_tooltip = {
+            fail_text = cannot_use_against_emperor
+            OR = {
+                from = {
+                    is_galactic_emperor = no
+                }
+                is_galactic_community_member = no
+            }
+        }
+        custom_tooltip = {
+            fail_text = pax_galactica_active
+            NAND = {
+                is_active_resolution = resolution_emperor_pax_galactica
+                is_galactic_community_member = yes
+                from = {
+                    is_galactic_community_member = yes
+                }
+            }
+        }
+    }
+    on_accept = {
+        if = {
+            limit = {
+                is_country_type = fallen_empire
+            }
+            custom_tooltip = wg_humiliation_fe_accept
+            save_event_target_as = fallen_empire_humiliator
+            from = {
+                fallen_empire_humiliate_effect = yes
+            }
+        }
+        else = {
+            custom_tooltip = wg_humiliation_accept
+            hidden_effect = {
+                add_resource = {
+                    influence = 100
+                }
+                from = {
+                    add_modifier = {
+                        modifier = humiliated
+                        days = 3600
+                    }
+                    if = {
+                        limit = {
+                            has_policy_flag = diplo_stance_supremacist
+                        }
+                        set_policy = {
+                            policy = diplomatic_stance
+                            option = diplo_stance_belligerent
+                            cooldown = yes
+                        }
+                        prev = {
+                            set_country_flag = humble_pie_achievement
+                        }
+                    }
+                }
+            }
+        }
+    }
+    ai_weight = {
+        weight = 80
+    }
+}

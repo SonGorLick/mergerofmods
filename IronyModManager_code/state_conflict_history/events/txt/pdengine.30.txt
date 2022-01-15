@@ -1,0 +1,586 @@
+namespace = pdengine
+planet_event = {
+    id = pdengine.30
+    hide_window = yes
+    location = root
+    is_triggered_only = yes
+    trigger = {
+        owner = {
+            has_origin = origin_pd_hive
+        }
+        has_planet_flag = pd_infesting1
+    }
+    immediate = {
+        if = {
+            limit = {
+                is_planet_class = pc_continental
+            }
+            set_planet_flag = pdhive_continental
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_tropical
+            }
+            set_planet_flag = pdhive_tropical
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ocean
+            }
+            set_planet_flag = pdhive_ocean
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_cascadian
+            }
+            set_planet_flag = pdhive_cascadian
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_retinal
+            }
+            set_planet_flag = pdhive_retinal
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_forest
+            }
+            set_planet_flag = pdhive_forest
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_lake
+            }
+            set_planet_flag = pdhive_lake
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_tepid
+            }
+            set_planet_flag = pdhive_tepid
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_wetswamp
+            }
+            set_planet_flag = pdhive_wetswamp
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_fog
+            }
+            set_planet_flag = pdhive_fog
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_subarctic
+            }
+            set_planet_flag = pdhive_subarctic
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_desertislands
+            }
+            set_planet_flag = pdhive_desertislands
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_mangrove
+            }
+            set_planet_flag = pdhive_mangrove
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_hajungle
+            }
+            set_planet_flag = pdhive_hajungle
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_cenote
+            }
+            set_planet_flag = pdhive_cenotee
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_desert
+            }
+            set_planet_flag = pdhive_desert
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_arid
+            }
+            set_planet_flag = pdhive_arid
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_savannah
+            }
+            set_planet_flag = pdhive_savannah
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_sandsea
+            }
+            set_planet_flag = pdhive_sandsea
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_steppe
+            }
+            set_planet_flag = pdhive_steppe
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_oasis
+            }
+            set_planet_flag = pdhive_oasis
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_mesa
+            }
+            set_planet_flag = pdhive_mesa
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_badlands
+            }
+            set_planet_flag = pdhive_badlands
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_hadesert
+            }
+            set_planet_flag = pdhive_hadesert
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_prairie
+            }
+            set_planet_flag = pdhive_prairie
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_veld
+            }
+            set_planet_flag = pdhive_veld
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_semiarid
+            }
+            set_planet_flag = pdhive_semiarid
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_med
+            }
+            set_planet_flag = pdhive_med
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_outback
+            }
+            set_planet_flag = pdhive_outback
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_coastal
+            }
+            set_planet_flag = pdhive_coastal
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_arctic
+            }
+            set_planet_flag = pdhive_arctic
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_tundra
+            }
+            set_planet_flag = pdhive_tundra
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_alpine
+            }
+            set_planet_flag = pdhive_alpine
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_swamp
+            }
+            set_planet_flag = pdhive_swamp
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_mud
+            }
+            set_planet_flag = pdhive_mud
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_basalt
+            }
+            set_planet_flag = pdhive_basalt
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_frozen_desert
+            }
+            set_planet_flag = pdhive_frozen_desert
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_boreal
+            }
+            set_planet_flag = pdhive_boreal
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_mushroom
+            }
+            set_planet_flag = pdhive_mushroom
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_antarctic
+            }
+            set_planet_flag = pdhive_antarctic
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_aeolian
+            }
+            set_planet_flag = pdhive_aeolian
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_snow
+            }
+            set_planet_flag = pdhive_snow
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_glacial
+            }
+            set_planet_flag = pdhive_glacial
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_highland
+            }
+            set_planet_flag = pdhive_highland
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_duneforest
+            }
+            set_planet_flag = pdhive_duneforest
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_geothermal
+            }
+            set_planet_flag = pdhive_geothermal
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_superhabitable
+            }
+            set_planet_flag = pdhive_superhabitable
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_tidallylocked
+            }
+            set_planet_flag = pdhive_tidallylocked
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_supercon
+            }
+            set_planet_flag = pdhive_supercon
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_biolumen
+            }
+            set_planet_flag = pdhive_biolumen
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_karst
+            }
+            set_planet_flag = pdhive_karst
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_reef
+            }
+            set_planet_flag = pdhive_reef
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_primal
+            }
+            set_planet_flag = pdhive_primal
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_aquatic
+            }
+            set_planet_flag = pdhive_aquatic
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_salt
+            }
+            set_planet_flag = pdhive_salt
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_aquifer
+            }
+            set_planet_flag = pdhive_aquifer
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_coral
+            }
+            set_planet_flag = pdhive_coral
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_storm
+            }
+            set_planet_flag = pdhive_storm
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_rogue
+            }
+            set_planet_flag = pdhive_rogue
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_lichen
+            }
+            set_planet_flag = pdhive_lichen
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_eyeball
+            }
+            set_planet_flag = pdhive_eyeball
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_glacio
+            }
+            set_planet_flag = pdhive_glacio
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_lanthanide
+            }
+            set_planet_flag = pdhive_lanthanide
+        }
+        IF = {
+            limit = {
+                is_planet_class = pc_megaflora
+            }
+            set_planet_flag = pdhive_megaflora
+        }
+        IF = {
+            limit = {
+                is_planet_class = pc_megaflorahive
+            }
+            set_planet_flag = pdhive_megaflorahive
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ammonia
+            }
+            set_planet_flag = pdhive_ammonia
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_sulfur
+            }
+            set_planet_flag = pdhive_sulfur
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_acid
+            }
+            set_planet_flag = pdhive_acid
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_methane
+            }
+            set_planet_flag = pdhive_methane
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ash
+            }
+            set_planet_flag = pdhive_ash
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_irradiated
+            }
+            set_planet_flag = pdhive_irradiated
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_floating
+            }
+            set_planet_flag = pdhive_floating
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_crystal
+            }
+            set_planet_flag = pdhive_crystal
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_technoorganic
+            }
+            set_planet_flag = pdhive_technoorganic
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_graveyard
+            }
+            set_planet_flag = pdhive_graveyard
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_temperate
+            }
+            set_planet_flag = gdhive_ll_temperate
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_foggy
+            }
+            set_planet_flag = gdhive_ll_foggy
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_torrid
+            }
+            set_planet_flag = gdhive_ll_torrid
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_katzenland
+            }
+            set_planet_flag = gdhive_katzenland
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_methane
+            }
+            set_planet_flag = gdhive_ll_methane
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_ash
+            }
+            set_planet_flag = gdhive_ll_ash
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_sulfur
+            }
+            set_planet_flag = gdhive_ll_sulfur
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_ammonia
+            }
+            set_planet_flag = gdhive_ll_ammonia
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_ocean
+            }
+            set_planet_flag = gdhive_ll_ocean
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_tidallylocked_cold
+            }
+            set_planet_flag = gdhive_ll_tidallylocked_cold
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_tidallylocked
+            }
+            set_planet_flag = gdhive_ll_tidallylocked
+        }
+        if = {
+            limit = {
+                is_planet_class = pc_ll_rogue
+            }
+            set_planet_flag = gdhive_ll_rogue
+        }
+        IF = {
+            limit = {
+                planet_size <= 25
+                planet_size >= 21
+            }
+            add_deposit = d_pdhive10
+        }
+        IF = {
+            limit = {
+                planet_size <= 20
+                planet_size >= 16
+            }
+            add_deposit = d_pdhive8
+        }
+        IF = {
+            limit = {
+                planet_size <= 15
+                planet_size >= 11
+            }
+            add_deposit = d_pdhive6
+        }
+        IF = {
+            limit = {
+                planet_size <= 10
+            }
+            add_deposit = d_pdhive4
+        }
+        pd_remove_special_deposits_modifiers = yes
+        remove_modifier = lifeless_temperate
+        remove_modifier = lifeless_foggy
+        remove_modifier = lifeless_torrid
+        remove_modifier = lifeless_methane
+        remove_modifier = lifeless_ash
+        remove_modifier = lifeless_sulfur
+        remove_modifier = lifeless_ammonia
+        remove_modifier = lifeless_ocean
+        remove_modifier = lifeless_tidallylocked_cold
+        remove_modifier = lifeless_tidallylocked
+        remove_modifier = lifeless_rogue
+        change_pc = pc_pdhive1
+        set_planet_flag = pd_infesting2
+        add_modifier = {
+            modifier = pd_infestingplanet2
+            days = 7200
+        }
+        planet_event = {
+            id = pdengine.31
+            days = 7200
+        }
+    }
+}

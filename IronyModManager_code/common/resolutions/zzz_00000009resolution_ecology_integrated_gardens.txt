@@ -1,7 +1,6 @@
 @resolution_weight_normal = 6
 @resolution_cost_t3 = 200
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_ecology_integrated_gardens = {
     icon = "GFX_resolution_ecolgical_protection"
     resources = {
@@ -82,7 +81,10 @@ resolution_ecology_integrated_gardens = {
         }
         modifier = {
             factor = 5
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 3
@@ -177,6 +179,14 @@ resolution_ecology_integrated_gardens = {
             factor = 2
             is_lithoid_empire = no
             has_valid_civic = civic_agrarian_idyll
+        }
+        modifier = {
+            factor = 0.4
+            OR = {
+                has_valid_civic = civic_mining_guilds
+                has_valid_civic = civic_machine_rockbreakers
+                has_valid_civic = civic_industrial_economy
+            }
         }
         modifier = {
             factor = 1.5

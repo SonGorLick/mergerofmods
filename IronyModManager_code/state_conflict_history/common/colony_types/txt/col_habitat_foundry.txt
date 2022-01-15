@@ -21,7 +21,6 @@ col_habitat_foundry = {
             OR = {
                 is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
                 is_active_resolution = "resolution_industry_project_cornucopia"
-                is_active_resolution = "resolution_industry_6"
             }
         }
         modifier = {
@@ -29,7 +28,7 @@ col_habitat_foundry = {
         }
     }
     weight_modifier = {
-        base = 0
+        base = 300
         modifier = {
             add = 3.2
             num_districts = {

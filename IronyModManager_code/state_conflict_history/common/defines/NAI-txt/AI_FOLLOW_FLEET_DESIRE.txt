@@ -1,3 +1,0 @@
-NAI = {
-    AI_FOLLOW_FLEET_DESIRE = 0.01
-}

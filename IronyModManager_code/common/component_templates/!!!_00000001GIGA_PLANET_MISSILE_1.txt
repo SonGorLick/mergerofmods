@@ -1,0 +1,43 @@
+weapon_component_template = {
+    key = "GIGA_PLANET_MISSILE_1"
+    size = titanic
+    entity = "invisible_turret_entity"
+    icon = "GFX_ship_part_swarmer_missile_2"
+    icon_frame = 1
+    type = missile
+    component_set = "GIGA_PLANET_MISSILE_1"
+    prerequisites = {
+        "giga_tech_war_planet"
+    }
+    projectile_gfx = "moon_missile"
+    tags = {
+        weapon_type_explosive
+    }
+    size_restriction = {
+        giga_planet_behemoth
+        giga_planet_behemoth_fe
+        giga_systemcraft
+        giga_o_systemcraft
+    }
+    ai_tags = {
+        weapon_role_artillery
+    }
+    ai_tag_weight = 0
+    damage = {
+        min = 7000
+        max = 8000
+    }
+    windup = {
+        min = 5
+        max = 15
+    }
+    total_fire_time = 40
+    range = 250
+    accuracy = 1
+    tracking = 0.25
+    missile_speed = 20
+    missile_evasion = 0.4
+    missile_health = 3000
+    shield_penetration = 1
+    missile_retarget_range = 100
+}

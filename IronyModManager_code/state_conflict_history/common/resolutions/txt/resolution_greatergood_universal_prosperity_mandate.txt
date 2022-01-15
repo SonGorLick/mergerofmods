@@ -121,6 +121,7 @@ resolution_greatergood_universal_prosperity_mandate = {
     breach = {
         OR = {
             is_civic_slaver_guilds = yes
+            has_valid_civic = civic_indentured_assets
             AND = {
                 is_gestalt = no
                 any_owned_species = {
@@ -179,6 +180,10 @@ resolution_greatergood_universal_prosperity_mandate = {
         modifier = {
             factor = 0
             is_socialism = no
+        }
+        modifier = {
+            factor = 0
+            is_egalitarian = no
             NOT = {
                 has_civic = civic_machine_servitor
             }
@@ -257,10 +262,18 @@ resolution_greatergood_universal_prosperity_mandate = {
         }
         modifier = {
             factor = 2
+            is_egalitarian = yes
+        }
+        modifier = {
+            factor = 1.2
             is_socialism = yes
         }
         modifier = {
             factor = 2
+            has_ethic = ethic_fanatic_egalitarian
+        }
+        modifier = {
+            factor = 1.2
             has_ethic = ethic_fanatic_socialism
         }
         modifier = {
@@ -285,6 +298,7 @@ resolution_greatergood_universal_prosperity_mandate = {
             OR = {
                 has_valid_civic = civic_agrarian_idyll
                 is_civic_free_haven = yes
+                has_valid_civic = civic_welfare_state
                 is_civic_inwards_perfection = yes
             }
         }

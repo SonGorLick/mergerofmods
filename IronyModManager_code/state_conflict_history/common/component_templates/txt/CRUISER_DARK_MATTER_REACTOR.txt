@@ -1,15 +1,16 @@
+@cruiser_power_6 = 1030
+@cruiser_cost_6 = 148
 utility_component_template = {
     key = "CRUISER_DARK_MATTER_REACTOR"
     size = small
     icon = "GFX_ship_part_dark_matter_power_core"
     icon_frame = 1
-    power = 1500
+    power = @cruiser_power_6
     resources = {
         category = ship_components
         cost = {
-            alloys = 148
+            alloys = @cruiser_cost_6
             sr_dark_matter = 4
-            acot_sr_dark_energy = 4
         }
         upkeep = {
             energy = 1.48
@@ -23,8 +24,9 @@ utility_component_template = {
     size_restriction = {
         cruiser
         crisis_cruiser
+        graygoo_interdictor
     }
-    upgrades_to = "CRUISER_DARK_MATTER_REACTOR_AE"
+    upgrades_to = "CRUISER_ESC_DARK_MATTER_CORE_2"
     ai_weight = {
         weight = 6
         modifier = {
@@ -34,12 +36,5 @@ utility_component_template = {
                 value <= 50
             }
         }
-        modifier = {
-            factor = 0
-            resource_stockpile_compare = {
-                resource = acot_sr_dark_energy
-                value <= 50
-            }
-        }
-   }
+    }
 }

@@ -52,20 +52,6 @@ action_invite_to_federation = {
             }
         }
         custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
-            }
-        }
-        custom_tooltip = {
-            fail_text = "requires_actor_not_shadow_state"
-            NOT = {
-                has_valid_civic = civic_shadow_state
-            }
-        }
-        custom_tooltip = {
             fail_text = "requires_actor_not_fanatic_purifiers"
             OR = {
                 is_same_species = from
@@ -87,24 +73,16 @@ action_invite_to_federation = {
         }
         custom_tooltip = {
             fail_text = "requires_actor_not_devouring_swarm"
-            OR = {
-                from = {
-                    has_valid_civic = civic_hive_devouring_swarm
-                }
-                NOT = {
-                    has_valid_civic = civic_hive_devouring_swarm
-                }
+            NOT = {
+                has_valid_civic = civic_hive_devouring_swarm
             }
         }
         custom_tooltip = {
             fail_text = "requires_recipient_not_devouring_swarm"
-            OR = {
-                from = {
-                    NOT = {
-                        has_valid_civic = civic_hive_devouring_swarm
-                    }
+            from = {
+                NOT = {
+                    has_valid_civic = civic_hive_devouring_swarm
                 }
-                has_valid_civic = civic_hive_devouring_swarm
             }
         }
         custom_tooltip = {
@@ -192,7 +170,7 @@ action_invite_to_federation = {
         if = {
             limit = {
                 from = {
-                    is_purists_empire = yes
+                    has_valid_civic = civic_pompous_purists
                 }
             }
             if = {

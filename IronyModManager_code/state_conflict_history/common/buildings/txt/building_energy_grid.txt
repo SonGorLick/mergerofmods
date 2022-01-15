@@ -89,6 +89,7 @@ building_energy_grid = {
                 is_planet_class = pc_machine
                 is_planet_class = pc_hive
                 is_planet_class = pc_city
+                is_planet_class = pc_nanite_forgeworld
             }
         }
         modifier = {

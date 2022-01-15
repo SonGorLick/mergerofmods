@@ -34,9 +34,8 @@ ap_shared_destiny = {
         factor = 5
         modifier = {
             factor = 0
-            NOT = {
+            NOR = {
                 any_subject = {
-                    OR = {
                         is_subject_type = exalted_subject_automated_assembler
                         is_subject_type = exalted_subject_beneficiary
                         is_subject_type = exalted_subject_cultural_conservation
@@ -49,8 +48,7 @@ ap_shared_destiny = {
                         is_subject_type = exalted_subject_xenoharvest
                         is_subject_type = scion
                         is_subject_type = vassal
-                }
-                }
+                    }
                 AND = {
                     has_ethic = ethic_fanatic_xenophile
                     OR = {

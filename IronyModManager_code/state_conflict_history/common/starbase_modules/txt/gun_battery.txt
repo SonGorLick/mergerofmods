@@ -1,6 +1,5 @@
 gun_battery = {
     section = "BATTERY_STARBASE_SECTION"
-    icon = "GFX_starbase_gun_battery"
     construction_days = 180
     resources = {
         category = starbase_modules
@@ -27,7 +26,7 @@ gun_battery = {
     ai_build_at_chokepoint = yes
     ai_build_outside_chokepoint = no
     ai_weight = {
-        weight = 10
+        weight = 100
         modifier = {
             factor = 2
             exists = owner

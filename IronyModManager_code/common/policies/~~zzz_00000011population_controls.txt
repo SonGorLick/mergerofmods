@@ -21,11 +21,6 @@ population_controls = {
         policy_flags = {
             population_controls_not_allowed
         }
-        in_breach_of = {
-             {
-                key = resolution_lawandorder_informed_governance
-            }
-        }
     }
     option = {
         name = "population_controls_allowed"
@@ -79,10 +74,6 @@ population_controls = {
                     has_ethic = ethic_fanatic_egalitarian
                     has_ethic = ethic_xenophile
                     has_ethic = ethic_fanatic_xenophile
-                }
-                NAND = {
-                    is_galactic_community_member = yes
-                    is_active_resolution = "resolution_lawandorder_informed_governance"
                 }
             }
         }

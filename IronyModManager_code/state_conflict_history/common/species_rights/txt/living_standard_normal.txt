@@ -6,12 +6,11 @@ living_standard_normal = {
         from = {
             is_gestalt = no
             NOR = {
-                is_shared_burdens_empire = yes
+                has_valid_civic = civic_shared_burden
                 has_valid_civic = civic_reeducated_labor
                 has_valid_civic = civic_welfare_state
                 has_ethic = ethic_fanatic_socialism
-                has_valid_civic = civic_employee_ownership
-                }
+            }
         }
         NOR = {
             has_trait = trait_hive_mind

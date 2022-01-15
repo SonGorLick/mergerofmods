@@ -30,6 +30,7 @@ pc_ringworld_habitable = {
     is_artificial_planet = yes
     modifier = {
         planet_max_buildings_add = 12
+        pop_growth_speed = 0.25
     }
     carry_cap_per_free_district = @carry_cap_normal
 }

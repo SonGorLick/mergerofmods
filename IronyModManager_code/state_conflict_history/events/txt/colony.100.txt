@@ -11,13 +11,15 @@ planet_event = {
         has_owner = yes
         is_homeworld = no
         original_owner = yes
-        is_ai = no
         has_ground_combat = no
         is_capital = no
         is_occupied_flag = no
     }
     trigger = {
         num_pops > 0
+        owner = {
+            is_ai = no
+        }
         habitable_planet = yes
         uses_district_set = standard
         NOR = {
@@ -94,7 +96,6 @@ planet_event = {
             owner = {
                 has_authority = auth_machine_intelligence
             }
-            is_planet_class = pc_gd_hydrocarbon_hab
             is_planet_class = pc_alderson_slice_gaia
             is_planet_class = pc_alderson_slice_ecu
             is_planet_class = pc_alderson_slice_pc

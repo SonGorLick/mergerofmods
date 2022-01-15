@@ -87,7 +87,7 @@ resolution_mutualdefense_enemy_of_my_enemy = {
             factor = 1.1
             rusher2 = yes
         }
-modifier = {
+        modifier = {
             factor = 2
             count_country = {
                 count < 4

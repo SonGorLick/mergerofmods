@@ -11,7 +11,7 @@ utility_component_template = {
         }
     }
     modifier = {
-        ship_speed_mult = 0.2
+        ship_speed_mult = 0.1
         ship_evasion_mult = 0.1
     }
     class_restriction = {
@@ -21,7 +21,7 @@ utility_component_template = {
         "tech_afterburners_2"
     }
     component_set = "AFTERBURNER_2"
-    upgrades_to = ACOT_AFTERBURNERS_DM
+    upgrades_to = "ESC_AFTERBURNER_3"
     ai_weight = {
         weight = 15
         modifier = {

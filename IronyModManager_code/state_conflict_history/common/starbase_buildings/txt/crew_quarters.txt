@@ -40,8 +40,9 @@ crew_quarters = {
             owner = {
                 country_uses_food = yes
             }
-            not = {
+            nor = {
                 has_starbase_building = hydroponics_bay
+                has_starbase_module = shipyard
             }
         }
     }

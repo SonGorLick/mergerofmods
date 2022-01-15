@@ -52,5 +52,13 @@ defense_grid = {
                 has_starbase_building = hydroponics_bay
             }
         }
+        modifier = {
+            factor = 0
+            NOR = {
+                has_starbase_module = gun_battery
+                has_starbase_module = missile_battery
+                has_starbase_module = hangar_bay
+            }
+        }
     }
 }

@@ -83,7 +83,10 @@ resolution_ecology_repeal_2 = {
         }
         modifier = {
             factor = 0
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 0.5
@@ -174,7 +177,10 @@ resolution_ecology_repeal_2 = {
         }
         modifier = {
             factor = 3
+            OR = {
             is_civic_mining_guilds = yes
+                            has_valid_civic = civic_industrial_economy
+                            }
         }
         modifier = {
             factor = 1.5

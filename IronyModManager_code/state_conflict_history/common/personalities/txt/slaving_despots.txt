@@ -27,7 +27,7 @@ slaving_despots = {
         opportunist = yes
         slaver = yes
         uplifter = no
-        purger = yes
+        purger = no
         displacer = no
         dominator = yes
         infiltrator = no
@@ -36,8 +36,6 @@ slaving_despots = {
         propagator = no
         multispecies = no
         crisis_fighter = yes
-        wants_tribute = yes
-        attack_neutrals = yes
     }
     allow = {
         is_country_type = default

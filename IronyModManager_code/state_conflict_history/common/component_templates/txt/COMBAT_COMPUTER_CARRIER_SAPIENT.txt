@@ -34,6 +34,7 @@ utility_component_template = {
     prerequisites = {
         "tech_combat_computers_3"
     }
+    upgrades_to = "COMBAT_COMPUTER_CARRIER_PRECOG"
     ship_modifier = {
         ship_engagement_range_mult = 1
     }
@@ -56,7 +57,12 @@ utility_component_template = {
                 has_global_flag = ghost_signal_3_flag
                 has_global_flag = ghost_signal_2_flag
                 has_global_flag = ghost_signal_1_flag
+                has_policy_flag = ai_outlawed
             }
+        }
+        modifier = {
+            factor = 5
+            is_preferred_weapons = weapon_type_strike_craft
         }
     }
 }

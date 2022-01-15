@@ -1,0 +1,20 @@
+ship_section_template = {
+    key = "NANITE_INTERDICTOR_STERN_M1"
+    ship_size = dso_nanite_interdictor
+    fits_on_slot = stern
+    entity = "gatebuilder_01_cruiser_section_entity"
+    icon = "GFX_ship_part_core_stern"
+    component_slot = {
+        name = "MEDIUM_GUN_01"
+        template = "medium_turret"
+        locatorname = "medium_gun_01"
+    }
+    medium_utility_slots = 1
+    aux_utility_slots = 3
+    resources = {
+        category = ship_sections
+        cost = {
+            nanites = 6
+        }
+    }
+}

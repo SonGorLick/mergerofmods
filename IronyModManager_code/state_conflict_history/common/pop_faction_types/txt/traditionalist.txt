@@ -120,7 +120,7 @@ traditionalist = {
             exists = owner
             owner = {
                 can_set_ai_policy = yes
-                NOR = {
+                NAND = {
                     has_policy_flag = ai_full_rights
                     has_valid_civic = civic_machine_cult
                 }
@@ -144,8 +144,8 @@ traditionalist = {
             exists = owner
             owner = {
                 can_set_ai_policy = yes
-                has_policy_flag = ai_full_rights
-                NOT = {
+                OR = {
+                    has_policy_flag = ai_full_rights
                     has_valid_civic = civic_machine_cult
                 }
             }

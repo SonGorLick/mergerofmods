@@ -12,8 +12,10 @@ building_hypercomms_forum = {
                 is_gestalt = yes
                 is_spiritualist = yes
                 is_megacorp = yes
-                is_memorialist_empire = yes
                 is_ai = yes
+                has_valid_civic = civic_memorialist
+                has_valid_civic = civic_hive_memorialist
+                has_valid_civic = civic_machine_memorialist
             }
         }
     }
@@ -31,8 +33,10 @@ building_hypercomms_forum = {
                     is_gestalt = yes
                     is_spiritualist = yes
                     is_megacorp = yes
-                    is_memorialist_empire = yes
                     is_ai = yes
+                    has_valid_civic = civic_memorialist
+                    has_valid_civic = civic_hive_memorialist
+                    has_valid_civic = civic_machine_memorialist
                 }
             }
         }

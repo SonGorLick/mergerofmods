@@ -162,7 +162,10 @@ resolution_industry_repeal_5 = {
         }
         modifier = {
             factor = 4
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 2
@@ -225,16 +228,6 @@ resolution_industry_repeal_5 = {
             OR = {
                 has_deficit = minerals
                 has_deficit = alloys
-            }
-        }
-        modifier = {
-            factor = 2
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_3
             }
         }
     }

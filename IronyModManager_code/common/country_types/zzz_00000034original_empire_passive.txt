@@ -1,0 +1,5 @@
+original_empire_passive = {
+    ai = {
+        enabled = no
+    }
+}

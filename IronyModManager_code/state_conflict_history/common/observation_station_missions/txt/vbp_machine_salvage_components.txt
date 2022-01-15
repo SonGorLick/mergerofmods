@@ -1,0 +1,79 @@
+vbp_machine_salvage_components = {
+    icon = "GFX_fleet_order_button_land_armies"
+    small_icon = 5
+    resources = {
+        category = station_observer_missions
+        produces = {
+            minerals = 8
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_galactic_community_member = yes
+                }
+                OR = {
+                    is_active_resolution = "resolution_galacticstudies_advanced_xenostudies"
+                    is_active_resolution = "resolution_galacticstudies_ethical_guideline_refactoring"
+                    is_active_resolution = "resolution_galacticstudies_extradimensional_experimentation"
+                }
+            }
+            minerals = 4
+        }
+        upkeep = {
+            energy = 2
+        }
+    }
+    potential = {
+        FROM = {
+            exists = owner
+            owner = {
+                is_country_type = vbp_machine
+            }
+        }
+    }
+    in_breach_of = {
+         {
+            key = resolution_galacticcooperation_indigenous_protection_protocols
+        }
+         {
+            key = resolution_galacticcooperation_interstellar_mediation
+        }
+         {
+            key = resolution_galacticcooperation_sanctity_of_life
+        }
+    }
+    valid = {
+        NOT = {
+            has_policy_flag = ai_full_rights
+        }
+    }
+    ai_weight = {
+        weight = 10
+        modifier = {
+            factor = 0
+            NOR = {
+                has_policy_flag = robots_outlawed
+                has_monthly_income = {
+                    resource = minerals
+                    value < 20
+                }
+            }
+        }
+        modifier = {
+            factor = 0
+            has_monthly_income = {
+                resource = energy
+                value < 2
+            }
+        }
+        modifier = {
+            factor = 0
+            OR = {
+                is_active_resolution = "resolution_galacticcooperation_indigenous_protection_protocols"
+                is_active_resolution = "resolution_galacticcooperation_interstellar_mediation"
+                is_active_resolution = "resolution_galacticcooperation_sanctity_of_life"
+            }
+        }
+    }
+}

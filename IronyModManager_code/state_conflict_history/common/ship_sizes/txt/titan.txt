@@ -35,7 +35,7 @@ titan = {
     prerequisites = {
         "tech_titans"
     }
-    combat_disengage_chance = 1.25
+    combat_disengage_chance = 0.33
     class = shipclass_military
     construction_type = starbase_shipyard
     required_component_set = "power_core"
@@ -43,6 +43,7 @@ titan = {
     required_component_set = "thruster_components"
     required_component_set = "sensor_components"
     required_component_set = "combat_computers"
+    required_component_set = "ai_behaviour"
     required_component_set = "ship_aura_components"
     potential_construction = {
         OR = {

@@ -17,7 +17,7 @@ utility_component_template = {
         tech_auxiliary_fire_control
     }
     component_set = "FIRE_CONTROL_1"
-    upgrades_to = ACOT_STARCHARTER_DM
+    upgrades_to = "ESC_ADV_AUX_FIRE_CONTROL"
     ai_weight = {
         weight = 100
     }

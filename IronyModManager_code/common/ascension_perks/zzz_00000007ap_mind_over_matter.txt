@@ -74,5 +74,24 @@ ap_mind_over_matter = {
     }
     ai_weight = {
         factor = 2000
+        modifier = {
+            factor = 10
+            has_ethic = ethic_spiritualist
+            NOT = {
+                has_ai_personality_behaviour = slaver
+            }
+        }
+        modifier = {
+            factor = 100
+            has_ethic = ethic_fanatic_spiritualist
+        }
+        modifier = {
+            factor = 0
+            is_materialist = yes
+        }
+        modifier = {
+            factor = 0
+            num_owned_planets < 10
+        }
     }
 }

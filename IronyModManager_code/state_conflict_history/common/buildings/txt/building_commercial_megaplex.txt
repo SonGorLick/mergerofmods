@@ -6,6 +6,7 @@ building_commercial_megaplex = {
         exists = owner
         owner = {
             is_regular_empire = yes
+            is_ai = no
         }
         NOT = {
             has_modifier = slave_colony
@@ -14,9 +15,6 @@ building_commercial_megaplex = {
     }
     allow = {
         buildings_upgrade_allow = yes
-        owner = {
-            is_ai = no
-        }
     }
     destroy_trigger = {
         exists = owner

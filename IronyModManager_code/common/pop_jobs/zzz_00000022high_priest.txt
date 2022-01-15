@@ -26,15 +26,6 @@ high_priest = {
             trigger = {
                 exists = owner
                 owner = {
-                    is_exalted_priesthood = yes
-                }
-            }
-            unity = 1
-        }
-        produces = {
-            trigger = {
-                exists = owner
-                owner = {
                     has_valid_civic = civic_spiritual_democracy
                 }
             }

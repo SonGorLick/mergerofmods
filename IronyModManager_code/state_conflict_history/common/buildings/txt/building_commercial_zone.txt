@@ -49,6 +49,10 @@ building_commercial_zone = {
             }
         }
     }
+    planet_modifier = {
+        job_clerk_add = 3
+        job_merchant_add = 1
+    }
     resources = {
         category = planet_buildings
         cost = {
@@ -57,12 +61,6 @@ building_commercial_zone = {
         upkeep = {
             energy = @b1_upkeep
         }
-    }
-    planet_modifier = {
-        job_clerk_add = 3
-    }
-    triggered_desc = {
-        text = job_clerk_effect_desc
     }
     triggered_planet_modifier = {
         potential = {

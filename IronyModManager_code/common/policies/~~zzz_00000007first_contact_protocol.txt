@@ -139,6 +139,10 @@ first_contact_protocol = {
             }
             modifier = {
                 factor = 2
+                is_homicidal = yes
+            }
+            modifier = {
+                factor = 2
                 is_xenophobe = yes
             }
             modifier = {

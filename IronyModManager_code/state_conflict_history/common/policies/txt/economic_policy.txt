@@ -113,6 +113,13 @@ economic_policy = {
                 has_technology = tech_mass_accelerator_1
             }
             modifier = {
+                factor = 0
+                is_authoritarian = no
+                NOT = {
+                    has_ascension_perk = ap_become_the_crisis
+                }
+            }
+            modifier = {
                 factor = 30
                 lategame = yes
                 or = {

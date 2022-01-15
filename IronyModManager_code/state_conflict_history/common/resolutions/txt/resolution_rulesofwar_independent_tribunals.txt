@@ -89,36 +89,6 @@ resolution_rulesofwar_independent_tribunals = {
     ai_weight = {
         weight = @resolution_weight_normal
         modifier = {
-            factor = 0.625
-            not = {
-                has_country_flag = str_has_bad_fleet_score
-            }
-        }
-        modifier = {
-            factor = 1.25
-            has_country_flag = str_has_bad_fleet_score
-        }
-        modifier = {
-            factor = 1.4
-            has_country_flag = str_has_terrible_fleet_score
-        }
-        modifier = {
-            factor = 1.1
-            turtler = yes
-        }
-        modifier = {
-            factor = 1.1
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 0.9
-            rusher = yes
-        }
-        modifier = {
-            factor = 0.9
-            rusher2 = yes
-        }
-        modifier = {
             factor = 0.5
             count_country = {
                 count < 4
@@ -185,6 +155,36 @@ resolution_rulesofwar_independent_tribunals = {
         modifier = {
             factor = 10
             has_ai_personality = vb_keepers_of_peace
+        }
+        modifier = {
+            factor = 0.625
+            not = {
+                has_country_flag = str_has_bad_fleet_score
+            }
+        }
+        modifier = {
+            factor = 1.25
+            has_country_flag = str_has_bad_fleet_score
+        }
+        modifier = {
+            factor = 1.4
+            has_country_flag = str_has_terrible_fleet_score
+        }
+        modifier = {
+            factor = 1.1
+            turtler = yes
+        }
+        modifier = {
+            factor = 1.1
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 0.9
+            rusher = yes
+        }
+        modifier = {
+            factor = 0.9
+            rusher2 = yes
         }
         modifier = {
             factor = 0

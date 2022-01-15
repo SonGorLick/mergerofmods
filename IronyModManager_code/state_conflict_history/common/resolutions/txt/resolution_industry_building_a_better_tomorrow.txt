@@ -50,6 +50,24 @@ resolution_industry_building_a_better_tomorrow = {
     ai_weight = {
         weight = @resolution_weight_normal
         modifier = {
+            factor = 1.1
+            is_civic_expansionist = yes
+        }
+        modifier = {
+            factor = 2
+            count_country = {
+                count < 4
+                limit = {
+                    is_galactic_community_member = yes
+                    relative_power = {
+                        who = prev
+                        category = economy
+                        value >= equivalent
+                    }
+                }
+            }
+        }
+        modifier = {
             factor = 1.4
             not = {
                 has_country_flag = str_has_bad_economy_score
@@ -78,24 +96,6 @@ resolution_industry_building_a_better_tomorrow = {
         modifier = {
             factor = 1.1
             rusher2 = yes
-        }
-        modifier = {
-            factor = 1.1
-            is_civic_expansionist = yes
-        }
-        modifier = {
-            factor = 2
-            count_country = {
-                count < 4
-                limit = {
-                    is_galactic_community_member = yes
-                    relative_power = {
-                        who = prev
-                        category = economy
-                        value >= equivalent
-                    }
-                }
-            }
         }
         modifier = {
             factor = 0.5
@@ -155,6 +155,7 @@ resolution_industry_building_a_better_tomorrow = {
             factor = 0
             OR = {
                 is_civic_environmentalist = yes
+                has_valid_civic = civic_keepers_harmony
                 AND = {
                     has_valid_civic = civic_agrarian_idyll
                     is_lithoid_empire = no
@@ -200,13 +201,6 @@ resolution_industry_building_a_better_tomorrow = {
             }
         }
         modifier = {
-            factor = 5
-            is_machine_empire = yes
-            NOT = {
-                has_valid_civic = civic_machine_servitor
-            }
-        }
-        modifier = {
             factor = 2
             has_monthly_income = {
                 resource = minerals
@@ -227,44 +221,6 @@ resolution_industry_building_a_better_tomorrow = {
         modifier = {
             factor = 2
             has_deficit = alloys
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_2
-            }
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_3
-            }
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_4
-            }
-        }
-        modifier = {
-            factor = 2
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            has_technology = tech_colonization_5
         }
     }
 }

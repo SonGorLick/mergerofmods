@@ -103,7 +103,11 @@ planet_event = {
                     NOT = {
                         is_same_value = from.owner
                     }
-                    is_playable_country = yes
+                    OR = {
+                        is_country_type = default
+                        is_country_type = fallen_empire
+                        is_country_type = awakened_fallen_empire
+                    }
                 }
             }
             add_threat = {
@@ -114,8 +118,8 @@ planet_event = {
                 limit = {
                     NOR = {
                         AND = {
-                        is_same_value = from.owner
-                        is_same_value = root.owner
+                            is_same_value = from.owner
+                            is_same_value = root.owner
                         }
                         AND = {
                             has_federation = yes
@@ -134,7 +138,7 @@ planet_event = {
                         }
                         has_ai_personality = awakened_fallen_empire_materialist
                         AND = {
-                            is_playable_country = yes
+                            is_country_type = default
                             OR = {
                                 is_materialist = yes
                                 is_egalitarian = yes

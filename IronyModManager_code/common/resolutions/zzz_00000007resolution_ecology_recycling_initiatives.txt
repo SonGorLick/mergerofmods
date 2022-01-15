@@ -1,8 +1,6 @@
 @resolution_weight_loved = 7
 @resolution_cost_t1 = 100
 @resolution_flag_timer = 360
-@resolution_cost_t1 = 100
-@resolution_flag_timer = 360
 resolution_ecology_recycling_initiatives = {
     icon = "GFX_resolution_ecolgical_protection"
     resources = {
@@ -60,10 +58,6 @@ resolution_ecology_recycling_initiatives = {
     ai_weight = {
         weight = @resolution_weight_loved
         modifier = {
-            factor = 5
-            is_civic_environmentalist = yes
-        }
-        modifier = {
             factor = 0.5
             not = {
                 has_country_flag = str_has_bad_economy_score
@@ -92,6 +86,13 @@ resolution_ecology_recycling_initiatives = {
         modifier = {
             factor = 0.9
             rusher2 = yes
+        }
+        modifier = {
+            factor = 5
+            OR = {
+            is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 3

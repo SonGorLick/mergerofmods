@@ -1,0 +1,13 @@
+disco_alien_machine_cat = {
+    desc = "disco_alien_machine_cat_desc"
+    picture = "GFX_evt_asteroid_field"
+    level = 3
+    spawn_chance = {
+        modifier = {
+            add = 2
+            is_asteroid = yes
+            has_any_strategic_resource = no
+        }
+    }
+    on_success = distar.3040
+}

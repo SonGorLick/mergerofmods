@@ -183,7 +183,7 @@ resolution_divinity_repeal_1 = {
         }
         modifier = {
             factor = 1.2
-            is_megacorp = yes
+            is_auth_corporate = yes
             is_spiritualist = no
         }
         modifier = {
@@ -224,7 +224,7 @@ resolution_divinity_repeal_1 = {
         }
         modifier = {
             factor = 0
-            has_valid_civic = civic_shared_burden
+            is_civic_shared_burden = yes
         }
         modifier = {
             factor = 0.5

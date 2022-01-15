@@ -20,7 +20,7 @@ tech_precognition_interface = {
     }
     potential = {
         NOT = {
-            has_ethic = ethic_gestalt_consciousness
+            has_authority = auth_machine_intelligence
         }
     }
     weight_modifier = {

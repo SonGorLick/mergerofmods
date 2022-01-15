@@ -31,6 +31,9 @@ ship_event = {
                     has_authority = auth_machine_intelligence
                 }
                 is_homicidal = no
+                NOT = {
+                    has_origin = originsextended_host
+                }
                 any_owned_pop = {
                     species = {
                         NOR = {

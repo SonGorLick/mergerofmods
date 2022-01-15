@@ -1,0 +1,43 @@
+tech_intelligent_factories = {
+    cost = @tier3cost3
+    area = engineering
+    tier = 3
+    category = {
+        industry
+    }
+    prerequisites = {
+        "tech_modular_components"
+        "tech_colonial_centralization"
+    }
+    weight = @tier3weight3
+    icon = tech_binary_motivators
+    modifier = {
+        planet_pop_assemblers_upkeep_mult = -0.1
+    }
+    potential = {
+        has_authority = auth_machine_intelligence
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_versatility_adopt
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_industry"
+            }
+        }
+    }
+    ai_weight = {
+        weight = 2
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = engineering
+                has_trait = "leader_trait_expertise_industry"
+            }
+        }
+    }
+}

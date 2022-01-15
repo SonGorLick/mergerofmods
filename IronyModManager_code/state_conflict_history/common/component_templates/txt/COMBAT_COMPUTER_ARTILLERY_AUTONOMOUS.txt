@@ -1,5 +1,5 @@
-@cost3 = 20
 @power3 = -25
+@cost3 = 20
 utility_component_template = {
     key = "COMBAT_COMPUTER_ARTILLERY_AUTONOMOUS"
     size = small

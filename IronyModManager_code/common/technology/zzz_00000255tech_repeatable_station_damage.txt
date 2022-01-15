@@ -1,0 +1,30 @@
+tech_repeatable_station_damage = {
+    area = physics
+    cost = @repeatableTechBaseCost
+    cost_per_level = @repeatableTechLevelCost
+    tier = @repeatableTechTier
+    category = {
+        computing
+    }
+    ai_update_type = all
+    levels = -1
+    prerequisites = {
+        "tech_starbase_5"
+    }
+    weight = @repeatableTechWeight
+    weight_modifier = {
+        factor = @repatableTechFactor
+    }
+    ai_weight = {
+        factor = 1
+    }
+    weight_groups = {
+        repeatable
+    }
+    mod_weight_if_group_picked = {
+        repeatable = 0.01
+    }
+    modifier = {
+        shipclass_starbase_damage_mult = 0.05
+    }
+}

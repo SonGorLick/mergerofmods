@@ -46,7 +46,6 @@ col_farming = {
                 is_active_resolution = "resolution_greatergood_greater_than_ourselves"
                 is_active_resolution = "resolution_greatergood_balance_in_the_middle"
                 is_active_resolution = "resolution_greatergood_universal_prosperity_mandate"
-                is_active_resolution = "resolution_greatergood_6"
             }
         }
         modifier = {
@@ -65,7 +64,6 @@ col_farming = {
                 is_active_resolution = "resolution_greatergood_greater_than_ourselves"
                 is_active_resolution = "resolution_greatergood_balance_in_the_middle"
                 is_active_resolution = "resolution_greatergood_universal_prosperity_mandate"
-                is_active_resolution = "resolution_greatergood_6"
             }
         }
         modifier = {

@@ -25,10 +25,6 @@ tech_housing_2 = {
                 has_trait = "leader_trait_expertise_industry"
             }
         }
-        modifier = {
-            factor = 2
-            has_valid_civic = civic_urban_idyll
-        }
     }
     ai_weight = {
         factor = 20

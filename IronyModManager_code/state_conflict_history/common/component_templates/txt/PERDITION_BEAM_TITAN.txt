@@ -6,7 +6,7 @@ weapon_component_template = {
     icon = "GFX_ship_part_perdition_beam"
     icon_frame = 1
     firing_arc = 10
-    min_range = 5
+    min_range = 30
     use_ship_kill_target = no
     tags = {
         weapon_type_energy
@@ -34,7 +34,6 @@ weapon_component_template = {
             alloys = @titanic_t6_upkeep_alloys
         }
     }
-    upgrades_to = ACOT_PERDITION_BEAM_DM
     ai_weight = {
         weight = 1
         modifier = {

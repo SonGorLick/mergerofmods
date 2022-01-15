@@ -116,17 +116,17 @@ sshipyard = {
             deep_space_black_site = {
                 base = 0.5
             }
-            parts_manufactory = {
-                base = 2
-            }
             listening_post = {
                 base = 0.25
             }
-            drydock = {
-                base = 1
-            }
             transit_hub = {
                 base = 0.25
+            }
+            parts_manufactory = {
+                base = 2
+            }
+            drydock = {
+                base = 1
             }
         }
         modules = {

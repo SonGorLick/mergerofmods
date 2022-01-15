@@ -8,20 +8,6 @@ action_form_defensive_pact = {
     action_type = positive
     possible = {
         custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
-            }
-        }
-        custom_tooltip = {
-            fail_text = "requires_actor_not_shadow_state"
-            NOT = {
-                has_valid_civic = civic_shadow_state
-            }
-        }
-        custom_tooltip = {
             fail_text = "requires_actor_not_fanatic_purifiers"
             OR = {
                 is_same_species = from
@@ -127,7 +113,7 @@ action_form_defensive_pact = {
         if = {
             limit = {
                 from = {
-                    is_purists_empire = yes
+                    has_valid_civic = civic_pompous_purists
                 }
             }
             if = {
@@ -159,5 +145,6 @@ action_form_defensive_pact = {
                 is_improving_relations_with = from
             }
         }
+        get_border_test_defense = yes
     }
 }

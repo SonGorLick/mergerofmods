@@ -16,20 +16,6 @@ action_form_research_agreement = {
     }
     possible = {
         custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
-            }
-        }
-        custom_tooltip = {
-            fail_text = "requires_actor_not_shadow_state"
-            NOT = {
-                has_valid_civic = civic_shadow_state
-            }
-        }
-        custom_tooltip = {
             fail_text = "ACTION_RECIPIENT_NOT_YOURS"
             FROM = {
                 NOT = {
@@ -240,7 +226,7 @@ action_form_research_agreement = {
         if = {
             limit = {
                 from = {
-                    is_purists_empire = yes
+                    has_valid_civic = civic_pompous_purists
                 }
             }
             if = {
@@ -270,6 +256,8 @@ action_form_research_agreement = {
                     level >= good
                 }
                 is_improving_relations_with = from
+                is_overlord_to = from
+                has_overlord = from
             }
         }
     }

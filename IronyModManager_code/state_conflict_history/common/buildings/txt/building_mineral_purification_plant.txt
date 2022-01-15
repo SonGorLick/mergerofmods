@@ -20,10 +20,9 @@ building_mineral_purification_plant = {
         has_modifier = resort_colony
     }
     potential = {
-        NOT = {
-            has_modifier = resort_colony
-        }
         NOR = {
+            has_modifier = resort_colony
+            is_planet_class = pc_nanite_forgeworld
             is_planet_class = pc_ringworld_habitable
             is_planet_class = pc_cybrex
         }

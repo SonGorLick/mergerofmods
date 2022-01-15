@@ -1,8 +1,6 @@
 @resolution_weight_popular = 6.5
 @resolution_cost_t2 = 150
 @resolution_flag_timer = 360
-@resolution_weight_popular = 6.5
-@resolution_flag_timer = 360
 resolution_ecology_natural_sanctuaries = {
     icon = "GFX_resolution_ecolgical_protection"
     resources = {
@@ -78,6 +76,13 @@ resolution_ecology_natural_sanctuaries = {
     ai_weight = {
         weight = @resolution_weight_popular
         modifier = {
+            factor = 5
+            OR = {
+            is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
+        }
+        modifier = {
             factor = 0.5
             not = {
                 has_country_flag = str_has_bad_economy_score
@@ -106,10 +111,6 @@ resolution_ecology_natural_sanctuaries = {
         modifier = {
             factor = 0.9
             rusher2 = yes
-        }
-        modifier = {
-            factor = 5
-            is_civic_environmentalist = yes
         }
         modifier = {
             factor = 3

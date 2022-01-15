@@ -4,8 +4,7 @@ warp_fluctuator = {
     potential = {
         exists = owner
         owner = {
-            has_technology = tech_interstellar_economics
-            is_gestalt = no
+            has_technology = tech_hyper_drive_2
         }
     }
     possible = {
@@ -20,21 +19,28 @@ warp_fluctuator = {
             alloys = 100
         }
         upkeep = {
-            energy = 2
+            energy = 4
         }
     }
     station_modifier = {
         starbase_trade_collection_range_add = 2
         trade_value_add = 2
     }
-    show_in_tech = "tech_interstellar_economics"
+    equipped_component = "STARBASE_AURA_WARP_FLUCTUATOR"
+    show_in_tech = "tech_hyper_drive_2"
     ai_build_at_chokepoint = yes
     ai_build_outside_chokepoint = no
     ai_weight = {
-        weight = 1
+        weight = 100
         modifier = {
             factor = 0
             years_passed < 20
+        }
+        modifier = {
+            factor = 0.1
+            NOT = {
+                has_starbase_building = offworld_trading_company
+            }
         }
     }
 }

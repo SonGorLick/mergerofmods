@@ -50,10 +50,6 @@ tech_droid_workers = {
             has_valid_civic = civic_machine_cult
         }
         modifier = {
-            factor = 1.5
-            has_valid_civic = civic_automated_workforce
-        }
-        modifier = {
             factor = 1.25
             research_leader = {
                 area = engineering
@@ -82,10 +78,6 @@ tech_droid_workers = {
         modifier = {
             factor = 2
             has_origin = origin_mechanists
-        }
-        modifier = {
-            factor = 1.5
-            has_valid_civic = civic_automated_workforce
         }
         modifier = {
             factor = 1.25

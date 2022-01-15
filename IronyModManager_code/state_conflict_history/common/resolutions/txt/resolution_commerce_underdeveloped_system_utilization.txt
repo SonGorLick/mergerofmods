@@ -1,7 +1,6 @@
 @resolution_weight_normal = 6
 @resolution_cost_t3 = 200
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_commerce_underdeveloped_system_utilization = {
     icon = "GFX_resolution_galactic_commerce"
     resources = {
@@ -121,10 +120,10 @@ resolution_commerce_underdeveloped_system_utilization = {
         modifier = {
             factor = 2
             OR = {
-                is_megacorp = yes
+                            is_megacorp = yes
                 has_valid_civic = civic_merchant_guilds
                 has_valid_civic = civic_globalism
-            }
+                }
         }
         modifier = {
             factor = 1.5

@@ -1,0 +1,120 @@
+namespace = marauder
+country_event = {
+    id = marauder.700
+    hide_window = yes
+    is_triggered_only = yes
+    immediate = {
+        random_system_within_border = {
+            limit = {
+                any_neighbor_system = {
+                    exists = space_owner
+                    space_owner = {
+                        is_country_type = dormant_marauders
+                    }
+                }
+            }
+            save_event_target_as = border_system
+            random_system_planet = {
+                limit = {
+                    is_star = no
+                    is_moon = no
+                }
+                save_event_target_as = border_planet
+            }
+            random_neighbor_system = {
+                limit = {
+                    exists = space_owner
+                    space_owner = {
+                        is_country_type = dormant_marauders
+                    }
+                }
+                space_owner = {
+                    save_event_target_as = marauder_neighbor
+                    owner_species = {
+                        save_event_target_as = marauder_neighbor_species
+                    }
+                }
+            }
+        }
+        random_list = {
+            10 = {
+                if = {
+                    limit = {
+                        has_policy_flag = refugees_allowed
+                        any_owned_planet = {
+                            habitability = {
+                                who = event_target:marauder_neighbor_species
+                                value > 0.4
+                            }
+                        }
+                    }
+                    random_owned_planet = {
+                        limit = {
+                            habitability = {
+                                who = event_target:marauder_neighbor_species
+                                value > 0.4
+                            }
+                        }
+                        weights = {
+                            base = 1
+                            modifier = {
+                                add = 5
+                                free_housing > 0
+                            }
+                            modifier = {
+                                add = 10
+                                free_housing > 1
+                            }
+                            modifier = {
+                                factor = 2
+                                habitability = {
+                                    who = event_target:marauder_neighbor_species
+                                    value > 0.6
+                                }
+                            }
+                        }
+                        create_pop = {
+                            species = event_target:marauder_neighbor_species
+                            ethos = {
+                                ethic = "ethic_militarist"
+                            }
+                        }
+                        planet_event = {
+                            id = marauder.701
+                        }
+                    }
+                }
+            }
+            10 = {
+                country_event = {
+                    id = marauder.702
+                }
+            }
+            10 = {
+                country_event = {
+                    id = marauder.703
+                }
+            }
+            10 = {
+                country_event = {
+                    id = marauder.704
+                }
+            }
+            10 = {
+                country_event = {
+                    id = marauder.705
+                }
+            }
+            10 = {
+                country_event = {
+                    id = marauder.706
+                }
+            }
+            10 = {
+                country_event = {
+                    id = marauder.707
+                }
+            }
+        }
+    }
+}

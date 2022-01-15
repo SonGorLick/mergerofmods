@@ -1,7 +1,6 @@
 @resolution_weight_unpopular = 5
 @resolution_cost_t4 = 250
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_ecology_environmental_control_board = {
     icon = "GFX_resolution_ecolgical_protection"
     potential = {
@@ -136,7 +135,10 @@ resolution_ecology_environmental_control_board = {
         }
         modifier = {
             factor = 5
-            is_civic_environmentalist = yes
+            OR = {
+                is_civic_environmentalist = yes
+                has_valid_civic = civic_keepers_harmony
+            }
         }
         modifier = {
             factor = 2
@@ -173,13 +175,6 @@ resolution_ecology_environmental_control_board = {
             is_xenophobe = no
             is_auth_corporate = no
             is_civic_mining_guilds = no
-        }
-        modifier = {
-            factor = 2
-            OR = {
-                has_valid_civic = civic_environmentalist
-                has_valid_civic = civic_keepers_harmony
-            }
         }
         modifier = {
             factor = 1.5
@@ -271,6 +266,14 @@ resolution_ecology_environmental_control_board = {
             }
         }
         modifier = {
+            factor = 0
+            OR = {
+                has_valid_civic = civic_mining_guilds
+                has_valid_civic = civic_machine_rockbreakers
+                has_valid_civic = civic_industrial_economy
+            }
+        }
+        modifier = {
             factor = 1.5
             is_catalytic_empire = yes
         }
@@ -349,10 +352,6 @@ resolution_ecology_environmental_control_board = {
                 has_deficit = minerals
                 has_deficit = alloys
             }
-        }
-        modifier = {
-            factor = 0.5
-            is_lithoid_empire = yes
         }
     }
 }

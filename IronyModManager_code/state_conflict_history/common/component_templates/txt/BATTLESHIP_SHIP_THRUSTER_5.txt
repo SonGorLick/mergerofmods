@@ -1,5 +1,5 @@
 @battleship_power_5 = -240
-@battleship_cost5 = 120
+@battleship_cost4 = 96
 utility_component_template = {
     key = "BATTLESHIP_SHIP_THRUSTER_5"
     size = small
@@ -9,13 +9,13 @@ utility_component_template = {
     resources = {
         category = ship_components
         cost = {
-            alloys = @battleship_cost5
+            alloys = @battleship_cost4
             sr_dark_matter = 8
         }
     }
     modifier = {
         ship_base_speed_mult = 0.7
-        ship_evasion_add = 8
+        ship_evasion_add = 12
     }
     prerequisites = {
         "tech_dark_matter_propulsion"
@@ -24,18 +24,14 @@ utility_component_template = {
     size_restriction = {
         battleship
     }
-    upgrades_to = "BATTLESHIP_SHIP_THRUSTER_AE"
     ai_weight = {
         weight = 5
         modifier = {
             factor = 0
-            has_monthly_income = {
+            is_country_type = default
+            resource_stockpile_compare = {
                 resource = sr_dark_matter
-                value <= 2
-            }
-            has_resource = {
-                type = sr_dark_matter
-                amount <= 5
+                value <= 50
             }
         }
     }

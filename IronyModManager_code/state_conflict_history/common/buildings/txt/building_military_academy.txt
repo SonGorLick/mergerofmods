@@ -7,7 +7,7 @@ building_military_academy = {
         exists = owner
         owner = {
             NOT = {
-                is_reanimator_empire = yes
+                has_valid_civic = civic_reanimated_armies
             }
         }
     }
@@ -16,7 +16,7 @@ building_military_academy = {
         owner = {
             OR = {
                 is_ai = yes
-                is_reanimator_empire = yes
+                has_valid_civic = civic_reanimated_armies
             }
         }
     }
@@ -38,23 +38,23 @@ building_military_academy = {
         potential = {
             exists = owner
             owner = {
-                is_gestalt = no
-                has_valid_civic = civic_martial_brotherhood
+                has_active_tradition = tr_prowess_1
             }
         }
         modifier = {
-            planet_housing_add = 2
+            job_soldier_add = 2
         }
     }
     triggered_planet_modifier = {
         potential = {
             exists = owner
             owner = {
-                has_active_tradition = tr_prowess_1
+                is_gestalt = no
+                has_valid_civic = civic_martial_brotherhood
             }
         }
         modifier = {
-            job_soldier_add = 2
+            planet_housing_add = 2
         }
     }
     triggered_planet_modifier = {
@@ -101,7 +101,7 @@ building_military_academy = {
     }
     show_tech_unlock_if = {
         NOT = {
-            is_reanimator_empire = yes
+            has_valid_civic = civic_reanimated_armies
         }
     }
     triggered_desc = {

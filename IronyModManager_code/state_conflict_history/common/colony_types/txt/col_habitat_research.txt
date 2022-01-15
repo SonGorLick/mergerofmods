@@ -14,7 +14,7 @@ col_habitat_research = {
         planet_researchers_produces_mult = 0.1
     }
     weight_modifier = {
-        base = 0
+        base = 300
         modifier = {
             add = 1.08
             num_districts = {

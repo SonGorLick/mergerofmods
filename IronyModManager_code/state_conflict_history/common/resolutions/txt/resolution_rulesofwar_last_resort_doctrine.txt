@@ -82,36 +82,6 @@ resolution_rulesofwar_last_resort_doctrine = {
     ai_weight = {
         weight = @resolution_weight_unpopular
         modifier = {
-            factor = 0.625
-            not = {
-                has_country_flag = str_has_bad_fleet_score
-            }
-        }
-        modifier = {
-            factor = 1.25
-            has_country_flag = str_has_bad_fleet_score
-        }
-        modifier = {
-            factor = 1.4
-            has_country_flag = str_has_terrible_fleet_score
-        }
-        modifier = {
-            factor = 1.1
-            turtler = yes
-        }
-        modifier = {
-            factor = 1.1
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 0.9
-            rusher = yes
-        }
-        modifier = {
-            factor = 0.9
-            rusher2 = yes
-        }
-        modifier = {
             factor = 0.5
             count_country = {
                 count < 4
@@ -189,6 +159,36 @@ resolution_rulesofwar_last_resort_doctrine = {
         modifier = {
             factor = 0.75
             is_civic_militarist = yes
+        }
+        modifier = {
+            factor = 0.625
+            not = {
+                has_country_flag = str_has_bad_fleet_score
+            }
+        }
+        modifier = {
+            factor = 1.25
+            has_country_flag = str_has_bad_fleet_score
+        }
+        modifier = {
+            factor = 1.4
+            has_country_flag = str_has_terrible_fleet_score
+        }
+        modifier = {
+            factor = 1.1
+            turtler = yes
+        }
+        modifier = {
+            factor = 1.1
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 0.9
+            rusher = yes
+        }
+        modifier = {
+            factor = 0.9
+            rusher2 = yes
         }
         modifier = {
             factor = 0

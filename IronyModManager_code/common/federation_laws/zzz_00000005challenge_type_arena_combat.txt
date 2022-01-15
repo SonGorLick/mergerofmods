@@ -65,12 +65,12 @@ challenge_type_arena_combat = {
             ruler = {
                 species = {
                     OR = {
-                        has_trait = trait_very_strong
+                    has_trait = trait_very_strong
                         has_trait = trait_titanic_strength
                         has_trait = trait_lithoid_titanic_strength
-                    }
                 }
             }
+        }
         }
         modifier = {
             desc = federation_acceptance_ruler_psionic
@@ -89,7 +89,7 @@ challenge_type_arena_combat = {
             desc = federation_acceptance_warrior_culture
             add = 50
             OR = {
-                has_civic = civic_warrior_culture
+            has_civic = civic_warrior_culture
                 has_civic = civic_barbaric_despoilers
             }
         }
@@ -97,7 +97,7 @@ challenge_type_arena_combat = {
             desc = federation_acceptance_strength_of_legions
             add = 25
             has_civic = civic_hive_strength_of_legions
-        }
+            }
         modifier = {
             desc = federation_acceptance_warbots
             add = 25

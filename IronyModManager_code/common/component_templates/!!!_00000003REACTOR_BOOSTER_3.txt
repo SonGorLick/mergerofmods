@@ -1,0 +1,33 @@
+utility_component_template = {
+    key = "REACTOR_BOOSTER_3"
+    size = aux
+    icon = "GFX_ship_part_reactor_booster_3"
+    icon_frame = 1
+    power = 100
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = 15
+        }
+    }
+    prerequisites = {
+        "tech_reactor_boosters_3"
+    }
+    component_set = "REACTOR_BOOSTER_3"
+    upgrades_to = "ESC_REACTOR_BOOSTER_4"
+    ai_weight = {
+        weight = 15
+        modifier = {
+            factor = 5
+            not = {
+                has_technology = tech_antimatter_power
+            }
+        }
+        modifier = {
+            factor = 10
+            not = {
+                has_technology = tech_cold_fusion_power
+            }
+        }
+    }
+}

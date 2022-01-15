@@ -1,0 +1,43 @@
+tech_lithoid_blockers_2 = {
+    cost = @tier2cost1
+    area = society
+    tier = 2
+    category = {
+        new_worlds
+    }
+    prerequisites = {
+        "tech_mining_2"
+        "tech_lithoid_blockers"
+    }
+    weight = @tier2weight3
+    modifier = {
+        deposit_blockers_cost_mult = -0.1
+        show_only_custom_tooltip = no
+        custom_tooltip = MORE_HIBERNATING_LITHOIDS_TWO
+    }
+    potential = {
+        is_lithoid_empire = yes
+    }
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_expansion_adopt
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = "leader_trait_expertise_new_worlds"
+            }
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = "leader_trait_expertise_new_worlds"
+            }
+        }
+    }
+}

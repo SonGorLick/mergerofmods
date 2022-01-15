@@ -1,0 +1,35 @@
+marauder_void_dwelling = {
+    graphical_culture = no
+    entity = horde_void_dwelling_entity
+    max_speed = 0
+    acceleration = 0
+    rotation_speed = 0
+    modifier = {
+        ship_evasion_mult = -1
+        ship_armor_add = 5000
+        ship_shield_add = 5000
+        ships_upkeep_mult = -1
+        ship_hull_regen_add_static = 1
+        ship_armor_regen_add_static = 1
+    }
+    max_hitpoints = 20000
+    size_multiplier = 8
+    fleet_slot_size = 4
+    section_slots = {
+        "mid" = {
+            locator = "part1"
+        }
+    }
+    components_add_to_cost = no
+    uses_name_prefix = no
+    num_target_locators = 0
+    is_space_station = yes
+    build_block_radius = @build_block_radius_civilian
+    potential_country = {
+        is_country_type = awakened_marauders
+    }
+    class = shipclass_military_station
+    is_designable = no
+    enable_default_design = no
+    auto_upgrade = yes
+}

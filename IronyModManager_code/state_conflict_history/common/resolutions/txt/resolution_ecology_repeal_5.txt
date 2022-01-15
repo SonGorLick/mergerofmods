@@ -59,42 +59,15 @@ resolution_ecology_repeal_5 = {
     ai_weight = {
         weight = @resolution_weight_unpopular
         modifier = {
-            factor = 2
-            not = {
-                has_country_flag = str_has_bad_economy_score
-            }
-        }
-        modifier = {
-            factor = 0.75
-            has_country_flag = str_has_bad_economy_score
-        }
-        modifier = {
-            factor = 0.5
-            has_country_flag = str_has_terrible_economy_score
-        }
-        modifier = {
-            factor = 0.9
-            turtler = yes
-        }
-        modifier = {
-            factor = 0.9
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher2 = yes
-        }
-        modifier = {
             factor = 1.1
             is_civic_expansionist = yes
         }
         modifier = {
             factor = 0
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 0.5
@@ -172,6 +145,36 @@ resolution_ecology_repeal_5 = {
             is_auth_corporate = yes
         }
         modifier = {
+            factor = 2
+            not = {
+                has_country_flag = str_has_bad_economy_score
+            }
+        }
+        modifier = {
+            factor = 0.75
+            has_country_flag = str_has_bad_economy_score
+        }
+        modifier = {
+            factor = 0.5
+            has_country_flag = str_has_terrible_economy_score
+        }
+        modifier = {
+            factor = 0.9
+            turtler = yes
+        }
+        modifier = {
+            factor = 0.9
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher2 = yes
+        }
+        modifier = {
             factor = 0
             has_valid_civic = civic_starvation_fearing
             is_lithoid_empire = no
@@ -220,7 +223,10 @@ resolution_ecology_repeal_5 = {
         }
         modifier = {
             factor = 3
+            OR = {
             is_civic_mining_guilds = yes
+                            has_valid_civic = civic_industrial_economy
+                            }
         }
         modifier = {
             factor = 1.5

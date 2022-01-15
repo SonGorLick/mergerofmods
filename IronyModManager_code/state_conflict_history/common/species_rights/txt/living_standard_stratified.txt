@@ -5,10 +5,9 @@ living_standard_stratified = {
         exists = from
         from = {
             is_gestalt = no
-            NOR = {
-                is_shared_burdens_empire = yes
-                has_valid_civic = civic_employee_ownership
-                }
+            NOT = {
+                has_valid_civic = civic_shared_burden
+            }
         }
         NOR = {
             has_trait = trait_hive_mind

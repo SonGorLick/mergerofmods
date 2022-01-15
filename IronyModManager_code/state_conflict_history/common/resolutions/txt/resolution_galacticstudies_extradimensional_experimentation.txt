@@ -67,36 +67,6 @@ resolution_galacticstudies_extradimensional_experimentation = {
         weight = @resolution_weight_disliked
         modifier = {
             factor = 2
-            not = {
-                has_country_flag = str_has_bad_tech_score
-            }
-        }
-        modifier = {
-            factor = 0.8
-            has_country_flag = str_has_bad_tech_score
-        }
-        modifier = {
-            factor = 0.5
-            has_country_flag = str_has_terrible_tech_score
-        }
-        modifier = {
-            factor = 0.9
-            turtler = yes
-        }
-        modifier = {
-            factor = 0.9
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher2 = yes
-        }
-modifier = {
-            factor = 2
             count_country = {
                 count < 4
                 limit = {
@@ -199,6 +169,36 @@ modifier = {
             factor = 2
             has_technology = tech_mine_zro
             is_spiritualist = no
+        }
+        modifier = {
+            factor = 2
+            not = {
+                has_country_flag = str_has_bad_tech_score
+            }
+        }
+        modifier = {
+            factor = 0.8
+            has_country_flag = str_has_bad_tech_score
+        }
+        modifier = {
+            factor = 0.5
+            has_country_flag = str_has_terrible_tech_score
+        }
+        modifier = {
+            factor = 0.9
+            turtler = yes
+        }
+        modifier = {
+            factor = 0.9
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher2 = yes
         }
         modifier = {
             factor = 1.5

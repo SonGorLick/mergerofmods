@@ -49,36 +49,6 @@ resolution_industry_collective_waste_management = {
     ai_weight = {
         weight = @resolution_weight_popular
         modifier = {
-            factor = 1.4
-            not = {
-                has_country_flag = str_has_bad_economy_score
-            }
-        }
-        modifier = {
-            factor = 0.8
-            has_country_flag = str_has_bad_economy_score
-        }
-        modifier = {
-            factor = 0.625
-            has_country_flag = str_has_terrible_economy_score
-        }
-        modifier = {
-            factor = 0.9
-            turtler = yes
-        }
-        modifier = {
-            factor = 0.9
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher2 = yes
-        }
-        modifier = {
             factor = 1.1
             is_civic_expansionist = yes
         }
@@ -143,6 +113,36 @@ resolution_industry_collective_waste_management = {
             has_ethic = ethic_fanatic_authoritarian
         }
         modifier = {
+            factor = 1.4
+            not = {
+                has_country_flag = str_has_bad_economy_score
+            }
+        }
+        modifier = {
+            factor = 0.8
+            has_country_flag = str_has_bad_economy_score
+        }
+        modifier = {
+            factor = 0.625
+            has_country_flag = str_has_terrible_economy_score
+        }
+        modifier = {
+            factor = 0.9
+            turtler = yes
+        }
+        modifier = {
+            factor = 0.9
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher2 = yes
+        }
+        modifier = {
             factor = 1.5
             is_civic_has_elite = yes
         }
@@ -152,18 +152,14 @@ resolution_industry_collective_waste_management = {
         }
         modifier = {
             factor = 0.1
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 0.25
             has_origin = origin_terraformer
-        }
-        modifier = {
-            factor = 5
-            is_machine_empire = yes
-            NOT = {
-                has_valid_civic = civic_machine_servitor
-            }
         }
         modifier = {
             factor = 0.5
@@ -221,34 +217,6 @@ resolution_industry_collective_waste_management = {
         modifier = {
             factor = 2
             has_deficit = alloys
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_2
-            }
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_3
-            }
-        }
-        modifier = {
-            factor = 2
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            has_technology = tech_colonization_4
         }
     }
 }

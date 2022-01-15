@@ -210,14 +210,20 @@ resolution_greatergood_balance_in_the_middle = {
         modifier = {
             factor = 0.6
             OR = {
+                is_authoritarian = yes
                 is_gestalt = yes
             }
+        }
+        modifier = {
+            factor = 0.6
+            has_ethic = ethic_fanatic_authoritarian
         }
         modifier = {
             factor = 0
             OR = {
                 is_civic_slaver_guilds = yes
                 is_origin_syncretic_livestock = yes
+                has_valid_civic = civic_indentured_assets
                 is_slaver = yes
                 has_ai_personality_behaviour = slaver
                 any_owned_species = {
@@ -248,6 +254,7 @@ resolution_greatergood_balance_in_the_middle = {
             OR = {
                 has_valid_civic = civic_agrarian_idyll
                 is_civic_free_haven = yes
+                has_valid_civic = civic_welfare_state
                 is_civic_inwards_perfection = yes
             }
         }
@@ -255,6 +262,13 @@ resolution_greatergood_balance_in_the_middle = {
             factor = 1.25
             any_owned_planet = {
                 free_housing < 1
+            }
+        }
+        modifier = {
+            factor = 0.8
+            OR = {
+                has_valid_civic = civic_aristocratic_elite
+                has_valid_civic = civic_police_state
             }
         }
         modifier = {

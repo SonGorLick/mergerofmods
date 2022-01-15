@@ -1,8 +1,0 @@
-triggered_opinion_give_dm_normal_neighbour = {
-    opinion = {
-        base = 50
-    }
-    decay = {
-        base = 5
-    }
-}

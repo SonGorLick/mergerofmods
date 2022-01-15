@@ -98,7 +98,7 @@ dimensional_portal_researcher_gestalt = {
             trigger = {
                 exists = owner
                 owner = {
-                    is_technocracy = yes
+                    has_valid_civic = civic_technocracy
                 }
             }
             unity = 1

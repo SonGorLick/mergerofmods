@@ -1,7 +1,6 @@
 @resolution_weight_unpopular = 5
 @resolution_cost_t2 = 150
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_commerce_repeal_2 = {
     icon = "GFX_repeal_orange"
     resources = {
@@ -167,8 +166,7 @@ resolution_commerce_repeal_2 = {
         modifier = {
             factor = 0.75
             OR = {
-                has_valid_civic = civic_free_traders
-                has_valid_civic = civic_trading_posts
+            is_civic_free_traders = yes
                 has_valid_civic = civic_corporate_dominion
                 has_valid_civic = civic_beacon_of_liberty
             }

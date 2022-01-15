@@ -9,14 +9,231 @@ col_habitat_trade = {
         owner = {
             is_gestalt = no
         }
-        is_capital = no
     }
     planet_modifier = {
+        planet_building_commercial_zone_build_speed_mult = 0.25
+        planet_building_commercial_megaplex_build_speed_mult = 0.25
+        planet_building_galactic_stock_exchange_build_speed_mult = 0.25
         planet_district_hab_commercial_build_speed_mult = 0.25
-        planet_amenities_mult = 0.1
         trade_value_mult = 0.2
     }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                has_trade_route = yes
+            }
+        }
+        modifier = {
+            trade_value_add = 4
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    count_starbase_modules = {
+                        count = 1
+                        type = trading_hub
+                    }
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    count_starbase_modules = {
+                        count = 2
+                        type = trading_hub
+                    }
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 2
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    count_starbase_modules = {
+                        count = 3
+                        type = trading_hub
+                    }
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 3
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    count_starbase_modules = {
+                        count = 4
+                        type = trading_hub
+                    }
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 4
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    count_starbase_modules = {
+                        count = 5
+                        type = trading_hub
+                    }
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 5
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    count_starbase_modules = {
+                        count >= 6
+                        type = trading_hub
+                    }
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 6
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    has_starbase_building = offworld_trading_company
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 4
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    has_starbase_building = trader_proxy_office
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 4
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            solar_system = {
+                exists = starbase
+                starbase = {
+                    has_starbase_building = transit_hub
+                }
+            }
+        }
+        modifier = {
+            trade_value_add = 2
+        }
+    }
     weight_modifier = {
-        base = 0
+        base = 300
+        modifier = {
+            factor = 2
+            owner = {
+                has_monthly_income = {
+                    resource = energy
+                    value < 0
+                }
+            }
+        }
+        modifier = {
+            factor = 0.1
+            has_planet_flag = energy_habitat
+        }
+        modifier = {
+            factor = 3
+            has_designation = col_habitat_trade
+        }
+        modifier = {
+            factor = 3
+            num_districts = {
+                type = district_hab_commercial
+                value >= 3
+            }
+        }
+        modifier = {
+            factor = 1.25
+            num_buildings = {
+                type = building_commercial_zone
+                value > 2
+            }
+        }
+        modifier = {
+            factor = 1.5
+            num_buildings = {
+                type = building_commercial_zone
+                value > 4
+            }
+        }
+        modifier = {
+            factor = 1.25
+            num_buildings = {
+                type = building_commercial_megaplex
+                value > 1
+            }
+        }
+        modifier = {
+            factor = 1.5
+            num_buildings = {
+                type = building_commercial_megaplex
+                value > 2
+            }
+        }
+        modifier = {
+            factor = 1.5
+            exists = owner
+            owner = {
+                OR = {
+                    has_valid_civic = civic_merchant_guilds
+                    has_valid_civic = civic_corporate_dominion
+                    is_megacorp = yes
+                }
+            }
+        }
+        modifier = {
+            factor = 2
+            has_building = building_galactic_stock_exchange
+        }
+        modifier = {
+            factor = 2
+            has_building = building_nuumismatic_shrine
+        }
     }
 }

@@ -25,19 +25,20 @@ country_event = {
                         id = moremandate.83
                     }
                 }
+                add_intel = {
+                    who = event_target:primitive_country
+                    amount = 100
+                }
             }
             observation_outpost = {
                 dismantle = yes
-            }
-            owner = {
-                save_event_target_as = primitive_country
             }
             solar_system = {
                 if = {
                     limit = {
                         starbase = {
                             owner = {
-                                is_same_empire = root
+                                is_same_value = root
                             }
                         }
                     }
@@ -55,7 +56,7 @@ country_event = {
                     limit = {
                         exists = owner
                         owner = {
-                            is_same_empire = root
+                            is_same_value = root
                         }
                     }
                     set_owner = event_target:primitive_country

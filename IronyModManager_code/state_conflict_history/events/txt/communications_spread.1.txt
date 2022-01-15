@@ -9,7 +9,7 @@ country_event = {
         is_country_type = default
         is_homicidal = no
         NOT = {
-            has_valid_civic = civic_inwards_perfection
+            has_country_flag = starting_event
         }
         any_neighbor_country = {
             is_country_type = default

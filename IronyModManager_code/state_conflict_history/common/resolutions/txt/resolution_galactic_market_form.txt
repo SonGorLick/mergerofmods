@@ -110,17 +110,13 @@ resolution_galactic_market_form = {
         }
         modifier = {
             factor = 1.5
-            is_xenophile = yes
-        }
-        modifier = {
-            factor = 1.25
-            is_materialist = yes
-        }
-        modifier = {
-            factor = 1.5
             OR = {
                 has_valid_civic = civic_globalism
             }
+        }
+        modifier = {
+            factor = 1.5
+            is_xenophile = yes
         }
         modifier = {
             factor = 1.25
@@ -128,6 +124,10 @@ resolution_galactic_market_form = {
                 has_ai_personality = peaceful_traders
                 has_ai_personality = ruthless_capitalists
             }
+        }
+        modifier = {
+            factor = 1.25
+            is_materialist = yes
         }
         modifier = {
             factor = 0
@@ -152,12 +152,6 @@ resolution_galactic_market_form = {
             is_auth_corporate = no
         }
         modifier = {
-            factor = 0.1
-            NOT = {
-                has_global_flag = galactic_focus_pass_a_resolution_completed
-            }
-        }
-        modifier = {
             factor = 0.5
             is_xenophobe = yes
             OR = {
@@ -176,10 +170,6 @@ resolution_galactic_market_form = {
         modifier = {
             factor = 3
             years_passed > 150
-        }
-        modifier = {
-            factor = 2
-            end_game_years_passed >= 0
         }
     }
 }

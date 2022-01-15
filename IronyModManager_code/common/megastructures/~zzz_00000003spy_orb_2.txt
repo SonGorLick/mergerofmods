@@ -14,7 +14,7 @@ spy_orb_2 = {
         "tech_sentry_array"
         "tech_ariphaos_sensors_black_hole"
         "tech_ariphaos_sensors_nebula"
-    }
+        }
     sensor_range = 40
     hyperlane_range = 60
     build_time = 1800

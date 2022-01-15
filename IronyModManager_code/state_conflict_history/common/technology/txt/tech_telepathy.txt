@@ -13,7 +13,7 @@ tech_telepathy = {
     is_reverse_engineerable = no
     potential = {
         NOT = {
-            has_ethic = ethic_gestalt_consciousness
+            has_authority = auth_machine_intelligence
         }
     }
     weight_modifier = {

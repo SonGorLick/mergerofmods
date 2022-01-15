@@ -18,19 +18,6 @@ warrior_drone = {
             country_naval_cap_add = 2
         }
     }
-    triggered_country_modifier = {
-        potential = {
-            planet = {
-                OR = {
-                    has_designation = col_fortress
-                    has_designation = col_habitat_fortress
-                }
-            }
-        }
-        modifier = {
-            country_naval_cap_add = 2
-        }
-    }
     pop_modifier = {
         pop_defense_armies_add = 3
     }

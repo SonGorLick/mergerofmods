@@ -110,17 +110,16 @@ event = {
                 if = {
                     limit = {
                         has_modifier = titanic_life
+                                NOT = {
+                                    owner = {
+                                        has_origin = origin_monster_tamers
+                                    }
+                                }
                     }
                     remove_modifier = titanic_life
                 }
                 if = {
                     limit = {
-                                has_modifier = mineral_poor
-                            }
-                            remove_modifier = mineral_poor
-                        }
-                        if = {
-                            limit = {
                         has_modifier = asteroid_belt
                     }
                     remove_modifier = asteroid_belt
@@ -160,10 +159,10 @@ event = {
                         has_modifier = irradiated_planet
                     }
                     remove_modifier = irradiated_planet
+                        }
+                    }
                 }
             }
         }
-    }
-}
     }
 }

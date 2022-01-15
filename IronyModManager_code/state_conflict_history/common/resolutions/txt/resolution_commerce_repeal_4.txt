@@ -1,7 +1,6 @@
 @resolution_weight_unpopular = 5
 @resolution_cost_t4 = 250
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_commerce_repeal_4 = {
     icon = "GFX_repeal_orange"
     potential = {
@@ -98,14 +97,6 @@ resolution_commerce_repeal_4 = {
             rusher2 = yes
         }
         modifier = {
-            factor = 0
-            OR = {
-                is_megacorp = yes
-                has_valid_civic = civic_merchant_guilds
-                has_valid_civic = civic_globalism
-            }
-        }
-        modifier = {
             factor = 0.5
             is_militarist = no
             count_country = {
@@ -142,6 +133,14 @@ resolution_commerce_repeal_4 = {
             }
         }
         modifier = {
+            factor = 0
+            OR = {
+                is_megacorp = yes
+                has_valid_civic = civic_merchant_guilds
+                has_valid_civic = civic_globalism
+            }
+        }
+        modifier = {
             factor = 3
             is_anti_corp = yes
         }
@@ -152,11 +151,10 @@ resolution_commerce_repeal_4 = {
         modifier = {
             factor = 0.75
             OR = {
-                has_valid_civic = civic_free_traders
-                has_valid_civic = civic_trading_posts
-                has_valid_civic = civic_corporate_dominion
+            is_civic_free_traders = yes
+                            has_valid_civic = civic_corporate_dominion
                 has_valid_civic = civic_beacon_of_liberty
-            }
+                }
         }
         modifier = {
             factor = 0.75

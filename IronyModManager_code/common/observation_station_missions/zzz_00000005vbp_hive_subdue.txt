@@ -1,0 +1,72 @@
+@enlighten_soc_cost = 5
+@enlighten_nrg_cost = 10
+vbp_hive_subdue = {
+    icon = "GFX_fleet_task_indoctrination"
+    small_icon = 5
+    resources = {
+        category = station_observer_missions
+        upkeep = {
+            society_research = @enlighten_soc_cost
+            energy = @enlighten_nrg_cost
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_galactic_community_member = yes
+                }
+                OR = {
+                    is_active_resolution = "resolution_commerce_underdeveloped_system_utilization"
+                    is_active_resolution = "resolution_commerce_holistic_asset_coordination"
+                    is_active_resolution = "resolution_commerce_profit_maximization_engines"
+                }
+            }
+            minerals = 8
+        }
+    }
+    monthly_progress = 0.02
+    completion_event = vbp_hive.410
+    potential = {
+        FROM = {
+            exists = owner
+            owner = {
+                is_country_type = vbp_hive
+            }
+        }
+        has_authority = auth_hive_mind
+    }
+    in_breach_of = {
+         {
+            key = resolution_galacticcooperation_indigenous_protection_protocols
+        }
+         {
+            key = resolution_galacticcooperation_interstellar_mediation
+        }
+         {
+            key = resolution_galacticcooperation_sanctity_of_life
+        }
+    }
+    valid = {
+        NOT = {
+            has_valid_civic = civic_hive_devouring_swarm
+        }
+    }
+    ai_weight = {
+        weight = 0
+        modifier = {
+            factor = 0
+            resource_stockpile_compare = {
+                resource = energy
+                value < 1000
+            }
+        }
+        modifier = {
+            factor = 0
+            OR = {
+                is_active_resolution = "resolution_galacticcooperation_indigenous_protection_protocols"
+                is_active_resolution = "resolution_galacticcooperation_interstellar_mediation"
+                is_active_resolution = "resolution_galacticcooperation_sanctity_of_life"
+            }
+        }
+    }
+}

@@ -7,11 +7,12 @@ utility_component_template = {
     resources = {
         category = ship_components
         cost = {
-            energy = @shield_l_dm_cost
-            acot_sr_dark_energy = @shield_l_dm_sr_cost
+            alloys = @shield_l_t6_cost
+            sr_dark_matter = 1
         }
         upkeep = {
-            energy = @shield_l_dm_upkeep_energy
+            energy = @shield_l_t6_upkeep_energy
+            alloys = @shield_l_t6_upkeep_alloys
         }
     }
     modifier = {
@@ -22,7 +23,7 @@ utility_component_template = {
         "tech_dark_matter_deflector"
     }
     component_set = "DARK_MATTER_DEFLECTOR"
-    upgrades_to = "LARGE_ACOT_ENIGMATIC_SHIELD_AE"
+    upgrades_to = "LARGE_ESC_ENIGMATIC_SHIELD_2"
     ai_weight = {
         weight = 1
         modifier = {
@@ -37,13 +38,6 @@ utility_component_template = {
             is_country_type = default
             resource_stockpile_compare = {
                 resource = sr_dark_matter
-                value <= 50
-            }
-        }
-                modifier = {
-            factor = 0
-            resource_stockpile_compare = {
-                resource = acot_sr_dark_energy
                 value <= 50
             }
         }

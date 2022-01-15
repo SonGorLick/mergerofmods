@@ -23,11 +23,8 @@ utility_component_template = {
     size_restriction = {
         colossus
         juggernaut
-        ascended_juggernaut
-        precursor_juggernaut
         star_eater
     }
-    upgrades_to = "COLOSSUS_SHIP_THRUSTER_AE"
     ai_weight = {
         weight = 5
         modifier = {

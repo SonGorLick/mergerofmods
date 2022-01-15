@@ -7,10 +7,11 @@ action_ask_to_become_vassalized = {
     AI_acceptance_base_value = -50
     action_type = positive
     potential = {
-        NOT = {
-            from = {
-                is_megacorp = yes
+        NOR = {
+                from = {
+                    is_megacorp = yes
             }
+            has_country_flag = exalted_domination_dont_beg
         }
         or = {
             is_ai = no
@@ -181,8 +182,9 @@ action_ask_to_become_vassalized = {
         custom_tooltip = {
             fail_text = "requires_actor_not_pompous"
             NOT = {
-                is_purists_empire = yes
+                has_valid_civic = civic_pompous_purists
             }
         }
+        get_border_test = yes
     }
 }

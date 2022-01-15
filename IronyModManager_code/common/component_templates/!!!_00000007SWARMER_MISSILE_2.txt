@@ -9,6 +9,7 @@ weapon_component_template = {
     }
     component_set = "SWARMER_MISSILE_2"
     projectile_gfx = "swarmer_missiles_02"
+    upgrades_to = "ESC_SWARMER_MISSILES_3"
     tags = {
         weapon_type_explosive
     }
@@ -27,7 +28,6 @@ weapon_component_template = {
             alloys = @m_t5_upkeep_alloys
         }
     }
-    upgrades_to = ACOT_SWARMER_MISSILES_DM
     ai_weight = {
         weight = 0
     }

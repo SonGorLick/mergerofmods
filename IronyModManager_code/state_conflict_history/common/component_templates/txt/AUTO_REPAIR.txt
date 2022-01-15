@@ -7,18 +7,18 @@ utility_component_template = {
     resources = {
         category = ship_components
         cost = {
-            alloys = 20
+            food = 10
+            alloys = 10
         }
     }
     modifier = {
-        ship_hull_regen_add_static = 1
-        ship_armor_regen_add_static = 2
+        ship_hull_regen_add_perc = 0.2
+        ship_armor_regen_add_perc = 0.4
     }
     prerequisites = {
         tech_regenerative_hull_tissue
     }
     component_set = "AUTO_REPAIR"
-    upgrades_to = ACOT_REPAIR_COUNTERMEASURES_DM
     ai_weight = {
         weight = 10
         modifier = {

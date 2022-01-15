@@ -7,12 +7,6 @@ hydroponics_bay = {
             has_technology = "tech_hydroponics"
         }
     }
-    possible = {
-        exists = owner
-        owner = {
-            has_technology = "tech_hydroponics"
-        }
-    }
     resources = {
         category = starbase_buildings
         cost = {
@@ -22,13 +16,29 @@ hydroponics_bay = {
             food = 10
         }
         upkeep = {
-            energy = 1
+            energy = 3
         }
+    }
+    system_modifier = {
+        planet_farmers_produces_mult = 0.15
     }
     show_in_tech = "tech_hydroponics"
     ai_build_at_chokepoint = yes
     ai_build_outside_chokepoint = yes
     ai_weight = {
         weight = 200
+        modifier = {
+            factor = 0
+            exists = owner
+            owner = {
+                OR = {
+                    country_uses_food = no
+                    has_monthly_income = {
+                        resource = food
+                        value >= 50
+                    }
+                }
+            }
+        }
     }
 }

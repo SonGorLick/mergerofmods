@@ -53,36 +53,6 @@ resolution_industry_repeal_3 = {
     ai_weight = {
         weight = @resolution_weight_unpopular
         modifier = {
-            factor = 0.625
-            not = {
-                has_country_flag = str_has_bad_economy_score
-            }
-        }
-        modifier = {
-            factor = 1.25
-            has_country_flag = str_has_bad_economy_score
-        }
-        modifier = {
-            factor = 1.4
-            has_country_flag = str_has_terrible_economy_score
-        }
-        modifier = {
-            factor = 1.1
-            turtler = yes
-        }
-        modifier = {
-            factor = 1.1
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 0.9
-            rusher = yes
-        }
-        modifier = {
-            factor = 0.9
-            rusher2 = yes
-        }
-        modifier = {
             factor = 0.9
             is_civic_expansionist = yes
         }
@@ -147,6 +117,36 @@ resolution_industry_repeal_3 = {
             has_ethic = ethic_fanatic_militarist
         }
         modifier = {
+            factor = 0.625
+            not = {
+                has_country_flag = str_has_bad_economy_score
+            }
+        }
+        modifier = {
+            factor = 1.25
+            has_country_flag = str_has_bad_economy_score
+        }
+        modifier = {
+            factor = 1.4
+            has_country_flag = str_has_terrible_economy_score
+        }
+        modifier = {
+            factor = 1.1
+            turtler = yes
+        }
+        modifier = {
+            factor = 1.1
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 0.9
+            rusher = yes
+        }
+        modifier = {
+            factor = 0.9
+            rusher2 = yes
+        }
+        modifier = {
             factor = 0.75
             is_civic_militarist = yes
         }
@@ -156,7 +156,10 @@ resolution_industry_repeal_3 = {
         }
         modifier = {
             factor = 4
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 2
@@ -220,14 +223,6 @@ resolution_industry_repeal_3 = {
                 has_deficit = minerals
                 has_deficit = alloys
             }
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            has_technology = tech_colonization_5
         }
     }
 }

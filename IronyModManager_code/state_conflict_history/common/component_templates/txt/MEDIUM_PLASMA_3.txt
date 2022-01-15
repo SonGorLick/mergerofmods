@@ -15,6 +15,7 @@ weapon_component_template = {
     ai_tags = {
         weapon_role_anti_armor
     }
+    upgrades_to = "MEDIUM_ESC_PLASMA_4"
     ai_tag_weight = 3
     resources = {
         category = ship_components
@@ -27,7 +28,6 @@ weapon_component_template = {
             alloys = @m_t5_upkeep_alloys
         }
     }
-    upgrades_to = MEDIUM_ACOT_PLASMA_DM
     ai_weight = {
         modifier = {
             factor = 0

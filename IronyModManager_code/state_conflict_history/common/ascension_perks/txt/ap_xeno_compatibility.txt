@@ -9,6 +9,7 @@ ap_xeno_compatibility = {
     }
     modifier = {
         planet_immigration_pull_mult = 0.33
+        BIOLOGICAL_species_trait_points_add = 1
     }
     possible = {
         custom_tooltip = {
@@ -26,13 +27,10 @@ ap_xeno_compatibility = {
                 }
             }
         }
-        custom_tooltip = {
-            fail_text = "requires_technology_gene_tailoring"
-            has_technology = tech_gene_tailoring
-        }
+        has_technology = tech_genome_mapping
+        has_technology = tech_xeno_diplomacy
     }
     on_enabled = {
-        custom_tooltip = "allow_crossbreeding"
         if = {
             limit = {
                 has_modifier = cc_literally_xenophile_country
@@ -124,9 +122,19 @@ ap_xeno_compatibility = {
                 }
             }
         }
+        custom_tooltip = "allow_crossbreeding"
+        custom_tooltip = "faster_cloning"
+        if = {
+            limit = {
+                NOT = {
+                    has_technology = tech_gene_tailoring
+                }
+            }
+            add_research_option = tech_gene_tailoring
+        }
     }
     ai_weight = {
-        factor = 5
+        factor = 100
         modifier = {
             factor = 2
             has_ethic = ethic_xenophile
@@ -134,6 +142,20 @@ ap_xeno_compatibility = {
         modifier = {
             factor = 3
             has_ethic = ethic_fanatic_xenophile
+        }
+        modifier = {
+            factor = 0
+            NOT = {
+                has_ethic = ethic_fanatic_xenophile
+            }
+        }
+        modifier = {
+            factor = 0
+            NOR = {
+                has_trait = trait_fertile
+                has_trait = trait_rapid_breeders
+                has_trait = trait_rapid_breeders_lithoid
+            }
         }
     }
 }

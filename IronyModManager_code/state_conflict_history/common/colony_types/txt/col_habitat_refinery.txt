@@ -5,6 +5,7 @@ col_habitat_refinery = {
             uses_district_set = habitat
             uses_district_set = pdarchive
         }
+                is_capital = no
     }
     planet_modifier = {
         planet_building_chemical_plant_build_speed_mult = 0.25
@@ -32,7 +33,7 @@ col_habitat_refinery = {
         }
     }
     weight_modifier = {
-        base = 0
+        base = 500
         modifier = {
             add = 4
             num_buildings = {

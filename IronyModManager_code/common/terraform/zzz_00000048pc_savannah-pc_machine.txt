@@ -21,18 +21,13 @@ terraform_link = {
         modifier = {
             factor = 0
             from = {
-                any_owned_pop = {
+                any_owned_species = {
                     NOR = {
                         has_trait = trait_machine_unit
                         has_trait = trait_mechanical
                     }
+                    is_sapient = yes
                 }
-            }
-        }
-        modifier = {
-            factor = 0
-            from = {
-                is_colony = no
             }
         }
     }

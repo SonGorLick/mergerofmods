@@ -48,15 +48,6 @@ building_capital = {
     }
     triggered_planet_modifier = {
         potential = {
-            exists = branch_office_owner
-            branch_office_owner = {
-                is_constructors_megacorp = yes
-            }
-        }
-        planet_max_branch_office_buildings_add = 1
-    }
-    triggered_planet_modifier = {
-        potential = {
             exists = owner
             nor = {
                 owner = {
@@ -333,66 +324,6 @@ building_capital = {
                 value > 6
             }
             str_force_city_district = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 0
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 2
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 4
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 6
-            }
-            str_force_stronghold = yes
         }
         job_starnet_spice_melange_farmer_add = -2
         job_starnet_spice_melange_antifarmer_add = 2

@@ -1,5 +1,5 @@
 @destroyer_power_5 = -60
-@destroyer_cost5 = 30
+@destroyer_cost4 = 24
 utility_component_template = {
     key = "DESTROYER_SHIP_THRUSTER_5"
     size = small
@@ -9,13 +9,13 @@ utility_component_template = {
     resources = {
         category = ship_components
         cost = {
-            alloys = @destroyer_cost5
+            alloys = @destroyer_cost4
             sr_dark_matter = 2
         }
     }
     modifier = {
-        ship_base_speed_mult = 1.25
-        ship_evasion_add = 16
+        ship_base_speed_mult = 0.7
+        ship_evasion_add = 24
     }
     prerequisites = {
         "tech_dark_matter_propulsion"
@@ -27,13 +27,14 @@ utility_component_template = {
         pirate_destroyer
         marauder_destroyer
     }
-    upgrades_to = "DESTROYER_SHIP_THRUSTER_AE"
     ai_weight = {
         weight = 5
         modifier = {
             factor = 0
-            no_resource_for_component = {
-                RESOURCE = sr_dark_matter
+            is_country_type = default
+            resource_stockpile_compare = {
+                resource = sr_dark_matter
+                value <= 50
             }
         }
     }

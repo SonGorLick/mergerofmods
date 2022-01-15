@@ -29,7 +29,7 @@ ship_event = {
                 }
             }
             country_event = {
-                id = precursor.99336
+                id = precursor.99337
             }
         }
     }

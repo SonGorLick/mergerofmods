@@ -66,10 +66,32 @@ col_mac_factory = {
             has_building = building_factory_2
         }
         modifier = {
+            add = 10
+            has_building = building_factory_3
+        }
+        modifier = {
             add = 5
             num_districts = {
                 type = district_industrial
                 value >= @built_districts_medium_threshold
+            }
+        }
+        modifier = {
+            add = 0.5
+            owner = {
+                has_monthly_income = {
+                    resource = consumer_goods
+                    value > 25
+                }
+            }
+        }
+        modifier = {
+            add = 0.5
+            owner = {
+                has_monthly_income = {
+                    resource = consumer_goods
+                    value > 50
+                }
             }
         }
         modifier = {
@@ -86,6 +108,10 @@ col_mac_factory = {
             }
             num_buildings = {
                 type = building_factory_2
+                value = 0
+            }
+            num_buildings = {
+                type = building_factory_3
                 value = 0
             }
         }

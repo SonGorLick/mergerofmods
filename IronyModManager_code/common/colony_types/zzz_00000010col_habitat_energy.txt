@@ -6,6 +6,7 @@ col_habitat_energy = {
             uses_district_set = pdarchive
         }
         exists = owner
+        is_capital = no
         OR = {
             owner = {
                 is_gestalt = yes
@@ -54,7 +55,7 @@ col_habitat_energy = {
         }
     }
     weight_modifier = {
-        base = 0
+        base = 200
         modifier = {
             add = 1.8
             num_districts = {

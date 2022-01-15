@@ -272,9 +272,5 @@ resolution_divinity_silence_the_soulless = {
                 has_global_flag = ai_invasion_defeated
             }
         }
-        modifier = {
-            factor = 0
-            in_breach_of = resolution_divinity_silence_the_soulless
-        }
     }
 }

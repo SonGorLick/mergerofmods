@@ -13,7 +13,6 @@ building_luxury_residence = {
                     is_planet_class = pc_pd_hothouse_hab
                     is_planet_class = pc_pd_toxic_hab
                     is_planet_class = pc_pd_molten_hab
-                    is_planet_class = pc_gd_hydrocarbon_hab
                 }
             }
             has_planet_flag = advanced_habitat
@@ -25,10 +24,10 @@ building_luxury_residence = {
         owner = {
             is_regular_empire = yes
             NOT = {
-                is_shared_burdens_empire = yes
+                has_valid_civic = civic_shared_burden
+            }
         }
     }
-        }
     allow = {
         or = {
             owner = {
@@ -108,7 +107,7 @@ building_luxury_residence = {
                 is_regular_empire = no
             }
             owner = {
-                is_shared_burdens_empire = yes
+                has_valid_civic = civic_shared_burden
             }
             has_modifier = slave_colony
         }

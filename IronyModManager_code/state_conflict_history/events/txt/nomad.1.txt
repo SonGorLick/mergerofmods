@@ -98,6 +98,19 @@ country_event = {
                 }
                 immortal = yes
             }
+            if = {
+                limit = {
+                    has_global_flag = expanded_pops_active
+                }
+                last_created_species = {
+                    if = {
+                        limit = {
+                            needs_class_trait = yes
+                        }
+                        add_class_trait_effect = yes
+                    }
+                }
+            }
             last_created_species = {
                 save_global_event_target_as = base_namarian
             }
@@ -150,6 +163,13 @@ country_event = {
                         set_aggro_range_measure_from = self
                         set_aggro_range = 50
                         while = {
+                            count = 15
+                            create_ship = {
+                                name = "NAME_Defender"
+                                design = NAME_Defender
+                            }
+                        }
+                        while = {
                             count = 20
                             create_ship = {
                                 name = "NAME_Protector"
@@ -167,6 +187,14 @@ country_event = {
                         create_ship = {
                             name = "NAME_Home_Three"
                             design = NAME_Diaspora
+                        }
+                        create_ship = {
+                            name = "NAME_Home_Four"
+                            design = Diaspora
+                        }
+                        create_ship = {
+                            name = "NAME_Home_Five"
+                            design = Diaspora
                         }
                         assign_leader = last_created_leader
                         set_location = event_target:nomad_spawn

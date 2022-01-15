@@ -3,16 +3,18 @@ building_galactic_memorial_1 = {
     category = unity
     potential = {
         exists = owner
-        building_basic_income_check = yes
         NOT = {
             has_modifier = slave_colony
         }
         owner = {
             OR = {
-                is_memorialist_empire = yes
+                has_valid_civic = civic_memorialist
+                has_valid_civic = civic_hive_memorialist
+                has_valid_civic = civic_machine_memorialist
             }
             NOT = {
                 OR = {
+                    is_megacorp = yes
                     has_valid_civic = civic_fanatic_purifiers
                     has_valid_civic = civic_hive_devouring_swarm
                     has_valid_civic = civic_machine_assimilator
@@ -27,13 +29,16 @@ building_galactic_memorial_1 = {
             has_modifier = slave_colony
             owner = {
                 OR = {
+                    is_megacorp = yes
                     has_valid_civic = civic_fanatic_purifiers
                     has_valid_civic = civic_hive_devouring_swarm
                     has_valid_civic = civic_machine_assimilator
                     has_valid_civic = civic_machine_terminator
                     NOT = {
                         OR = {
-                            is_memorialist_empire = yes
+                            has_valid_civic = civic_memorialist
+                            has_valid_civic = civic_hive_memorialist
+                            has_valid_civic = civic_machine_memorialist
                         }
                     }
                 }
@@ -62,6 +67,7 @@ building_galactic_memorial_1 = {
             exists = owner
             owner = {
                 is_gestalt = no
+                is_ai = no
             }
         }
         job_death_chronicler_add = @b1_jobs
@@ -71,6 +77,7 @@ building_galactic_memorial_1 = {
             exists = owner
             owner = {
                 is_gestalt = yes
+                is_ai = no
             }
         }
         job_chronicle_drone_add = @b1_jobs
@@ -123,5 +130,18 @@ building_galactic_memorial_1 = {
             }
         }
         text = "job_chronicle_drone_effect_desc"
+    }
+    ai_resource_production = {
+        alloys = 10
+        trigger = {
+            num_pops > 30
+            owner = {
+                OR = {
+                    has_valid_civic = civic_memorialist
+                    has_valid_civic = civic_hive_memorialist
+                    has_valid_civic = civic_machine_memorialist
+                }
+            }
+        }
     }
 }

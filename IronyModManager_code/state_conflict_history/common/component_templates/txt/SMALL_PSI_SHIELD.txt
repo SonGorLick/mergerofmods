@@ -34,5 +34,11 @@ utility_component_template = {
                 value <= 50
             }
         }
+        modifier = {
+            factor = 0
+            NOT = {
+                has_ascension_perk = ap_transcendence
+            }
+        }
     }
 }

@@ -1,0 +1,196 @@
+namespace = marauder
+country_event = {
+    id = marauder.51
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        fromfrom = {
+            OR = {
+                has_fleet_flag = armada_of_the_voidborn
+                has_fleet_flag = star_rider_flotilla
+                has_fleet_flag = first_storm_wing
+                has_fleet_flag = dwamak_bashers
+                has_fleet_flag = unhinged_screamer_flotilla
+                has_fleet_flag = frenzied_volunteer_squadron
+                has_fleet_flag = her_chosen_champions
+                has_fleet_flag = order_of_eternal_night
+                has_fleet_flag = twilight_congregation
+            }
+        }
+    }
+    immediate = {
+        if = {
+            limit = {
+                exists = fromfrom.leader
+            }
+            fromfrom.leader = {
+                remove_leader_flag = marauder_merc_leader
+            }
+        }
+        if = {
+            limit = {
+                fromfrom = {
+                    OR = {
+                        has_fleet_flag = armada_of_the_voidborn
+                        has_fleet_flag = star_rider_flotilla
+                        has_fleet_flag = first_storm_wing
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    has_country_flag = marauder_1
+                }
+                if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = armada_of_the_voidborn
+                        }
+                    }
+                    country_event = {
+                        id = marauder.52
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+                else_if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = star_rider_flotilla
+                        }
+                    }
+                    country_event = {
+                        id = marauder.53
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+                else_if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = first_storm_wing
+                        }
+                    }
+                    country_event = {
+                        id = marauder.54
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                fromfrom = {
+                    OR = {
+                        has_fleet_flag = dwamak_bashers
+                        has_fleet_flag = unhinged_screamer_flotilla
+                        has_fleet_flag = frenzied_volunteer_squadron
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    has_country_flag = marauder_2
+                }
+                if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = dwamak_bashers
+                        }
+                    }
+                    country_event = {
+                        id = marauder.52
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+                else_if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = unhinged_screamer_flotilla
+                        }
+                    }
+                    country_event = {
+                        id = marauder.53
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+                else_if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = frenzied_volunteer_squadron
+                        }
+                    }
+                    country_event = {
+                        id = marauder.54
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                fromfrom = {
+                    OR = {
+                        has_fleet_flag = her_chosen_champions
+                        has_fleet_flag = order_of_eternal_night
+                        has_fleet_flag = twilight_congregation
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    has_country_flag = marauder_3
+                }
+                if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = her_chosen_champions
+                        }
+                    }
+                    country_event = {
+                        id = marauder.52
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+                if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = order_of_eternal_night
+                        }
+                    }
+                    country_event = {
+                        id = marauder.53
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+                if = {
+                    limit = {
+                        fromfrom = {
+                            has_fleet_flag = twilight_congregation
+                        }
+                    }
+                    country_event = {
+                        id = marauder.54
+                        days = 300
+                        random = 100
+                    }
+                    break = yes
+                }
+            }
+        }
+    }
+}

@@ -52,12 +52,29 @@ resolution_industry_regulatory_facilitation = {
                 is_active_resolution = "resolution_industry_building_a_better_tomorrow"
                 is_active_resolution = "resolution_industry_environmental_ordinance_waivers"
                 is_active_resolution = "resolution_industry_project_cornucopia"
-                is_active_resolution = "resolution_industry_6"
             }
         }
     }
     ai_weight = {
         weight = @resolution_weight_loved
+        modifier = {
+            factor = 1.1
+            is_civic_expansionist = yes
+        }
+        modifier = {
+            factor = 2
+            count_country = {
+                count < 4
+                limit = {
+                    is_galactic_community_member = yes
+                    relative_power = {
+                        who = prev
+                        category = economy
+                        value >= equivalent
+                    }
+                }
+            }
+        }
         modifier = {
             factor = 1.4
             not = {
@@ -87,24 +104,6 @@ resolution_industry_regulatory_facilitation = {
         modifier = {
             factor = 1.1
             rusher2 = yes
-        }
-        modifier = {
-            factor = 1.1
-            is_civic_expansionist = yes
-        }
-        modifier = {
-            factor = 2
-            count_country = {
-                count < 4
-                limit = {
-                    is_galactic_community_member = yes
-                    relative_power = {
-                        who = prev
-                        category = economy
-                        value >= equivalent
-                    }
-                }
-            }
         }
         modifier = {
             factor = 0.5
@@ -157,7 +156,10 @@ resolution_industry_regulatory_facilitation = {
         }
         modifier = {
             factor = 0.25
+            OR = {
             is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
         }
         modifier = {
             factor = 0.5
@@ -188,24 +190,6 @@ resolution_industry_regulatory_facilitation = {
         modifier = {
             factor = 1.5
             is_crafter_empire = yes
-        }
-        modifier = {
-            factor = 0.5
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            NOT = {
-                has_technology = tech_colonization_2
-            }
-        }
-        modifier = {
-            factor = 2
-            OR = {
-                is_machine_empire = no
-                has_valid_civic = civic_machine_servitor
-            }
-            has_technology = tech_colonization_3
         }
     }
 }

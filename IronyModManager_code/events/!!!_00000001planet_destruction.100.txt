@@ -119,7 +119,11 @@ planet_event = {
                     NOT = {
                         is_same_value = from.owner
                     }
-                    is_playable_country = yes
+                    OR = {
+                        is_country_type = default
+                        is_country_type = fallen_empire
+                        is_country_type = awakened_fallen_empire
+                    }
                 }
             }
             if = {
@@ -152,7 +156,7 @@ planet_event = {
                             }
                             has_ai_personality = awakened_fallen_empire_xenophile
                             AND = {
-                                is_playable_country = yes
+                                is_country_type = default
                                 OR = {
                                     is_egalitarian = yes
                                     is_xenophile = yes
@@ -234,7 +238,7 @@ planet_event = {
                         OR = {
                             has_ai_personality = awakened_fallen_empire_xenophile
                             AND = {
-                                is_playable_country = yes
+                                is_country_type = default
                                 NOR = {
                                     is_xenophobe = yes
                                     is_homicidal = yes
@@ -260,7 +264,7 @@ planet_event = {
                         OR = {
                             has_ai_personality = awakened_fallen_empire_xenophile
                             AND = {
-                                is_playable_country = yes
+                                is_country_type = default
                                 is_xenophile = yes
                             }
                         }
@@ -281,10 +285,10 @@ planet_event = {
                     limit = {
                         is_at_war_with = from.fleet.owner
                     }
-                add_static_war_exhaustion = {
-                    attacker = from.fleet.owner
-                    location = root
-                    value_for_planet_destruction = 1
+                    add_static_war_exhaustion = {
+                        attacker = from.fleet.owner
+                        location = root
+                        value_for_planet_destruction = 1
                     }
                 }
             }
@@ -295,14 +299,14 @@ planet_event = {
         remove_all_buildings = yes
         if = {
             limit = {
-                is_memeable_space_habitat = yes
+                is_planet_class = pc_habitat
             }
             spawn_habitat_cracker_effect = yes
-            remove_planet = yes
+            ariphaos_patch_remove_habitat = yes
         }
         else_if = {
             limit = {
-                is_memeable_ringworld = yes
+                is_ringworld = yes
             }
             spawn_ringworld_cracker_effect = yes
             change_pc = pc_ringworld_habitable_damaged
@@ -314,6 +318,12 @@ planet_event = {
             change_pc = pc_shattered
             clear_deposits = yes
             random_list = {
+                1 = {
+                    add_deposit = d_alloys_1
+                    add_deposit = d_minerals_4
+                    add_deposit = d_minerals_4
+                    add_deposit = d_minerals_4
+                }
                 1 = {
                     add_deposit = d_minerals_4
                     add_deposit = d_minerals_4
@@ -337,6 +347,25 @@ planet_event = {
         else = {
             change_pc = pc_shattered
             clear_deposits = yes
+            random_list = {
+                1 = {
+                    add_deposit = d_alloys_1
+                    add_deposit = d_minerals_4
+                    add_deposit = d_minerals_4
+                }
+                1 = {
+                    add_deposit = d_minerals_4
+                    add_deposit = d_minerals_4
+                    add_deposit = d_minerals_4
+                }
+                1 = {
+                    add_deposit = d_minerals_4
+                    add_deposit = d_minerals_4
+                }
+                1 = {
+                    add_deposit = d_minerals_4
+                }
+            }
         }
     }
 }

@@ -1,0 +1,55 @@
+@cruiser_upkeep_energy = 0.3
+@cruiser_upkeep_minerals = 0.2
+marauder_cruiser = {
+    graphical_culture = {
+        "pirate_01"
+        "madd_01"
+    }
+    entity = pirate_01_pirate_cruiser_entity
+    max_speed = @speed_fast
+    acceleration = 0.2
+    rotation_speed = 0.2
+    collision_radius = @destroyer_collision_radius
+    modifier = {
+        ship_evasion_add = 10
+        ship_armor_add = 700
+        ship_shield_add = 100
+        ships_upkeep_mult = -1
+    }
+    max_hitpoints = 2000
+    size_multiplier = 3
+    fleet_slot_size = 4
+    section_slots = {
+        "mid" = {
+            locator = "part1"
+        }
+    }
+    num_target_locators = 0
+    icon = ship_size_military_4
+    base_buildtime = 120
+    is_civilian = no
+    components_add_to_cost = no
+    potential_country = {
+        is_country_type = awakened_marauders
+    }
+    class = shipclass_military
+    construction_type = starbase_shipyard
+    is_designable = yes
+    enable_default_design = yes
+    default_behavior = line
+    required_component_set = "power_core"
+    required_component_set = "sensor_components"
+    required_component_set = "ftl_components"
+    required_component_set = "thruster_components"
+    required_component_set = "combat_computers"
+    resources = {
+        category = ships
+        cost = {
+            minerals = 900
+        }
+        upkeep = {
+            energy = @cruiser_upkeep_energy
+            minerals = @cruiser_upkeep_minerals
+        }
+    }
+}

@@ -212,15 +212,15 @@ resolution_greatergood_greater_than_ourselves = {
         }
         modifier = {
             factor = 0.5
+            is_auth_corporate = yes
+        }
+        modifier = {
+            factor = 0.5
             is_capitalism = yes
         }
         modifier = {
             factor = 1.2
             has_ethic = ethic_fanatic_socialism
-        }
-        modifier = {
-            factor = 0.5
-            is_auth_corporate = yes
         }
         modifier = {
             factor = 3
@@ -232,14 +232,20 @@ resolution_greatergood_greater_than_ourselves = {
         modifier = {
             factor = 0.6
             OR = {
+                is_authoritarian = yes
                 is_gestalt = yes
             }
+        }
+        modifier = {
+            factor = 0.6
+            has_ethic = ethic_fanatic_authoritarian
         }
         modifier = {
             factor = 0
             OR = {
                 is_civic_slaver_guilds = yes
                 is_origin_syncretic_livestock = yes
+                has_valid_civic = civic_indentured_assets
                 is_slaver = yes
                 has_ai_personality_behaviour = slaver
                 any_owned_species = {
@@ -262,7 +268,15 @@ resolution_greatergood_greater_than_ourselves = {
             OR = {
                 has_valid_civic = civic_agrarian_idyll
                 is_civic_free_haven = yes
+                has_valid_civic = civic_welfare_state
                 is_civic_inwards_perfection = yes
+            }
+        }
+        modifier = {
+            factor = 0.8
+            OR = {
+                has_valid_civic = civic_aristocratic_elite
+                has_valid_civic = civic_police_state
             }
         }
         modifier = {

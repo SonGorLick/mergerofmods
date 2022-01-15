@@ -1,0 +1,10 @@
+opinion_harvested_a_world = {
+    opinion = {
+        base = -100
+    }
+    accumulative = yes
+    min = -1000
+    decay = {
+        base = 5
+    }
+}

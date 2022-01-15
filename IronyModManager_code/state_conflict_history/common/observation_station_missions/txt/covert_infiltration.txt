@@ -30,6 +30,11 @@ covert_infiltration = {
         NOT = {
             has_valid_civic = civic_inwards_perfection
         }
+        has_technology = tech_gene_tailoring
+        OR = {
+            has_policy_flag = interference_active
+            has_policy_flag = interference_full
+        }
         FROM = {
             exists = owner
             owner = {
@@ -37,9 +42,13 @@ covert_infiltration = {
                 NOT = {
                     has_country_flag = mpo_stranded_colonists_1
                 }
+                OR = {
+                    has_country_flag = industrial_age
+                    has_country_flag = machine_age
+                    has_country_flag = atomic_age
+                    has_country_flag = early_space_age
+                }
             }
-        }
-    }
     in_breach_of = {
          {
             key = resolution_galacticcooperation_indigenous_protection_protocols
@@ -50,9 +59,19 @@ covert_infiltration = {
          {
             key = resolution_galacticcooperation_sanctity_of_life
         }
+        }
+        NOR = {
+            has_valid_civic = civic_fanatic_purifiers
+            has_valid_civic = civic_hive_devouring_swarm
+            has_valid_civic = civic_machine_terminator
+            }
+        }
     }
     valid = {
-        has_technology = tech_gene_tailoring
+        OR = {
+            has_technology = tech_gene_tailoring
+            has_origin = origin_infiltrators
+        }
         OR = {
             has_policy_flag = interference_active
             has_policy_flag = interference_full
@@ -88,14 +107,6 @@ covert_infiltration = {
             resource_stockpile_compare = {
                 resource = energy
                 value < 1000
-            }
-        }
-        modifier = {
-            factor = 0
-            OR = {
-                is_active_resolution = "resolution_galacticcooperation_indigenous_protection_protocols"
-                is_active_resolution = "resolution_galacticcooperation_interstellar_mediation"
-                is_active_resolution = "resolution_galacticcooperation_sanctity_of_life"
             }
         }
     }

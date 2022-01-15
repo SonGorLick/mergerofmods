@@ -5,6 +5,6 @@ opinion_voted_down_proposal = {
     accumulative = no
     unique = yes
     decay = {
-        base = 3
+        base = 2
     }
 }

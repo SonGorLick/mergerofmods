@@ -1,0 +1,32 @@
+weapon_component_template = {
+    key = "MEDIUM_DISRUPTOR_1"
+    size = medium
+    type = instant
+    icon = "GFX_ship_part_disruptor_1"
+    icon_frame = 1
+    prerequisites = {
+        "tech_disruptors_1"
+    }
+    component_set = "DISRUPTOR_1"
+    projectile_gfx = "disruptor_1_medium"
+    tags = {
+        weapon_type_energy
+    }
+    ai_tags = {
+        weapon_role_anti_hull
+    }
+    upgrades_to = "MEDIUM_DISRUPTOR_2"
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = @m_t3_cost
+        }
+        upkeep = {
+            energy = @m_t3_upkeep_energy
+            alloys = @m_t3_upkeep_alloys
+        }
+    }
+    ai_weight = {
+        weight = 0
+    }
+}

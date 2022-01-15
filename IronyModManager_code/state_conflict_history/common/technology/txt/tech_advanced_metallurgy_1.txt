@@ -22,10 +22,6 @@ tech_advanced_metallurgy_1 = {
                 has_trait = "leader_trait_expertise_materials"
             }
         }
-        modifier = {
-            factor = 2
-            has_valid_civic = civic_manufactory
-        }
     }
     ai_weight = {
         factor = 25

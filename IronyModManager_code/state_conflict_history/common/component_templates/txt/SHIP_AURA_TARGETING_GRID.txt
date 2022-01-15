@@ -1,4 +1,4 @@
-@shipAuraRange = 14
+@shipAuraRange = 80
 utility_component_template = {
     key = "SHIP_AURA_TARGETING_GRID"
     size = medium

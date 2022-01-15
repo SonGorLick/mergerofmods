@@ -18,7 +18,7 @@ ion_cannon = {
         }
     }
     is_designable = yes
-    components_add_to_cost = no
+    components_add_to_cost = yes
     uses_name_prefix = no
     takes_name_from_ship_design = yes
     num_target_locators = 0
@@ -45,10 +45,7 @@ ion_cannon = {
     resources = {
         category = starbase_stations
         cost = {
-            alloys = 2000
-        }
-        upkeep = {
-            energy = 8
+            alloys = 1000
         }
     }
 }

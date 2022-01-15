@@ -6,26 +6,16 @@ action_demand_tributary = {
     diplo_view_acceptance_icon = yes
     should_notify_all_communications = no
     requires_recipient_independence = no
-    AI_acceptance_base_value = -100
+    AI_acceptance_base_value = -50
     action_type = aggressive
     potential = {
-        NOT = {
-            is_megacorp = yes
-        }
+        is_megacorp = no
         or = {
             is_ai = no
             years_passed > @str_years_of_twilight
         }
     }
     possible = {
-        custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
-            }
-        }
         custom_tooltip = {
             fail_text = "requires_actor_not_fanatic_purifiers"
             OR = {

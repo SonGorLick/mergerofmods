@@ -1,0 +1,21 @@
+utility_component_template = {
+    key = "MEDIUM_TIYANKI_ARMOR"
+    size = medium
+    icon = "GFX_ship_part_dragon_armor"
+    icon_frame = 1
+    power = 0
+    hidden = yes
+    modifier = {
+        ship_armor_add = @armor_6M
+    }
+    component_set = "TIYANKI_ARMOR"
+    resources = {
+        category = ship_components
+        cost = {
+            food = @m_t6_cost
+        }
+        upkeep = {
+            food = @m_t6_upkeep_alloys
+        }
+    }
+}

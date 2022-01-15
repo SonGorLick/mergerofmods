@@ -11,24 +11,25 @@ building_precinct_house = {
     }
     allow = {
         hidden_trigger = {
-            OR = {
+            or = {
                 owner = {
                     is_ai = no
                 }
-                AND = {
-                    planet_crime > 15
-                    NOR = {
-                        AND = {
-                            has_building = building_precinct_house
-                            owner = {
-                                has_technology = tech_colonial_centralization
-                            }
-                        }
-                        has_building = building_hall_judgment
-                        num_buildings = {
-                            type = building_precinct_house
-                            value = 3
-                        }
+                and = {
+                    planet_crime > 40
+                    owner = {
+                        str_raw_ecocrisis_level_1 = no
+                    }
+                    num_pops > 20
+                    not = {
+                        has_modifier = crime_lord_deal
+                    }
+                    not = {
+                        has_planet_flag = str_just_removed_precinct
+                    }
+                    num_buildings = {
+                        type = building_precinct_house
+                        value < 2
                     }
                 }
             }

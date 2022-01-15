@@ -32,5 +32,13 @@ command_center = {
             factor = 0
             years_passed < 30
         }
+        modifier = {
+            factor = 0
+            NOR = {
+                has_starbase_module = gun_battery
+                has_starbase_module = missile_battery
+                has_starbase_module = hangar_bay
+            }
+        }
     }
 }

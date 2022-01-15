@@ -60,6 +60,14 @@ ap_galactic_wonders_utopia = {
             has_ethic = ethic_fanatic_pacifist
         }
         modifier = {
+            factor = 2
+            is_egalitarian = yes
+        }
+        modifier = {
+            factor = 2
+            is_megacorp = yes
+        }
+        modifier = {
             factor = 100
             or = {
                 has_ascension_perk = ap_transcendence

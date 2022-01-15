@@ -1,0 +1,30 @@
+@battleship_power_3 = -160
+@battleship_cost3 = 72
+utility_component_template = {
+    key = "BATTLESHIP_SHIP_THRUSTER_3"
+    size = small
+    icon = "GFX_ship_part_thruster_3"
+    icon_frame = 1
+    power = @battleship_power_3
+    resources = {
+        category = ship_components
+        cost = {
+            alloys = @battleship_cost3
+        }
+    }
+    modifier = {
+        ship_base_speed_mult = 0.3
+        ship_evasion_add = 4
+    }
+    prerequisites = {
+        "tech_thrusters_3"
+    }
+    component_set = "thruster_components"
+    size_restriction = {
+        battleship
+    }
+    upgrades_to = "BATTLESHIP_SHIP_THRUSTER_4"
+    ai_weight = {
+        weight = 3
+    }
+}

@@ -247,38 +247,8 @@ building_foundry_1 = {
         }
         text = job_catalytic_drone_effect_desc
     }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                is_regular_empire = yes
-            }
-            is_planet_class = pc_crucible
-        }
-        text = job_crucible_foundry_effect_desc
-    }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                is_hive_empire = yes
-            }
-            is_planet_class = pc_crucible
-        }
-        text = job_crucible_alloy_drone_effect_desc
-    }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                is_machine_empire = yes
-            }
-            is_planet_class = pc_crucible
-        }
-        text = job_crucible_fabricator_effect_desc
-    }
     ai_resource_production = {
-        alloys = 3
+        alloys = 1
         trigger = {
             always = yes
         }

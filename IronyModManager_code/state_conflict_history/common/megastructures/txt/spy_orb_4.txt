@@ -13,7 +13,7 @@ spy_orb_4 = {
     prerequisites = {
         "tech_sentry_array"
         "tech_ariphaos_sensors_jammed"
-    }
+        }
     show_prereqs = yes
     build_time = 1800
     resources = {

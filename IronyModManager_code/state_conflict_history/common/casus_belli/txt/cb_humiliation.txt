@@ -21,7 +21,7 @@ cb_humiliation = {
                 }
                 OR = {
                 NOR = {
-                        has_policy_flag = liberation_wars
+                    has_policy_flag = liberation_wars
                     has_policy_flag = protection_wars
                     }
                     from = {

@@ -7,15 +7,6 @@ trade_policy = {
     }
     option = {
         name = "trade_policy_default"
-        policy_flags = {
-            trade_policy_default
-        }
-        valid = {
-            NOR = {
-                has_policy_flag = "economic_stance_planned"
-                has_ethic = "ethic_fanatic_socialism"
-            }
-        }
         AI_weight = {
             factor = 1
             modifier = {
@@ -30,6 +21,15 @@ trade_policy = {
                         has_policy_flag = trade_conversion_consumer_goods
                     }
                 }
+            }
+        }
+        policy_flags = {
+            trade_policy_default
+        }
+        valid = {
+            NOR = {
+                has_policy_flag = "economic_stance_planned"
+                has_ethic = "ethic_fanatic_socialism"
             }
         }
     }
@@ -107,19 +107,7 @@ trade_policy = {
         modifier = {
         }
         AI_weight = {
-            factor = 300
-            modifier = {
-                factor = 0
-                is_ai = no
-            }
-            modifier = {
-                factor = 0
-                num_ascension_perks > 2
-                or = {
-                    has_tradition = tr_supremacy_adopt
-                    has_tradition = tr_prosperity_administrative_operations
-                }
-            }
+            factor = 0
         }
     }
     option = {
@@ -137,26 +125,6 @@ trade_policy = {
         }
         AI_weight = {
             factor = 10
-        }
-    }
-    option = {
-        name = "trade_policy_science"
-        potential = {
-            has_valid_civic = civic_science_syndicate
-            OR = {
-                has_federation = no
-                AND = {
-                    has_federation = yes
-                }
-            }
-        }
-        policy_flags = {
-            trade_conversion_science
-        }
-        modifier = {
-        }
-        AI_weight = {
-            factor = 0
         }
     }
     option = {

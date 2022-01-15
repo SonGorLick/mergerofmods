@@ -15,6 +15,7 @@ weapon_component_template = {
     ai_tags = {
         weapon_role_anti_shield
     }
+    upgrades_to = "LARGE_ESC_MASS_DRIVER_6"
     resources = {
         category = ship_components
         cost = {
@@ -26,7 +27,6 @@ weapon_component_template = {
             alloys = @l_t5_upkeep_alloys
         }
     }
-    upgrades_to = LARGE_ACOT_MASS_DRIVER_DM
     ai_weight = {
         weight = 1
         modifier = {

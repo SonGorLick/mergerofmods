@@ -73,7 +73,7 @@ country_event = {
                         change_pc = pc_molten
                     }
                     set_deposit = d_iodizium_deposit
-                    set_deposit = d_splasma_deposit
+                    add_deposit = d_splasma_deposit
                 }
                 create_ambient_object = {
                     type = "explosion_particle_object"

@@ -58,7 +58,7 @@ ship_section_template = {
     }
     component_slot = {
         name = "MEDIUM_GUN_06"
-        template = "medium_turret"
+        template = "large_turret"
         locatorname = "medium_gun_06"
     }
     component_slot = {

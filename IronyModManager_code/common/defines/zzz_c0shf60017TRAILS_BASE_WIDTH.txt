@@ -1,3 +1,0 @@
-NGraphics = {
-    TRAILS_BASE_WIDTH = 0
-}

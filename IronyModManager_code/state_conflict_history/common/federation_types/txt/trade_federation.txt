@@ -6,19 +6,16 @@ trade_federation = {
     base_intel = 50
     icon = "GFX_trade_federation"
     potential = {
-        has_federations_dlc = yes
+        host_has_dlc = Federations
     }
     allow = {
         custom_tooltip = {
             fail_text = requires_megacorp_or_merchant
             is_capitalism = yes
             OR = {
-                is_auth_corporate = yes
-                AND = {
-                    is_pacifist = yes
-                    is_xenophobe = no
-                    is_anti_corp = no
-                }
+                is_megacorp = yes
+                has_valid_civic = civic_merchant_guilds
+                has_valid_civic = civic_corporate_dominion
             }
         }
         custom_tooltip = {

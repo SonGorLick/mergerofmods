@@ -404,14 +404,14 @@ diplomatic_stance = {
                 }
             }
             modifier = {
+                factor = 0.01
+                has_ascension_perk = ap_become_the_crisis
+            }
+            modifier = {
                 factor = 2
                 NOT = {
                     has_country_flag = has_encountered_other_empire
                 }
-            }
-            modifier = {
-                factor = 0.01
-                has_ascension_perk = ap_become_the_crisis
             }
             modifier = {
                 factor = 1.5
@@ -856,7 +856,7 @@ diplomatic_stance = {
             ship_military_station_small_cost_mult = -0.1
         }
         ai_weight = {
-            weight = 1
+            weight = 100
         }
     }
 }

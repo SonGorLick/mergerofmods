@@ -29,8 +29,8 @@ building_hive_node = {
                     str_is_col_research = yes
                     is_capital = yes
                 }
-            }
         }
+    }
     }
     destroy_trigger = {
         exists = owner

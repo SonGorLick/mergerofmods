@@ -1,3 +1,5 @@
+@titan_power_5 = -480
+@titan_cost4 = 192
 utility_component_template = {
     key = "TITAN_SHIP_THRUSTER_5"
     size = small
@@ -7,13 +9,13 @@ utility_component_template = {
     resources = {
         category = ship_components
         cost = {
-            alloys = @titan_cost5
+            alloys = @titan_cost4
             sr_dark_matter = 16
         }
     }
     modifier = {
-        ship_base_speed_mult = 1.25
-        ship_evasion_add = 4
+        ship_base_speed_mult = 0.7
+        ship_evasion_add = 8
     }
     prerequisites = {
         "tech_dark_matter_propulsion"
@@ -23,9 +25,7 @@ utility_component_template = {
         titan
         galleon
         marauder_galleon
-        aot_gatekeeper
     }
-    upgrades_to = "TITAN_SHIP_THRUSTER_AE"
     ai_weight = {
         weight = 5
         modifier = {

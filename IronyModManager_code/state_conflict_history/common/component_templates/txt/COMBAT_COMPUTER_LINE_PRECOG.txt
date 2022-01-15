@@ -23,11 +23,11 @@ utility_component_template = {
         cruiser
         crisis_cruiser
         pirate_cruiser
-        graygoo_interdictor
         marauder_cruiser
         battleship
         galleon
         marauder_galleon
+        graygoo_interdictor
     }
     component_set = "combat_computers"
     ship_behavior = "line"

@@ -5,11 +5,7 @@ living_standard_shared_burden = {
         exists = from
         from = {
             is_gestalt = no
-            OR = {
-                is_shared_burdens_empire = yes
-                has_valid_civic = civic_employee_ownership
-            }
-            }
+        }
         NOR = {
             has_trait = trait_hive_mind
             has_trait = trait_machine_unit

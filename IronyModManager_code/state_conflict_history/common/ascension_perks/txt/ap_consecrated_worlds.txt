@@ -21,7 +21,7 @@ ap_consecrated_worlds = {
         }
     }
     ai_weight = {
-        factor = 2
+        factor = 0
         modifier = {
             factor = 2
             has_ascension_perk = ap_one_vision

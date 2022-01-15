@@ -1,0 +1,17 @@
+terraform_link = {
+    from = "pc_bh_harvested"
+    to = "pc_city"
+    resources = {
+        category = terraforming
+        cost = {
+            energy = 10000
+        }
+    }
+    duration = 3600
+    condition = {
+        has_ascension_perk = ap_arcology_project
+    }
+    ai_weight = {
+        weight = 0
+    }
+}

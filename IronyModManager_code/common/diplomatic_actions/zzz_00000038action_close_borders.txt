@@ -10,7 +10,7 @@ action_close_borders = {
         if = {
             limit = {
                 from = {
-                    is_purists_empire = yes
+                    has_valid_civic = civic_pompous_purists
                 }
             }
             if = {

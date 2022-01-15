@@ -51,6 +51,12 @@ citizenship_purge = {
                     is_same_species = from
                 }
             }
+            custom_tooltip = {
+                fail_text = symbiote_disallowed
+                NOT = {
+                    is_symbiote_of_from = yes
+                }
+            }
             if = {
                 limit = {
                     NOR = {
@@ -88,6 +94,28 @@ citizenship_purge = {
         modifier = {
             factor = 0
             ariphaos_patch_slaves_expel = no
+        }
+        modifier = {
+            factor = 0
+            from = {
+                has_origin = origin_necrophage
+            }
+            or = {
+                has_species_flag = str_integrated_conquest
+                from = {
+                    num_owned_planets = 1
+                }
+            }
+        }
+        modifier = {
+            factor = 10000
+            is_multiplayer = yes
+            from = {
+                has_country_flag = str_recently_human
+            }
+            has_citizenship_type = {
+                type = citizenship_purge
+            }
         }
         modifier = {
             factor = 0

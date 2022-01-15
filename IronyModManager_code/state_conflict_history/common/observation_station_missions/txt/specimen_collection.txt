@@ -34,6 +34,20 @@ specimen_collection = {
             }
             consumer_goods = 8
         }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_galactic_community_member = yes
+                }
+                OR = {
+                    is_active_resolution = "resolution_galacticcooperation_indigenous_protection_protocols"
+                    is_active_resolution = "resolution_galacticcooperation_interstellar_mediation"
+                    is_active_resolution = "resolution_galacticcooperation_sanctity_of_life"
+                }
+            }
+            unity = 4
+        }
     }
     potential = {
         FROM = {

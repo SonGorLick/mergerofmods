@@ -1,7 +1,6 @@
 @resolution_weight_unpopular = 5
 @resolution_cost_t5 = 300
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_commerce_repeal_5 = {
     icon = "GFX_repeal_orange"
     potential = {
@@ -146,6 +145,11 @@ resolution_commerce_repeal_5 = {
             }
         }
         modifier = {
+            factor = 0
+            is_auth_corporate = yes
+            is_egalitarian = no
+        }
+        modifier = {
             factor = 3
             is_anti_corp = yes
         }
@@ -192,11 +196,10 @@ resolution_commerce_repeal_5 = {
         modifier = {
             factor = 0.75
             OR = {
-                has_valid_civic = civic_free_traders
-                has_valid_civic = civic_trading_posts
-                has_valid_civic = civic_corporate_dominion
+            is_civic_free_traders = yes
+                            has_valid_civic = civic_corporate_dominion
                 has_valid_civic = civic_beacon_of_liberty
-            }
+                }
         }
         modifier = {
             factor = 1.25

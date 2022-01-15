@@ -95,7 +95,7 @@ resolution_divinity_a_defined_purpose = {
                     has_country_flag = synthetic_empire
                 }
                 NOT = {
-                    has_valid_civic = civic_machine_servitor
+                    has_civic = civic_machine_servitor
                 }
             }
             AND = {
@@ -277,28 +277,28 @@ resolution_divinity_a_defined_purpose = {
             factor = 0.5
             has_ai_personality_behaviour = robot_exploiter
             NOT = {
-                has_valid_civic = civic_machine_servitor
+                has_civic = civic_machine_servitor
             }
         }
         modifier = {
             factor = 0.25
             has_ai_personality_behaviour = robot_liberator
             NOT = {
-                has_valid_civic = civic_machine_servitor
+                has_civic = civic_machine_servitor
             }
         }
         modifier = {
             factor = 0.8
             is_gestalt = yes
             NOT = {
-                has_valid_civic = civic_machine_servitor
+                has_civic = civic_machine_servitor
             }
         }
         modifier = {
             factor = 0
             is_synthetic_empire = yes
             NOT = {
-                has_valid_civic = civic_machine_servitor
+                has_civic = civic_machine_servitor
             }
         }
         modifier = {
@@ -351,7 +351,7 @@ resolution_divinity_a_defined_purpose = {
         }
         modifier = {
             factor = 100
-            has_valid_civic = civic_machine_servitor
+            has_civic = civic_machine_servitor
         }
         modifier = {
             factor = 5
@@ -376,10 +376,6 @@ resolution_divinity_a_defined_purpose = {
                 has_global_flag = ai_invasion_ongoing
                 has_global_flag = ai_invasion_defeated
             }
-        }
-        modifier = {
-            factor = 0
-            in_breach_of = resolution_divinity_a_defined_purpose
         }
     }
 }

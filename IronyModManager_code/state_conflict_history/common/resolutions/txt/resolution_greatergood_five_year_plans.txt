@@ -92,11 +92,11 @@ resolution_greatergood_five_year_plans = {
         weight = @resolution_weight_popular
         modifier = {
             factor = 2
-            is_socialism = yes
+            is_egalitarian = yes
         }
         modifier = {
             factor = 2
-            has_ethic = ethic_fanatic_socialism
+            has_ethic = ethic_fanatic_egalitarian
         }
         modifier = {
             factor = 1.5
@@ -115,24 +115,16 @@ resolution_greatergood_five_year_plans = {
             is_authoritarian = no
         }
         modifier = {
+            factor = 1.2
+            is_socialism = yes
+        }
+        modifier = {
             factor = 0.5
             is_authoritarian = yes
         }
         modifier = {
             factor = 0
-            in_breach_of = resolution_greatergood_five_year_plans
-        }
-        modifier = {
-            factor = 0
             has_ethic = ethic_fanatic_authoritarian
-        }
-        modifier = {
-            factor = 0.5
-            is_megacorp = yes
-        }
-        modifier = {
-            factor = 0.5
-            is_capitalism = yes
         }
         modifier = {
             factor = 0.5
@@ -144,11 +136,19 @@ resolution_greatergood_five_year_plans = {
         }
         modifier = {
             factor = 0.5
+            is_capitalism = yes
+        }
+        modifier = {
+            factor = 0.5
             is_pleasure_seeker = yes
         }
         modifier = {
             factor = 0.25
             has_ai_personality_behaviour = slaver
+        }
+        modifier = {
+            factor = 1.2
+            has_ethic = ethic_fanatic_socialism
         }
         modifier = {
             factor = 0
@@ -166,6 +166,10 @@ resolution_greatergood_five_year_plans = {
             }
         }
         modifier = {
+            factor = 0.5
+            is_auth_corporate = yes
+        }
+        modifier = {
             factor = 3
             OR = {
                 is_civic_shared_burden = yes
@@ -177,6 +181,7 @@ resolution_greatergood_five_year_plans = {
             OR = {
                 is_civic_slaver_guilds = yes
                 is_origin_syncretic_livestock = yes
+                has_valid_civic = civic_indentured_assets
                 is_slaver = yes
                 any_owned_species = {
                     is_sapient = yes
@@ -192,16 +197,9 @@ resolution_greatergood_five_year_plans = {
             OR = {
                 has_valid_civic = civic_agrarian_idyll
                 is_civic_free_haven = yes
+                has_valid_civic = civic_welfare_state
                 is_civic_inwards_perfection = yes
             }
-        }
-        modifier = {
-            factor = 0.8
-            is_gestalt = yes
-        }
-        modifier = {
-            factor = 0.5
-            is_civic_authoritarian = yes
         }
         modifier = {
             factor = 0.8
@@ -209,7 +207,11 @@ resolution_greatergood_five_year_plans = {
                 is_gestalt = yes
                 has_valid_civic = civic_aristocratic_elite
                 has_valid_civic = civic_police_state
+        }
             }
+        modifier = {
+            factor = 0.5
+            is_civic_authoritarian = yes
         }
     }
 }

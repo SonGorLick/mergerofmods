@@ -58,7 +58,6 @@ resolution_divinity_repeal_4 = {
         }
     }
     potential = {
-        has_federations_dlc = yes
         is_active_resolution = "resolution_divinity_silence_the_soulless"
     }
     modifier = {

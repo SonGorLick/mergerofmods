@@ -134,37 +134,6 @@ district_rw_farming = {
     }
     triggered_planet_modifier = {
         potential = {
-            exists = owner
-            owner = {
-                has_tradition = tr_plentiful_biogenesis_finish
-            }
-            owner = {
-                is_gestalt = no
-                is_fallen_empire_spiritualist = no
-            }
-        }
-        modifier = {
-            planet_housing_add = 1
-            job_farmer_add = 1
-        }
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                has_tradition = tr_plentiful_biogenesis_finish
-            }
-            owner = {
-                is_fallen_empire_spiritualist = yes
-            }
-        }
-        modifier = {
-            planet_housing_add = 1
-            job_fe_acolyte_farm_add = 1
-        }
-    }
-    triggered_planet_modifier = {
-        potential = {
             has_planet_flag = giga_rw_hive
         }
         modifier = {
@@ -197,7 +166,7 @@ district_rw_farming = {
                 is_gestalt = yes
             }
         }
-        text = job_agri_drone_effect_desc
+        text = "job_agri_drone_effect_desc"
     }
     triggered_desc = {
         trigger = {
@@ -207,7 +176,7 @@ district_rw_farming = {
                 is_fallen_empire_spiritualist = no
             }
         }
-        text = job_farmer_effect_desc
+        text = "job_farmer_effect_desc"
     }
     triggered_desc = {
         trigger = {
@@ -216,7 +185,68 @@ district_rw_farming = {
                 is_fallen_empire_spiritualist = yes
             }
         }
-        text = job_fe_acolyte_farm_effect_desc
+        text = "job_fe_acolyte_farm_effect_desc"
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_biogenesis_finish
+            }
+            owner = {
+                is_hive_empire = yes
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_agri_drone_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_biogenesis_finish
+            }
+            owner = {
+                is_machine_empire = yes
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_agri_drone_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_biogenesis_finish
+            }
+            owner = {
+                is_gestalt = no
+                is_fallen_empire_spiritualist = no
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_farmer_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_biogenesis_finish
+            }
+            owner = {
+                is_fallen_empire_spiritualist = yes
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_fe_acolyte_farm_add = 1
+        }
     }
     ai_resource_production = {
         food = 10

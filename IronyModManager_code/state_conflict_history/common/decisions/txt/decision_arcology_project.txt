@@ -37,38 +37,40 @@ decision_arcology_project = {
             has_modifier = pm_wenkwort_custodian
             is_pd_unique = yes
         }
+        OR = {
+            is_planet_class = pc_fiiral_eperopolis_dry
+            is_planet_class = pc_fiiral_eperopolis_wet
+            is_planet_class = pc_fiiral_eperopolis_cold
+            is_planet_class = pc_fiiral_eperopolis_gaia
+        }
         is_artificial = no
         exists = owner
         owner = {
             has_ascension_perk = ap_arcology_project
         }
-        owner = {
-            NOT = {
-                has_civic = civic_urban_idyll
-            }
-        }
     }
     allow = {
-        custom_tooltip = {
-            fail_text = decision_arcology_project_requirements
-            free_district_slots < 1
-            OR = {
+        if = {
+            limit = {
+                owner = {
+                    is_ai = no
+                }
+            }
+            custom_tooltip = {
+                fail_text = decision_arcology_project_requirements
+                free_district_slots < 1
                 num_districts = {
                     type = district_farming
                     value < 1
                 }
                 num_districts = {
-                    type = district_farming_uncapped
+                    type = district_mining
                     value < 1
                 }
-            }
-            num_districts = {
-                type = district_mining
-                value < 1
-            }
-            num_districts = {
-                type = district_generator
-                value < 1
+                num_districts = {
+                    type = district_generator
+                    value < 1
+                }
             }
         }
         num_uncleared_blockers < 1
@@ -78,8 +80,6 @@ decision_arcology_project = {
         hidden_effect = {
             clear_deposits = yes
             set_industrial_focus_flags = yes
-            remove_modifier = industrialized_planet
-            remove_modifier = urban_idyll_colony
             change_pc = pc_city
             IF = {
                 limit = {
@@ -89,9 +89,9 @@ decision_arcology_project = {
                         }
                     }
                 }
-                set_planet_entity = {
-                    entity = "city_planet_entity"
-                    graphical_culture = owner
+            set_planet_entity = {
+                entity = "city_planet_entity"
+                graphical_culture = owner
                 }
             }
             IF = {
@@ -196,8 +196,13 @@ decision_arcology_project = {
             owner = {
                 country_event = {
                     id = distar.201
-                }
             }
+            }
+            owner = {
+                set_timed_country_flag = {
+                    days = 3600
+                    flag = st_ongoing_ecu_construction
+                }
             relic_world_conversion_effect = {
                 DISTRICT = district_arcology_housing
                 VARIABLE = num_housing_districts
@@ -224,10 +229,11 @@ decision_arcology_project = {
                     set_timed_country_flag = {
                         flag = resolution_breached_terraformed
                         days = 3600
+                        }
                     }
                 }
             }
-        }
+        }    
     }
     ai_weight = {
         weight = 100

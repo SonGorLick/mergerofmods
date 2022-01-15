@@ -43,6 +43,7 @@ ap_transcendence = {
                 }
                 esap_has_bio_cyber_psi_1 = yes
             }
+        }
         custom_tooltip = {
             fail_text = "hive_mind_biological_ascension_only1"
             NOT = {
@@ -66,7 +67,6 @@ ap_transcendence = {
                 esap_has_bio_cyber_psi_2 = yes
             }
         }
-    }
     }
     potential = {
         host_has_dlc = "Utopia"

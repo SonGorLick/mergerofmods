@@ -46,15 +46,6 @@ building_system_capital = {
     }
     triggered_planet_modifier = {
         potential = {
-            exists = branch_office_owner
-            branch_office_owner = {
-                is_constructors_megacorp = yes
-            }
-        }
-        planet_max_branch_office_buildings_add = 1
-    }
-    triggered_planet_modifier = {
-        potential = {
             exists = owner
             owner = {
                 has_valid_civic = civic_spiritual_seekers
@@ -85,6 +76,126 @@ building_system_capital = {
         modifier = {
             job_enforcer_add = 2
         }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_mining
+                value > 0
+            }
+            str_force_district_mining = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_mining
+                value > 2
+            }
+            str_force_district_mining = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_mining
+                value > 4
+            }
+            str_force_district_mining = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_mining
+                value > 6
+            }
+            str_force_district_mining = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_city
+                value > 0
+            }
+            str_force_city_district = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_city
+                value > 2
+            }
+            str_force_city_district = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_city
+                value > 4
+            }
+            str_force_city_district = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_ai = yes
+            }
+            num_districts = {
+                type = district_city
+                value > 6
+            }
+            str_force_city_district = yes
+        }
+        job_starnet_spice_melange_farmer_add = -2
+        job_starnet_spice_melange_antifarmer_add = 2
     }
     triggered_planet_modifier = {
         potential = {
@@ -190,192 +301,12 @@ building_system_capital = {
         potential = {
             exists = owner
             owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_mining
-                value > 0
-            }
-            str_force_district_mining = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_mining
-                value > 2
-            }
-            str_force_district_mining = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_mining
-                value > 4
-            }
-            str_force_district_mining = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_mining
-                value > 6
-            }
-            str_force_district_mining = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_city
-                value > 0
-            }
-            str_force_city_district = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_city
-                value > 2
-            }
-            str_force_city_district = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_city
-                value > 4
-            }
-            str_force_city_district = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_districts = {
-                type = district_city
-                value > 6
-            }
-            str_force_city_district = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 0
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 2
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 4
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_ai = yes
-            }
-            num_buildings = {
-                type = building_stronghold
-                value > 6
-            }
-            str_force_stronghold = yes
-        }
-        job_starnet_spice_melange_farmer_add = -2
-        job_starnet_spice_melange_antifarmer_add = 2
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
                 has_technology = tech_capital_productivity_1
             }
         }
         modifier = {
-            planet_jobs_upkeep_mult = 0.1
-            planet_jobs_produces_mult = 0.1
+            planet_jobs_productive_upkeep_mult = 0.1
+            planet_jobs_productive_produces_mult = 0.1
         }
     }
     triggered_planet_modifier = {
@@ -386,8 +317,8 @@ triggered_planet_modifier = {
             }
         }
         modifier = {
-            planet_jobs_upkeep_mult = 0.1
-            planet_jobs_produces_mult = 0.1
+            planet_jobs_productive_upkeep_mult = 0.1
+            planet_jobs_productive_produces_mult = 0.1
         }
     }
     triggered_planet_modifier = {
@@ -398,8 +329,8 @@ triggered_planet_modifier = {
             }
         }
         modifier = {
-            planet_jobs_upkeep_mult = 0.1
-            planet_jobs_produces_mult = 0.1
+            planet_jobs_productive_upkeep_mult = 0.1
+            planet_jobs_productive_produces_mult = 0.1
         }
     }
     resources = {

@@ -1,19 +1,14 @@
 col_ecu_mix = {
-    icon = GFX_colony_type_urban
+    icon = GFX_colony_type_workers
     potential = {
         OR = {
             uses_district_set = city_world
-            uses_district_set = pdecocity
-            uses_district_set = pdpalacearc
-            uses_district_set = pdmachinecapital
-            uses_district_set = pdmilarc
-            uses_district_set = pdmachinecapital
-            uses_district_set = pdcorpoarc
+            et_uses_planetary_diversity_arcology_district_set = yes
         }
     }
     planet_modifier = {
-        planet_structures_upkeep_mult = -0.25
-        trade_value_mult = 0.2
+        planet_immigration_pull_mult = 0.2
+        planet_jobs_produces_mult = 0.05
     }
     triggered_planet_modifier = {
         potential = {

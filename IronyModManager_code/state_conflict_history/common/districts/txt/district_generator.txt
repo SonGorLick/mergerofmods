@@ -2,24 +2,16 @@
 district_generator = {
     base_buildtime = 240
     min_for_deposits_on_planet = 3
-    max_for_deposits_on_planet = 15
+    max_for_deposits_on_planet = 30
     show_on_uncolonized = {
         uses_district_set = standard
     }
     potential = {
         uses_district_set = standard
-        NOT = {
-            has_modifier = urban_idyll_colony
-        }
     }
     allow = {
-        OR = {
-            NOT = {
-                has_modifier = resort_colony
-            }
-            NOT = {
-                has_modifier = urban_idyll_colony
-            }
+        NOT = {
+            has_modifier = resort_colony
         }
     }
     conversion_ratio = 1
@@ -134,16 +126,36 @@ district_generator = {
             planet_housing_add = 1
         }
     }
-    triggered_planet_modifier = {
-        potential = {
+    triggered_desc = {
+        trigger = {
             exists = owner
             owner = {
-                has_tradition = tr_industry_compact_extraction_centers
+                is_gestalt = yes
             }
         }
-        modifier = {
-            planet_housing_add = 1
+        text = job_technician_drone_effect_desc
+    }
+    triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = {
+                is_gestalt = no
+                is_fallen_empire_spiritualist = no
+            }
         }
+        text = job_technician_effect_desc
+    }
+    triggered_desc = {
+        trigger = {
+            exists = owner
+            owner = {
+                is_fallen_empire_spiritualist = yes
+            }
+        }
+        text = job_fe_acolyte_generator_effect_desc
+    }
+    prerequisites = {
+        tech_power_plant_1
     }
     triggered_planet_modifier = {
         potential = {
@@ -206,37 +218,6 @@ district_generator = {
             job_fe_acolyte_generator_add = 1
         }
     }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                is_gestalt = yes
-            }
-        }
-        text = job_technician_drone_effect_desc
-    }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                is_gestalt = no
-                is_fallen_empire_spiritualist = no
-            }
-        }
-        text = job_technician_effect_desc
-    }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                is_fallen_empire_spiritualist = yes
-            }
-        }
-        text = job_fe_acolyte_generator_effect_desc
-    }
-    prerequisites = {
-        tech_power_plant_1
-    }
     ai_resource_production = {
         energy = 3
         trigger = {
@@ -256,6 +237,17 @@ district_generator = {
         energy = 2
         trigger = {
             has_designation = col_generator
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_industry_compact_extraction_centers
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
         }
     }
 }

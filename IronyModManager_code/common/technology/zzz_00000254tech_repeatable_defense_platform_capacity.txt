@@ -1,0 +1,29 @@
+tech_repeatable_defense_platform_capacity = {
+    area = physics
+    cost = @repeatableTechBaseCost
+    cost_per_level = @repeatableTechLevelCost
+    tier = @repeatableTechTier
+    category = {
+        computing
+    }
+    levels = -1
+    prerequisites = {
+        "tech_synchronized_defences"
+    }
+    weight = @repeatableTechWeight
+    weight_modifier = {
+        factor = @repatableTechFactor
+    }
+    ai_weight = {
+        factor = 1
+    }
+    weight_groups = {
+        repeatable
+    }
+    mod_weight_if_group_picked = {
+        repeatable = 0.01
+    }
+    modifier = {
+        starbase_defense_platform_capacity_add = 2
+    }
+}

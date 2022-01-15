@@ -15,10 +15,10 @@ utility_component_template = {
         "tech_shield_rechargers_1"
     }
     component_set = "SHIELD_BOOSTER"
+    upgrades_to = "ESC_ADV_SHIELD_CAPACITOR"
     modifier = {
         ship_shield_mult = 0.1
     }
-    upgrades_to = ACOT_SHIELD_BOOSTER_DM
     ai_weight = {
         weight = 10
         modifier = {

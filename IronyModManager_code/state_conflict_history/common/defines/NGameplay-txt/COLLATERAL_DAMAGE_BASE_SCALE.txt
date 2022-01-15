@@ -1,3 +1,0 @@
-NGameplay = {
-    COLLATERAL_DAMAGE_BASE_SCALE = 0.02
-}

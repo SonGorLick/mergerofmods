@@ -27,7 +27,7 @@ citizenship_slavery = {
                 from = {
                     has_authority = auth_hive_mind
                 }
-                has_trait = trait_hive_mind
+                is_same_species = from
             }
         }
         custom_tooltip = {
@@ -98,6 +98,9 @@ citizenship_slavery = {
                     }
                 }
                 is_same_species = from
+                from.owner_species = {
+                    is_symbiote_of_prev = yes
+                }
             }
         }
         custom_tooltip = {
@@ -164,6 +167,24 @@ citizenship_slavery = {
                     has_origin = origin_syncretic_evolution
                 }
                 years_passed < 30
+            }
+        }
+        modifier = {
+            factor = 0
+            AND = {
+                from = {
+                    is_authoritarian = no
+                    is_xenophobe = no
+                }
+                from.owner_species = {
+                    is_symbiote_of_prev = yes
+                }
+            }
+        }
+        modifier = {
+            add = -14
+            from.owner_species = {
+                is_symbiote_of_prev = yes
             }
         }
         modifier = {

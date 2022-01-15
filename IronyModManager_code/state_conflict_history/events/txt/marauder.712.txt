@@ -1,0 +1,52 @@
+namespace = marauder
+country_event = {
+    id = marauder.712
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        NOT = {
+            has_country_flag = khan_dead_event_fine
+        }
+    }
+    immediate = {
+        set_global_flag = great_khan_dead
+        set_country_flag = khan_dead_event_fine
+        set_country_flag = khan_dead_age
+        observer_event = {
+            id = observer.17
+        }
+        every_playable_country = {
+            limit = {
+                is_ai = no
+            }
+            country_event = {
+                id = marauder.513
+            }
+        }
+        country_event = {
+            id = marauder.600
+            days = 200
+            random = 100
+        }
+        if = {
+            limit = {
+                exists = event_target:great_khan_ruler
+            }
+            event_target:great_khan_ruler = {
+                kill_leader = {
+                    show_notification = no
+                }
+            }
+        }
+        if = {
+            limit = {
+                exists = event_target:great_khan
+            }
+            event_target:great_khan = {
+                kill_leader = {
+                    show_notification = no
+                }
+            }
+        }
+    }
+}

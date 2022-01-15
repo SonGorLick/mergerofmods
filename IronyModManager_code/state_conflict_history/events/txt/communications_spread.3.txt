@@ -14,6 +14,9 @@ country_event = {
         NOT = {
             has_valid_civic = civic_inwards_perfection
         }
+        NOT = {
+            has_country_flag = starting_event
+        }
         any_relation = {
             is_country_type = default
             is_homicidal = no
@@ -118,20 +121,8 @@ country_event = {
             years_passed > 70
         }
         modifier = {
-            factor = 0.5
-            is_xenophile = yes
-        }
-        modifier = {
-            factor = 0.5
-            years_passed > 50
-        }
-        modifier = {
-            factor = 0.5
+            factor = 0.75
             years_passed > 100
-        }
-        modifier = {
-            factor = 0.5
-            years_passed > 150
         }
         modifier = {
             factor = 0.75

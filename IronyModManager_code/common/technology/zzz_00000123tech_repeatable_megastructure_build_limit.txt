@@ -1,0 +1,36 @@
+tech_repeatable_megastructure_build_limit = {
+    area = engineering
+    cost = @repeatableTechBaseCost
+    cost_per_level = @repeatableTechLevelCost
+    tier = @repeatableTechTier
+    category = {
+        voidcraft
+    }
+    ai_update_type = all
+    levels = 5
+    prerequisites = {
+        "tech_mega_engineering"
+    }
+    weight = @repeatableTechWeight
+    weight_modifier = {
+        factor = @repatableTechFactor
+        modifier = {
+            factor = 0
+            NOT = {
+                has_ascension_perk = ap_master_builders
+            }
+        }
+    }
+    ai_weight = {
+        factor = 1
+    }
+    weight_groups = {
+        repeatable
+    }
+    mod_weight_if_group_picked = {
+        repeatable = 0.01
+    }
+    modifier = {
+        country_megastructure_build_cap_add = 1
+    }
+}

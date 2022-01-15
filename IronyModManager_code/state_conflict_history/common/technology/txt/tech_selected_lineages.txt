@@ -39,8 +39,20 @@ tech_selected_lineages = {
             is_socialism = yes
         }
         modifier = {
+            factor = 0
+            has_ethic = "ethic_fanatic_egalitarian"
+        }
+        modifier = {
+            factor = 0.25
+            is_egalitarian = yes
+        }
+        modifier = {
             factor = 2
             is_capitalism = yes
+        }
+        modifier = {
+            factor = 2
+            is_authoritarian = yes
         }
         modifier = {
             factor = @ap_technological_ascendancy_rare_tech
@@ -69,6 +81,10 @@ tech_selected_lineages = {
         factor = 25
         modifier = {
             factor = 1.5
+            has_ethic = ethic_fanatic_authoritarian
+        }
+        modifier = {
+            factor = 1.5
             has_ethic = ethic_fanatic_socialism
         }
         modifier = {
@@ -76,6 +92,15 @@ tech_selected_lineages = {
             research_leader = {
                 area = society
                 has_trait = "leader_trait_expertise_biology"
+            }
+        }
+        modifier = {
+            factor = 0
+            is_egalitarian = yes
+            is_galactic_community_member = yes
+            OR = {
+                is_active_resolution = "resolution_galacticstudies_ethical_guideline_refactoring"
+                is_active_resolution = "resolution_galacticstudies_extradimensional_experimentation"
             }
         }
     }

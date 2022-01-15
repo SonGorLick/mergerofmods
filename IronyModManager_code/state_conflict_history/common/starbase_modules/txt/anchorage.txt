@@ -55,5 +55,12 @@ anchorage = {
                 count < 2
             }
         }
+        modifier = {
+            factor = 2
+            count_starbase_modules = {
+                type = anchorage
+                count < 2
+            }
+        }
     }
 }

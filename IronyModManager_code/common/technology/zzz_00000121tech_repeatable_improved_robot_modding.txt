@@ -1,0 +1,46 @@
+tech_repeatable_improved_robot_modding = {
+    area = engineering
+    cost = @repeatableTechBaseCost
+    cost_per_level = @repeatableTechLevelCost
+    tier = @repeatableTechTier
+    category = {
+        industry
+    }
+    levels = 5
+    prerequisites = {
+        "tech_robomodding_points_2"
+    }
+    weight = @repeatableTechWeight
+    potential = {
+        NOT = {
+            has_ethic = "ethic_gestalt_consciousness"
+        }
+    }
+    weight_modifier = {
+        factor = @repatableTechFactor
+        modifier = {
+            factor = 2
+            has_origin = origin_mechanists
+        }
+        modifier = {
+            factor = 2
+            has_ascension_perk = ap_the_flesh_is_weak
+        }
+        modifier = {
+            factor = 3
+            has_ascension_perk = ap_synthetic_evolution
+        }
+    }
+    ai_weight = {
+        factor = 1
+    }
+    weight_groups = {
+        repeatable
+    }
+    mod_weight_if_group_picked = {
+        repeatable = 0.01
+    }
+    modifier = {
+        ROBOT_species_trait_points_add = 1
+    }
+}

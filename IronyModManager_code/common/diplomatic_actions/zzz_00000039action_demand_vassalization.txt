@@ -4,14 +4,12 @@ action_demand_vassalization = {
     requires_actor_peace = yes
     requires_recipient_peace = yes
     diplo_view_acceptance_icon = yes
-    should_notify_all_communications = no
+    should_notify_all_communications = yes
     requires_recipient_independence = no
-    AI_acceptance_base_value = -100
+    AI_acceptance_base_value = -50
     action_type = aggressive
     potential = {
-        NOT = {
-            is_megacorp = yes
-        }
+        is_megacorp = no
         years_passed > @str_ai_will_not_declare_war_until
         or = {
             is_ai = no
@@ -19,14 +17,6 @@ action_demand_vassalization = {
         }
     }
     possible = {
-        custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
-            }
-        }
         custom_tooltip = {
             fail_text = "requires_actor_not_fanatic_purifiers"
             OR = {

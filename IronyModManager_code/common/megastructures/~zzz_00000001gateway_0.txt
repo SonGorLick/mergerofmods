@@ -1,6 +1,6 @@
 gateway_0 = {
-    entity = "construction_platform_entity"
-    construction_entity = "construction_platform_entity"
+    entity = "deactivated_gateway_entity"
+    construction_entity = "deactivated_gateway_entity"
     portrait = "GFX_megastructure_construction_background"
     place_entity_on_planet_plane = no
     build_outside_gravity_well = yes
@@ -36,12 +36,13 @@ gateway_0 = {
         }
         custom_tooltip = {
             fail_text = "requires_surveyed_system"
-            giga_system_is_surveyed = yes
-        }
-        custom_tooltip = {
-            fail_text = "requires_technology_gateway_construction"
-            from = {
-                has_technology = tech_gateway_construction
+            NOT = {
+                any_system_planet = {
+                    is_surveyed = {
+                        who = prev.from
+                        status = no
+                    }
+                }
             }
         }
         custom_tooltip = {
@@ -63,15 +64,29 @@ gateway_0 = {
                 has_technology = tech_gateway_construction
             }
         }
+        custom_tooltip = {
+            fail_text = "not_in_lcluster"
+            NOT = {
+                has_star_flag = lcluster
+            }
+        }
     }
     placement_rules = {
     }
     ai_weight = {
-        factor = 15
+        factor = 5
         modifier = {
             factor = 0
             NOT = {
                 is_star_class = sc_black_hole
+            }
+        }
+        modifier = {
+            factor = 0
+            starbase = {
+                NOT = {
+                    has_starbase_size >= starbase_starfortress
+                }
             }
         }
         modifier = {

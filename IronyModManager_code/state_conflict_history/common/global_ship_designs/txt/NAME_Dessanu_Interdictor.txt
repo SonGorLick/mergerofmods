@@ -1,0 +1,82 @@
+ship_design = {
+    name = "NAME_Dessanu_Interdictor"
+    ship_size = graygoo_interdictor
+    is_special_buildable = yes
+    section = {
+        template = "nanite_interdictor_key"
+        slot = "mid"
+        component = {
+            slot = "TORPEDO_01"
+            template = "ESC_NANITE_TORPEDO_2"
+        }
+        component = {
+            slot = "TORPEDO_02"
+            template = "ESC_NANITE_TORPEDO_2"
+        }
+        component = {
+            slot = "TORPEDO_03"
+            template = "ESC_NANITE_TORPEDO_2"
+        }
+        component = {
+            slot = "TORPEDO_04"
+            template = "ESC_NANITE_TORPEDO_2"
+        }
+        component = {
+            slot = "STRIKE_CRAFT_01"
+            template = "ESC_NANITE_BOMBERS"
+        }
+        component = {
+            slot = "STRIKE_CRAFT_02"
+            template = "ESC_NANITE_BOMBERS"
+        }
+        component = {
+            slot = "STRIKE_CRAFT_03"
+            template = "ESC_NANITE_BOMBERS"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_1"
+            template = "MEDIUM_ESC_SHIELDS_7"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_2"
+            template = "MEDIUM_ESC_SHIELDS_7"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_3"
+            template = "MEDIUM_ESC_SHIELDS_7"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_4"
+            template = "MEDIUM_ESC_SHIELDS_7"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_5"
+            template = "MEDIUM_ESC_NANO_ARMOR_2"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_6"
+            template = "MEDIUM_ESC_NANO_ARMOR_2"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_7"
+            template = "MEDIUM_ESC_NANO_ARMOR_2"
+        }
+        component = {
+            slot = "MEDIUM_UTILITY_8"
+            template = "MEDIUM_ESC_NANO_ARMOR_2"
+        }
+        component = {
+            slot = "AUX_UTILITY_1"
+            template = "AUTO_REPAIR"
+        }
+        component = {
+            slot = "AUX_UTILITY_2"
+            template = "SHIELD_BOOSTER"
+        }
+    }
+    required_component = "HYPER_DRIVE_1"
+    required_component = "ESC_SENSOR_7"
+    required_component = "CRUISER_ESC_THRUSTERS_5"
+    required_component = "CRUISER_ESC_REACTOR_7"
+    required_component = "ESC_GRAY_GOO_COMPUTER_LINE"
+}

@@ -7,10 +7,6 @@ ap_voidborn = {
     }
     possible = {
         custom_tooltip = {
-            fail_text = "requires_ascension_perks_1"
-            num_ascension_perks > 0
-        }
-        custom_tooltip = {
             fail_text = "requires_technology_habitat_1"
             has_technology = tech_habitat_1
         }
@@ -51,23 +47,30 @@ ap_voidborn = {
         pc_pd_toxic_hab_habitability = 0.2
         pc_pd_gas_giant_hab_habitability = 0.2
         pc_pd_asteroid_hab_habitability = 0.2
-        pc_gd_hydrocarbon_hab_habitability = 0.2
-        pc_interstellar_habitat_habitability = 0.2
-        pc_ehof_habitat_habitability = 0.2
-        pc_habitable_gas_giant_habitability = 0.2
     }
     ai_weight = {
         factor = 1
         modifier = {
             factor = 0
-            not = {
-                has_ascension_perk = ap_executive_vigor
-            }
             OR = {
                 has_ethic = ethic_pacifist
                 has_ethic = ethic_fanatic_pacifist
                 has_origin = origin_void_dwellers
             }
+        }
+        modifier = {
+            factor = 0
+            is_pacifist = no
+            NOT = {
+                has_technology = tech_habitat_1
+            }
+        }
+        modifier = {
+            factor = 0.5
+            NOT = {
+                has_origin = origin_void_dwellers
+            }
+            has_technology = tech_habitat_3
         }
         modifier = {
             factor = 20

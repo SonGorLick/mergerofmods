@@ -1,4 +1,4 @@
-@shipAuraRange = 14
+@shipAuraRange = 80
 utility_component_template = {
     key = "SHIP_AURA_NANOBOT_CLOUD"
     size = medium
@@ -22,8 +22,8 @@ utility_component_template = {
             priority = 20
         }
         modifier = {
-            ship_hull_regen_add_static = 1
-            ship_armor_regen_add_static = 3
+            ship_hull_regen_add_perc = 0.2
+            ship_armor_regen_add_perc = 0.4
         }
         graphics = {
             area_effect = {

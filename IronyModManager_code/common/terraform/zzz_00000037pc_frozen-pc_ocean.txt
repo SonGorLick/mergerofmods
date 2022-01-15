@@ -1,7 +1,13 @@
+@terraforming_cost_level_4 = 15000
 terraform_link = {
     from = "pc_frozen"
     to = "pc_ocean"
-    energy = 15000
+    resources = {
+        category = terraforming_ocean
+        cost = {
+            energy = @terraforming_cost_level_4
+        }
+    }
     duration = 7200
     potential = {
         from = {
@@ -18,5 +24,9 @@ terraform_link = {
     }
     ai_weight = {
         weight = 5
+        modifier = {
+            factor = 4
+            has_trait = trait_aquatic
+        }
     }
 }

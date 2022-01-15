@@ -1,0 +1,102 @@
+building_zro_plant = {
+    base_buildtime = @b2_time
+    category = manufacturing
+    potential = {
+        NOT = {
+            has_modifier = resort_colony
+        }
+        NOT = {
+            has_modifier = slave_colony
+        }
+        building_basic_income_check = yes
+        exists = owner
+        owner = {
+            is_gestalt = no
+        }
+    }
+    allow = {
+        has_upgraded_capital = yes
+    }
+    destroy_trigger = {
+        OR = {
+            buildings_no_exotic_gases = yes
+            owner = {
+                is_gestalt = yes
+            }
+            AND = {
+                free_building_slots = 0
+                exists = owner
+                owner = {
+                    is_ai = yes
+                    has_monthly_income = {
+                        resource = sr_zro
+                        value > 9
+                    }
+                }
+            }
+        }
+    }
+    planet_modifier = {
+        job_zro_syphon_add = 1
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            minerals = @b2_minerals
+            exotic_gases = @b2_rare_cost
+        }
+        upkeep = {
+            energy = 3
+        }
+    }
+    prerequisites = {
+        "tech_zro_plant"
+    }
+    triggered_desc = {
+        text = job_zro_syphon_effect_desc
+    }
+    ai_resource_production = {
+        sr_zro = 1
+        trigger = {
+            always = yes
+        }
+    }
+    on_queued = {
+        IF = {
+            limit = {
+                owner = {
+                    has_technology = tech_construction_templates
+                }
+            }
+            owner = {
+                set_timed_country_flag = {
+                    flag = buildings_new_zro_plant
+                    days = 270
+                }
+            }
+        }
+        ELSE_IF = {
+            limit = {
+                owner = {
+                    has_technology = tech_assembly_pattern
+                }
+            }
+            owner = {
+                set_timed_country_flag = {
+                    flag = buildings_new_zro_plant
+                    days = 390
+                }
+            }
+        }
+        ELSE = {
+            planet = {
+                owner = {
+                    set_timed_country_flag = {
+                        flag = buildings_new_zro_plant
+                        days = 510
+                    }
+                }
+            }
+        }
+    }
+}

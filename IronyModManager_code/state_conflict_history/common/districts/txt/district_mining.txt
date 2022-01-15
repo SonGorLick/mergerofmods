@@ -2,7 +2,7 @@
 district_mining = {
     base_buildtime = 240
     min_for_deposits_on_planet = 1
-    max_for_deposits_on_planet = 15
+    max_for_deposits_on_planet = 30
     show_on_uncolonized = {
         uses_district_set = standard
     }
@@ -115,22 +115,23 @@ district_mining = {
         potential = {
             exists = owner
             owner = {
-                has_tradition = tr_industry_compact_extraction_centers
+                is_fallen_empire_spiritualist = yes
             }
         }
         modifier = {
-            planet_housing_add = 1
+            job_fe_acolyte_mine_add = 2
         }
     }
     triggered_planet_modifier = {
         potential = {
             exists = owner
             owner = {
-                is_fallen_empire_spiritualist = yes
+                has_valid_civic = civic_mining_guilds
             }
         }
         modifier = {
-            job_fe_acolyte_mine_add = 2
+            planet_housing_add = 1
+            job_miner_add = 1
         }
     }
     triggered_planet_modifier = {
@@ -144,18 +145,6 @@ district_mining = {
         }
         modifier = {
             planet_amenities_add = -1
-        }
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                has_valid_civic = civic_mining_guilds
-            }
-        }
-        modifier = {
-            planet_housing_add = 1
-            job_miner_add = 1
         }
     }
     triggered_planet_modifier = {
@@ -204,6 +193,67 @@ district_mining = {
     prerequisites = {
         tech_mechanized_mining
     }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_industry_3
+            }
+            owner = {
+                is_hive_empire = yes
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_mining_drone_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_industry_3
+            }
+            owner = {
+                is_machine_empire = yes
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_mining_drone_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_industry_3
+            }
+            owner = {
+                is_gestalt = no
+                is_fallen_empire_spiritualist = no
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_miner_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_plentiful_industry_3
+            }
+            owner = {
+                is_fallen_empire_spiritualist = yes
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
+            job_fe_acolyte_mine_add = 1
+        }
+    }
     ai_resource_production = {
         minerals = 4
         trigger = {
@@ -223,6 +273,17 @@ district_mining = {
         minerals = 2
         trigger = {
             has_designation = col_mining
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_tradition = tr_industry_compact_extraction_centers
+            }
+        }
+        modifier = {
+            planet_housing_add = 1
         }
     }
 }

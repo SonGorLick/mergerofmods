@@ -1,0 +1,41 @@
+tech_repeatable_improved_machine_modding = {
+    icon = tech_repeatable_improved_robot_modding
+    area = engineering
+    cost = @repeatableTechBaseCost
+    cost_per_level = @repeatableTechLevelCost
+    tier = @repeatableTechTier
+    category = {
+        industry
+    }
+    levels = 5
+    prerequisites = {
+        "tech_nanite_assemblers"
+    }
+    weight = @repeatableTechWeight
+    potential = {
+        has_authority = auth_machine_intelligence
+    }
+    weight_modifier = {
+        factor = @repatableTechFactor
+        modifier = {
+            factor = 2
+            has_valid_civic = "civic_modular_construction"
+        }
+        modifier = {
+            factor = 5
+            has_ascension_perk = ap_synthetic_age
+        }
+    }
+    ai_weight = {
+        factor = 1
+    }
+    weight_groups = {
+        repeatable
+    }
+    mod_weight_if_group_picked = {
+        repeatable = 0.01
+    }
+    modifier = {
+        MACHINE_species_trait_points_add = 1
+    }
+}

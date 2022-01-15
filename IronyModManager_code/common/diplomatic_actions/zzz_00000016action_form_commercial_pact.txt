@@ -1,24 +1,25 @@
 action_form_commercial_pact = {
     icon = "GFX_diplomacy_status_commercial_pact"
-    action_type = positive
-    AI_acceptance_base_value = -50
     diplo_view_acceptance_icon = yes
-    requires_actor_independence = no
-    requires_recipient_independence = no
     should_notify_all_communications = no
+    requires_actor_independence = no
+    AI_acceptance_base_value = -50
+    action_type = positive
     possible = {
         custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
+            fail_text = "ACTION_ACTOR_MUST_BE_INDEPENDENT"
+            OR = {
+                is_subject = no
+                is_subject_type = scion
             }
         }
         custom_tooltip = {
-            fail_text = "requires_actor_not_shadow_state"
-            NOT = {
-                has_valid_civic = civic_shadow_state
+            fail_text = "ACTION_RECIPIENT_MUST_BE_INDEPENDENT"
+            FROM = {
+                OR = {
+                    is_subject = no
+                    is_subject_type = scion
+                }
             }
         }
         custom_tooltip = {
@@ -198,7 +199,7 @@ action_form_commercial_pact = {
         if = {
             limit = {
                 from = {
-                    is_purists_empire = yes
+                    has_valid_civic = civic_pompous_purists
                 }
             }
             if = {

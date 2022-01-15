@@ -1,9 +1,8 @@
 building_slave_processing = {
-    base_buildtime = 360
+    base_buildtime = @b1_time
     base_cap_amount = 1
     category = government
     potential = {
-        exists = owner
         owner = {
             is_regular_empire = yes
         }
@@ -16,6 +15,20 @@ building_slave_processing = {
     }
     allow = {
         has_upgraded_capital = yes
+    }
+    destroy_trigger = {
+        exists = owner
+        OR = {
+            owner = {
+                is_regular_empire = no
+            }
+            NOT = {
+                owner = {
+                    has_policy_flag = slavery_allowed
+                }
+            }
+            has_modifier = resort_colony
+        }
     }
     triggered_planet_modifier = {
         potential = {
@@ -38,7 +51,7 @@ building_slave_processing = {
     resources = {
         category = planet_buildings
         cost = {
-            minerals = 400
+            minerals = @b1_minerals
         }
         upkeep = {
             energy = 2
@@ -55,14 +68,5 @@ building_slave_processing = {
     }
     triggered_desc = {
         text = building_slave_processing_migrate_effect_desc
-    }
-    ai_weight = {
-        weight = 1
-        modifier = {
-            factor = 10
-            any_owned_pop = {
-                is_enslaved = yes
-            }
-        }
     }
 }

@@ -66,6 +66,10 @@ resolution_greatergood_repeal_4 = {
             is_socialism = yes
         }
         modifier = {
+            factor = 0
+            is_egalitarian = yes
+        }
+        modifier = {
             factor = 0.5
             NOT = {
                 in_breach_of = resolution_greatergood_balance_in_the_middle
@@ -80,10 +84,6 @@ resolution_greatergood_repeal_4 = {
             }
             has_ethic = ethic_fanatic_xenophile
             is_authoritarian = no
-        }
-        modifier = {
-            factor = 0
-            is_civic_machine_servitor = yes
         }
         modifier = {
             factor = 2
@@ -131,6 +131,7 @@ resolution_greatergood_repeal_4 = {
                 is_civic_free_haven = yes
                 is_civic_inwards_perfection = yes
                 has_valid_civic = civic_socialistic
+                has_valid_civic = civic_machine_servitor
             }
         }
         modifier = {
@@ -138,6 +139,7 @@ resolution_greatergood_repeal_4 = {
             OR = {
                 is_civic_slaver_guilds = yes
                 is_origin_syncretic_livestock = yes
+                has_valid_civic = civic_indentured_assets
                 is_slaver = yes
                 has_ethic = ethic_fanatic_capitalism
                 has_ai_personality_behaviour = slaver

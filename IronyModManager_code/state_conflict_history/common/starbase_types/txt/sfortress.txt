@@ -5,8 +5,6 @@ sfortress = {
             has_starbase_module = gun_battery
             has_starbase_module = missile_battery
             has_starbase_module = hangar_bay
-            has_starbase_module = point_defense_battery
-            has_starbase_module = large_gun_battery
         }
     }
     weight_modifier = {
@@ -266,6 +264,9 @@ sfortress = {
             disruption_field = {
                 base = 0.9
             }
+            warp_fluctuator = {
+                base = 0.9
+            }
             ice_mining_station = {
                 base = 3
             }
@@ -313,7 +314,13 @@ sfortress = {
             gun_battery = {
                 base = 1
             }
+            point_defense_battery = {
+                base = 1
+            }
             stellar_reducer = {
+                base = 1
+            }
+            large_gun_battery = {
                 base = 1
             }
         }

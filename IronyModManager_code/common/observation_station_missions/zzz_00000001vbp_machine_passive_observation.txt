@@ -1,0 +1,63 @@
+vbp_machine_passive_observation = {
+    icon = "GFX_fleet_task_passive_observation"
+    small_icon = 1
+    potential = {
+        FROM = {
+            exists = owner
+            owner = {
+                is_country_type = vbp_machine
+            }
+        }
+    }
+    resources = {
+        category = station_observer_missions
+        produces = {
+            engineering_research = 8
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_galactic_community_member = yes
+                }
+                OR = {
+                    is_active_resolution = "resolution_galacticstudies_advanced_xenostudies"
+                    is_active_resolution = "resolution_galacticstudies_ethical_guideline_refactoring"
+                    is_active_resolution = "resolution_galacticstudies_extradimensional_experimentation"
+                }
+            }
+            engineering_research = 4
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_galactic_community_member = yes
+                }
+                OR = {
+                    is_active_resolution = "resolution_commerce_underdeveloped_system_utilization"
+                    is_active_resolution = "resolution_commerce_holistic_asset_coordination"
+                    is_active_resolution = "resolution_commerce_profit_maximization_engines"
+                }
+            }
+            minerals = 2
+        }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    is_galactic_community_member = yes
+                }
+                OR = {
+                    is_active_resolution = "resolution_galacticcooperation_indigenous_protection_protocols"
+                    is_active_resolution = "resolution_galacticcooperation_interstellar_mediation"
+                    is_active_resolution = "resolution_galacticcooperation_sanctity_of_life"
+                }
+            }
+            unity = 10
+        }
+    }
+    ai_weight = {
+        weight = 2
+    }
+}

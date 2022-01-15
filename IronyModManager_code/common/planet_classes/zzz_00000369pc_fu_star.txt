@@ -18,8 +18,8 @@ pc_fu_star = {
     extra_planet_count = 0
     chance_of_ring = 0
     planet_size = {
-        min = 25
-        max = 30
+        min = 91
+        max = 140
     }
     colonizable = no
 }

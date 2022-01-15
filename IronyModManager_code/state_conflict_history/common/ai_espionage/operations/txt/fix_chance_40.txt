@@ -1,5 +1,0 @@
-fix_chance_40 = {
-    weight = {
-        base = 40
-    }
-}

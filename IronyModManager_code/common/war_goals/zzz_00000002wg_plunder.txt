@@ -83,6 +83,28 @@ wg_plunder = {
                 }
             }
         }
+        custom_tooltip = wg_humiliation_accept
+        hidden_effect = {
+            add_resource = {
+                influence = 50
+            }
+            from = {
+                add_modifier = {
+                    modifier = humiliated
+                    days = 1800
+                }
+                if = {
+                    limit = {
+                        has_policy_flag = diplo_stance_supremacist
+                    }
+                    set_policy = {
+                        policy = diplomatic_stance
+                        option = diplo_stance_belligerent
+                        cooldown = yes
+                    }
+                }
+            }
+        }
     }
     on_wargoal_set = {
         random_war = {

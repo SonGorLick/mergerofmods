@@ -44,12 +44,18 @@ citizenship_full = {
                     }
                 }
                 is_same_species = from
+                from.owner_species = {
+                    is_symbiote_of_prev = yes
+                }
             }
         }
         custom_tooltip = {
             fail_text = too_alien
             OR = {
                 is_same_species = from
+                from.owner_species = {
+                    is_symbiote_of_prev = yes
+                }
                 from = {
                     NOR = {
                         has_ethic = ethic_xenophobe

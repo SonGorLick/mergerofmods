@@ -4,7 +4,7 @@ wg_war_in_heaven = {
     allowed_peace_offers = {
         status_quo
     }
-    surrender_acceptance = -1000
+    surrender_acceptance = -900
     war_exhaustion = 0.05
     set_defender_wargoal = wg_war_in_heaven
     potential = {

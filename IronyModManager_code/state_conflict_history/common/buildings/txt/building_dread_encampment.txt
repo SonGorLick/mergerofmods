@@ -6,7 +6,7 @@ building_dread_encampment = {
         buildings_simple_allow = yes
         exists = owner
         owner = {
-            is_reanimator_empire = yes
+            has_valid_civic = civic_reanimated_armies
         }
     }
     convert_to = {

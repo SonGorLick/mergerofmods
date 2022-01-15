@@ -99,6 +99,10 @@ tech_psionic_theory = {
                 }
             }
         }
+        modifier = {
+            factor = 8
+            has_origin = origin_immortal_messiah
+        }
     }
     ai_weight = {
         weight = 50
@@ -120,6 +124,10 @@ tech_psionic_theory = {
                 area = society
                 has_trait = "leader_trait_expertise_psionics"
             }
+        }
+        modifier = {
+            factor = 2
+            is_ai = no
         }
     }
 }

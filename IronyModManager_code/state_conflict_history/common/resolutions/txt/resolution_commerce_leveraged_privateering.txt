@@ -1,7 +1,6 @@
 @resolution_weight_normal = 6
 @resolution_cost_t2 = 150
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_commerce_leveraged_privateering = {
     icon = "GFX_resolution_galactic_commerce"
     resources = {

@@ -26,6 +26,7 @@ utility_component_template = {
     prerequisites = {
         "tech_combat_computers_3"
     }
+    upgrades_to = "COMBAT_COMPUTER_SWARM_PRECOG"
     modifier = {
         ship_evasion_mult = 0.25
     }
@@ -42,6 +43,7 @@ utility_component_template = {
                 has_global_flag = ghost_signal_3_flag
                 has_global_flag = ghost_signal_2_flag
                 has_global_flag = ghost_signal_1_flag
+                has_policy_flag = ai_outlawed
             }
         }
     }

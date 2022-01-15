@@ -1,0 +1,38 @@
+tech_auxiliary_fire_control_2 = {
+    area = physics
+    tier = 3
+    cost = @tier3cost1
+    category = {
+        computing
+    }
+    ai_update_type = military
+    prerequisites = {
+        "tech_auxiliary_fire_control"
+    }
+    weight = @tier3weight1
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_expertise_computing"
+            }
+        }
+    }
+    prereqfor_desc = {
+        component = {
+            title = "TECH_UNLOCK_FIRE_CONTROL_2_TITLE"
+            desc = "TECH_UNLOCK_FIRE_CONTROL_2_DESC"
+        }
+    }
+    ai_weight = {
+        weight = 3
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_expertise_computing"
+            }
+        }
+    }
+}

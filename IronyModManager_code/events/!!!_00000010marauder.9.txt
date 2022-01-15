@@ -1,0 +1,66 @@
+namespace = marauder
+country_event = {
+    id = marauder.9
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_country_type = default
+        has_policy_flag = refugees_allowed
+        any_owned_planet = {
+            habitability = {
+                who = event_target:marauder_species
+                value > 0.4
+            }
+        }
+        NOT = {
+            has_country_flag = recivied_marauder_refugees
+        }
+    }
+    immediate = {
+        random_list = {
+            50 = {
+                random_owned_planet = {
+                    limit = {
+                        habitability = {
+                            who = event_target:marauder_species
+                            value > 0.4
+                        }
+                    }
+                    weights = {
+                        base = 1
+                        modifier = {
+                            add = 5
+                            free_housing > 0
+                        }
+                        modifier = {
+                            add = 10
+                            free_housing > 1
+                        }
+                        modifier = {
+                            factor = 2
+                            habitability = {
+                                who = event_target:marauder_species
+                                value > 0.6
+                            }
+                        }
+                    }
+                    create_pop = {
+                        species = event_target:marauder_species
+                        ethos = {
+                            ethic = "ethic_militarist"
+                        }
+                    }
+                    planet_event = {
+                        id = marauder.10
+                    }
+                }
+                set_timed_country_flag = {
+                    flag = recivied_marauder_refugees
+                    days = 60
+                }
+            }
+            50 = {
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@tech_gene_tailoring_POINTS = 1
+tech_repeatable_improved_gene_points = {
+    area = society
+    cost = @repeatableTechBaseCost
+    cost_per_level = @repeatableTechLevelCost
+    tier = @repeatableTechTier
+    category = {
+        biology
+    }
+    levels = 5
+    prerequisites = {
+        "tech_gene_expressions"
+    }
+    weight = @repeatableTechWeight
+    weight_modifier = {
+        factor = @repatableTechFactor
+        modifier = {
+            factor = 2
+            OR = {
+                has_valid_civic = "civic_biological_engineering"
+                has_valid_civic = "civic_hmo"
+                has_valid_civic = "civic_biological_engineering_hive"
+            }
+        }
+        modifier = {
+            factor = 2
+            has_ascension_perk = ap_engineered_evolution
+        }
+        modifier = {
+            factor = 3
+            has_ascension_perk = ap_evolutionary_mastery
+        }
+    }
+    ai_weight = {
+        factor = 1
+    }
+    weight_groups = {
+        repeatable
+    }
+    mod_weight_if_group_picked = {
+        repeatable = 0.01
+    }
+    modifier = {
+        description = tech_gene_tailoring_modifier_desc
+        description_parameters = {
+            POINTS = @tech_gene_tailoring_POINTS
+        }
+        BIOLOGICAL_species_trait_points_add = @tech_gene_tailoring_POINTS
+    }
+}

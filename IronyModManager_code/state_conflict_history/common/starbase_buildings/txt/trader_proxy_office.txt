@@ -5,7 +5,6 @@ trader_proxy_office = {
         exists = owner
         owner = {
             is_homicidal = no
-            is_gestalt = no
             has_country_flag = has_market_access
         }
         solar_system = {
@@ -50,6 +49,23 @@ trader_proxy_office = {
         cost = {
             alloys = 100
         }
+        produces = {
+            trigger = {
+                exists = owner
+                owner = {
+                    AND = {
+                        is_gestalt = yes
+                        is_galactic_community_member = yes
+                    }
+                }
+                OR = {
+                    is_active_resolution = "resolution_galacticstudies_advanced_xenostudies"
+                    is_active_resolution = "resolution_galacticstudies_ethical_guideline_refactoring"
+                    is_active_resolution = "resolution_galacticstudies_extradimensional_experimentation"
+                }
+            }
+            energy = 5
+        }
     }
     country_modifier = {
         country_trade_fee = -0.05
@@ -64,7 +80,10 @@ trader_proxy_office = {
             }
             exists = owner
             owner = {
-                is_galactic_community_member = yes
+                AND = {
+                    is_gestalt = no
+                    is_galactic_community_member = yes
+                }
             }
             OR = {
                 is_active_resolution = "resolution_galacticstudies_advanced_xenostudies"
@@ -74,29 +93,7 @@ trader_proxy_office = {
         }
         trade_value_add = 10
     }
-    possible = {
-        custom_tooltip = {
-            fail_text = "requires_trade_enclave"
-            solar_system = {
-                OR = {
-                    any_system_planet = {
-                        is_owned_by = from
-                    }
-                    AND = {
-                        has_star_flag = enclave
-                        any_ship_in_system = {
-                            exists = owner
-                            owner = {
-                                has_country_flag = trader_enclave_country
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
     ai_build_at_chokepoint = yes
-    ai_build_outside_chokepoint = yes
     ai_weight = {
         weight = 200
         modifier = {

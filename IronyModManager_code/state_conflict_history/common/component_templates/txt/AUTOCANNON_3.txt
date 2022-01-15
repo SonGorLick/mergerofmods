@@ -15,6 +15,7 @@ weapon_component_template = {
     ai_tags = {
         weapon_role_anti_shield
     }
+    upgrades_to = "SMALL_ESC_AUTOCANNON_4"
     resources = {
         category = ship_components
         cost = {
@@ -26,7 +27,6 @@ weapon_component_template = {
             alloys = @s_t5_upkeep_alloys
         }
     }
-    upgrades_to = ACOT_AUTOCANNON_DM
     ai_weight = {
         weight = 15
         modifier = {

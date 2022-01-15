@@ -1,7 +1,6 @@
 @resolution_weight_disliked = 4
 @resolution_cost_t5 = 300
 @resolution_flag_timer = 360
-@resolution_flag_timer = 360
 resolution_ecology_paradise_initiative = {
     icon = "GFX_resolution_ecolgical_protection"
     potential = {
@@ -83,6 +82,44 @@ resolution_ecology_paradise_initiative = {
     ai_weight = {
         weight = @resolution_weight_disliked
         modifier = {
+            factor = 0.9
+            is_civic_expansionist = yes
+        }
+        modifier = {
+            factor = 0
+            in_breach_of = resolution_ecology_paradise_initiative
+        }
+        modifier = {
+            factor = 0.75
+            any_federation_ally = {
+                NOT = {
+                    federation = {
+                        has_federation_type = hegemony_federation
+                    }
+                }
+                in_breach_of = resolution_ecology_paradise_initiative
+            }
+        }
+        modifier = {
+            factor = 5
+            OR = {
+            is_civic_environmentalist = yes
+                            has_valid_civic = civic_keepers_harmony
+                            }
+        }
+        modifier = {
+            factor = 2
+            is_civic_environmentalist = yes
+            is_xenophobe = no
+            is_authoritarian = no
+            OR = {
+                is_xenophile = yes
+                is_spiritualist = yes
+                is_civic_machine_servitor = yes
+                is_civic_shared_burden = yes
+            }
+        }
+        modifier = {
             factor = 0.5
             not = {
                 has_country_flag = str_has_bad_economy_score
@@ -111,41 +148,6 @@ resolution_ecology_paradise_initiative = {
         modifier = {
             factor = 0.9
             rusher2 = yes
-        }
-        modifier = {
-            factor = 0.9
-            is_civic_expansionist = yes
-        }
-        modifier = {
-            factor = 0
-            in_breach_of = resolution_ecology_paradise_initiative
-        }
-        modifier = {
-            factor = 0.75
-            any_federation_ally = {
-                NOT = {
-                    federation = {
-                        has_federation_type = hegemony_federation
-                    }
-                }
-                in_breach_of = resolution_ecology_paradise_initiative
-            }
-        }
-        modifier = {
-            factor = 5
-            is_civic_environmentalist = yes
-        }
-        modifier = {
-            factor = 2
-            is_civic_environmentalist = yes
-            is_xenophobe = no
-            is_authoritarian = no
-            OR = {
-                is_xenophile = yes
-                is_spiritualist = yes
-                is_civic_machine_servitor = yes
-                is_civic_shared_burden = yes
-            }
         }
         modifier = {
             factor = 2

@@ -8,10 +8,8 @@ building_private_shipyards = {
                 has_valid_civic = civic_mutualistic_behavior
                 has_valid_civic = civic_machine_trading
             }
+            is_ai = no
             is_criminal_syndicate = no
-            NOT = {
-                is_ai = yes
-            }
         }
     }
     planet_modifier = {

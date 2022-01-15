@@ -8,21 +8,34 @@ nebula_refinery = {
         }
     }
     possible = {
-        exists = owner
-        owner = {
-            has_technology = tech_space_mining_1
-        }
         custom_tooltip = {
             fail_text = "requires_starport"
             has_starbase_size >= starbase_starport
         }
-        custom_tooltip = {
+       custom_tooltip = {
             fail_text = "requires_nebula"
             star = {
                 Or = {
                     is_inside_nebula = yes
                     is_nebula_star = yes
                     is_disk_star = yes
+                    is_star_class = sc_p_purple
+                    is_star_class = sc_p_green
+                    is_star_class = sc_p_red
+                    is_star_class = sc_lbv_blue
+                    is_star_class = sc_lbv_green
+                    is_star_class = sc_lbv_red
+                    is_star_class = sc_w_azure
+                    is_star_class = sc_w_red
+                    is_star_class = sc_w_green
+                    is_star_class = sc_w_purple
+                    is_star_class = sc_protostar
+                    is_star_class = sc_nova_1
+                    is_star_class = sc_nova_2
+                    is_star_class = sc_tt_red
+                    is_star_class = sc_tt_orange
+                    is_star_class = sc_tt_white
+                    is_star_class = sc_ae
                 }
             }
         }
@@ -56,6 +69,9 @@ nebula_refinery = {
         upkeep = {
             energy = 2
         }
+    }
+    system_modifier = {
+        station_gatherers_produces_mult = 0.8
     }
     show_in_tech = "tech_space_mining_1"
     ai_build_at_chokepoint = yes

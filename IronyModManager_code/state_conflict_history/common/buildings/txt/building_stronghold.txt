@@ -12,17 +12,6 @@ building_stronghold = {
         potential = {
             exists = owner
             owner = {
-                has_active_tradition = tr_prowess_4
-            }
-        }
-        modifier = {
-            planet_stability_add = 1
-        }
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
                 is_gestalt = no
                 not = {
                     has_valid_civic = civic_private_militaries
@@ -31,6 +20,17 @@ building_stronghold = {
         }
         modifier = {
             job_soldier_add = @b1_jobs
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                has_active_tradition = tr_prowess_4
+            }
+        }
+        modifier = {
+            planet_stability_add = 1
         }
     }
     triggered_planet_modifier = {

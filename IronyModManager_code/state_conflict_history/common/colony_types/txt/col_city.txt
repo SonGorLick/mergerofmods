@@ -28,6 +28,7 @@ col_city = {
             uses_district_set = pdmachinefort
             uses_district_set = pdcorpoarc
         }
+        tde_uses_planetary_diversity_special_district_set = no
         is_special_colony_type = no
     }
     planet_modifier = {
@@ -51,6 +52,138 @@ col_city = {
         }
     }
     weight_modifier = {
-        base = 0
+        modifier = {
+            add = 1
+            num_free_districts = {
+                type = district_farming
+                value < @free_districts_low_threshold
+            }
+            num_free_districts = {
+                type = district_mining
+                value < @free_districts_low_threshold
+            }
+            num_free_districts = {
+                type = district_generator
+                value < @free_districts_low_threshold
+            }
+            num_free_districts = {
+                type = district_city
+                value >= @free_districts_medium_threshold
+            }
+        }
+        modifier = {
+            add = 3
+            num_free_districts = {
+                type = district_farming
+                value < @free_districts_low_threshold
+            }
+            num_free_districts = {
+                type = district_mining
+                value < @free_districts_low_threshold
+            }
+            num_free_districts = {
+                type = district_generator
+                value < @free_districts_low_threshold
+            }
+            num_free_districts = {
+                type = district_city
+                value >= @free_districts_high_threshold
+            }
+        }
+        modifier = {
+            add = 2
+            has_designation = col_city
+        }
+        modifier = {
+            add = 5
+            has_modifier = natural_beauty
+        }
+        modifier = {
+            add = 2
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            num_buildings = {
+                type = building_commercial_zone
+                value > 2
+            }
+        }
+        modifier = {
+            add = 4
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            num_buildings = {
+                type = building_commercial_zone
+                value > 4
+            }
+        }
+        modifier = {
+            add = 2
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            num_buildings = {
+                type = building_commercial_megaplex
+                value > 1
+            }
+        }
+        modifier = {
+            add = 4
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            num_buildings = {
+                type = building_commercial_megaplex
+                value > 2
+            }
+        }
+        modifier = {
+            add = 2
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            exists = owner
+            owner = {
+                OR = {
+                    has_valid_civic = civic_merchant_guilds
+                    has_valid_civic = civic_corporate_dominion
+                    is_megacorp = yes
+                }
+            }
+        }
+        modifier = {
+            add = 4
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            has_building = building_galactic_stock_exchange
+        }
+        modifier = {
+            add = 4
+            NOT = {
+                uses_district_set = shattered_ring_world
+            }
+            has_building = building_nuumismatic_shrine
+        }
+        modifier = {
+            add = 4
+            has_global_flag = planetary_modifier_enhancements_installed
+            has_modifier = pm_planetary_mechanocalibrator
+        }
+        modifier = {
+            add = 5
+            num_districts = {
+                type = district_city
+                value >= @built_districts_high_threshold
+            }
+        }
+        modifier = {
+            factor = 0.1
+            num_districts = {
+                type = district_city
+                value < @built_districts_low_threshold
+            }
+        }
     }
 }

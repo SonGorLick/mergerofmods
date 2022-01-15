@@ -1,0 +1,13 @@
+ndo_building_primitive_factory = {
+    can_build = no
+    can_demolish = yes
+    can_be_ruined = no
+    potential = {
+        exists = owner
+    }
+    planet_modifier = {
+        job_foundry_add = 1
+    }
+    upgrades = {
+    }
+}

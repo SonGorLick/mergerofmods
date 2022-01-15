@@ -29,8 +29,9 @@ action_ask_to_become_thrall = {
         custom_tooltip = {
             fail_text = "requires_actor_not_pompous"
             NOT = {
-                is_purists_empire = yes
+                has_valid_civic = civic_pompous_purists
             }
         }
+        get_border_test = yes
     }
 }

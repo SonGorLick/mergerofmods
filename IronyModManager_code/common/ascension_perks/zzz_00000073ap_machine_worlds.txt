@@ -42,8 +42,6 @@ ap_machine_worlds = {
         }
     }
     ai_weight = {
-        modifier = {
-            factor = 0
-        }
+        factor = 0
     }
 }

@@ -11,9 +11,6 @@ researcher = {
     }
     possible_precalc = can_fill_specialist_job
     possible = {
-        NOT = {
-            has_trait = trait_slave_gene
-        }
         complex_specialist_job_check_trigger = yes
     }
     resources = {
@@ -28,8 +25,9 @@ researcher = {
                 exists = owner
                 owner = {
                     or = {
-                    is_technocracy = yes
+                        has_valid_civic = civic_technocracy
                         has_valid_civic = civic_cyber_dictatorship
+                        has_valid_civic = civic_science_directorate
                         has_valid_civic = civic_cyber_demos_cratos
                     }
                 }
@@ -44,8 +42,9 @@ researcher = {
                 exists = owner
                 owner = {
                     or = {
-                    is_technocracy = yes
+                        has_valid_civic = civic_technocracy
                         has_valid_civic = civic_cyber_dictatorship
+                        has_valid_civic = civic_science_directorate
                         has_valid_civic = civic_cyber_demos_cratos
                     }
                 }

@@ -44,9 +44,6 @@ district_arcology_leisure = {
                 NOT = {
                     has_valid_civic = civic_warrior_culture
                 }
-                NOT = {
-                    has_authority = auth_corporate
-                }
             }
         }
         modifier = {
@@ -65,19 +62,6 @@ district_arcology_leisure = {
         modifier = {
             job_duelist_add = 3
             job_culture_worker_add = 3
-        }
-    }
-    triggered_planet_modifier = {
-        potential = {
-            exists = owner
-            owner = {
-                is_regular_empire = yes
-                has_authority = auth_corporate
-            }
-        }
-        modifier = {
-            job_entertainer_add = 3
-            job_manager_add = 3
         }
     }
     triggered_desc = {
@@ -99,14 +83,5 @@ district_arcology_leisure = {
             }
         }
         text = job_entertainer_effect_desc
-    }
-    triggered_desc = {
-        trigger = {
-            exists = owner
-            owner = {
-                has_authority = auth_corporate
-            }
-        }
-        text = job_manager_effect_desc
     }
 }

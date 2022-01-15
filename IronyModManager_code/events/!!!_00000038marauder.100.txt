@@ -1,0 +1,68 @@
+namespace = marauder
+event = {
+    id = marauder.100
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        years_passed >= 25
+        any_playable_country = {
+            is_country_type = default
+            NOT = {
+                has_country_flag = under_marauder_attack
+            }
+            any_relation = {
+                AND = {
+                    is_country_type = dormant_marauders
+                    has_communications = prev
+                    NOR = {
+                        has_country_flag = raid_ongoing
+                        has_country_flag = raid_cooldown
+                    }
+                }
+            }
+        }
+    }
+    immediate = {
+        random_list = {
+            30 = {
+                random_playable_country = {
+                    limit = {
+                        is_country_type = default
+                        NOT = {
+                            has_country_flag = under_marauder_attack
+                        }
+                        any_relation = {
+                            is_country_type = dormant_marauders
+                            has_communications = prev
+                            NOR = {
+                                has_country_flag = raid_ongoing
+                                has_country_flag = raid_cooldown
+                            }
+                        }
+                    }
+                    random_relation = {
+                        limit = {
+                            is_country_type = dormant_marauders
+                            has_communications = prev
+                            NOR = {
+                                has_country_flag = raid_ongoing
+                                has_country_flag = raid_cooldown
+                            }
+                        }
+                        save_event_target_as = raiding_marauder
+                        species = {
+                            save_event_target_as = marauder_species
+                        }
+                    }
+                    country_event = {
+                        id = marauder.101
+                        days = 1
+                        random = 10
+                    }
+                }
+            }
+            60 = {
+            }
+        }
+    }
+}

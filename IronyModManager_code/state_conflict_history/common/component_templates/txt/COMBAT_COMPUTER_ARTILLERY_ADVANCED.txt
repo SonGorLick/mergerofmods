@@ -27,7 +27,6 @@ utility_component_template = {
         pirate_cruiser
         marauder_cruiser
         battleship
-        titan
         juggernaut
         titan
         galleon

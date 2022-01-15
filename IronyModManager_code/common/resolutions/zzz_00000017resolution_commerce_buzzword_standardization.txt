@@ -1,8 +1,6 @@
 @resolution_weight_loved = 7
 @resolution_cost_t1 = 100
 @resolution_flag_timer = 360
-@resolution_cost_t1 = 100
-@resolution_flag_timer = 360
 resolution_commerce_buzzword_standardization = {
     icon = "GFX_resolution_galactic_commerce"
     resources = {
@@ -54,12 +52,41 @@ resolution_commerce_buzzword_standardization = {
                 is_active_resolution = "resolution_commerce_underdeveloped_system_utilization"
                 is_active_resolution = "resolution_commerce_holistic_asset_coordination"
                 is_active_resolution = "resolution_commerce_profit_maximization_engines"
-                is_active_resolution = "resolution_commerce_6"
             }
         }
     }
     ai_weight = {
         weight = @resolution_weight_loved
+        modifier = {
+            factor = 1.4
+            not = {
+                has_country_flag = str_has_bad_economy_score
+            }
+        }
+        modifier = {
+            factor = 0.8
+            has_country_flag = str_has_bad_economy_score
+        }
+        modifier = {
+            factor = 0.625
+            has_country_flag = str_has_terrible_economy_score
+        }
+        modifier = {
+            factor = 0.9
+            turtler = yes
+        }
+        modifier = {
+            factor = 0.9
+            turtler2 = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher = yes
+        }
+        modifier = {
+            factor = 1.1
+            rusher2 = yes
+        }
         modifier = {
             factor = 2
             count_country = {
@@ -96,36 +123,6 @@ resolution_commerce_buzzword_standardization = {
             }
         }
         modifier = {
-            factor = 1.4
-            not = {
-                has_country_flag = str_has_bad_economy_score
-            }
-        }
-        modifier = {
-            factor = 0.8
-            has_country_flag = str_has_bad_economy_score
-        }
-        modifier = {
-            factor = 0.625
-            has_country_flag = str_has_terrible_economy_score
-        }
-        modifier = {
-            factor = 0.9
-            turtler = yes
-        }
-        modifier = {
-            factor = 0.9
-            turtler2 = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher = yes
-        }
-        modifier = {
-            factor = 1.1
-            rusher2 = yes
-        }
-        modifier = {
             factor = 2
             OR = {
                 is_megacorp = yes
@@ -136,15 +133,10 @@ resolution_commerce_buzzword_standardization = {
         modifier = {
             factor = 1.2
             OR = {
-                has_valid_civic = civic_free_traders
-                has_valid_civic = civic_trading_posts
+            is_civic_free_traders = yes
                 has_valid_civic = civic_corporate_dominion
                 has_valid_civic = civic_beacon_of_liberty
             }
-        }
-        modifier = {
-            factor = 1.2
-            is_civic_free_traders = yes
         }
         modifier = {
             factor = 0.75

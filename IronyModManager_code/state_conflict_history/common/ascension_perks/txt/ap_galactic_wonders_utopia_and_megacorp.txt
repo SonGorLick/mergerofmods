@@ -79,5 +79,13 @@ ap_galactic_wonders_utopia_and_megacorp = {
                 has_ascension_perk = ap_evolutionary_mastery
             }
         }
+        modifier = {
+            factor = 2
+            is_egalitarian = yes
+        }
+        modifier = {
+            factor = 2
+            is_megacorp = yes
+        }
     }
 }

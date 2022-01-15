@@ -7,10 +7,10 @@ action_ask_to_become_protectorate = {
     AI_acceptance_base_value = -50
     action_type = positive
     potential = {
-        NOT = {
-            from = {
-                is_megacorp = yes
-            }
+            NOT = {
+                from = {
+                    is_megacorp = yes
+                }
             }
         or = {
             is_ai = no
@@ -187,8 +187,9 @@ action_ask_to_become_protectorate = {
         custom_tooltip = {
             fail_text = "requires_actor_not_pompous"
             NOT = {
-                is_purists_empire = yes
+                has_valid_civic = civic_pompous_purists
             }
         }
+        get_border_test = yes
     }
 }

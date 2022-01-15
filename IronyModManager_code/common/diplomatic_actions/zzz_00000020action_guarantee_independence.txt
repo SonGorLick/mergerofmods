@@ -36,11 +36,10 @@ action_guarantee_independence = {
     }
     possible = {
         custom_tooltip = {
-            fail_text = "requires_recipient_not_shadow_state"
-            from = {
-                NOT = {
-                    has_valid_civic = civic_shadow_state
-                }
+            fail_text = "ACTION_ACTOR_MUST_BE_INDEPENDENT"
+            OR = {
+                is_subject = no
+                has_diplomatic_independence = yes
             }
         }
         custom_tooltip = {
@@ -124,7 +123,7 @@ action_guarantee_independence = {
         if = {
             limit = {
                 from = {
-                    is_purists_empire = yes
+                    has_valid_civic = civic_pompous_purists
                 }
             }
             if = {
@@ -156,5 +155,6 @@ action_guarantee_independence = {
                 is_improving_relations_with = from
             }
         }
+        get_border_test_defense = yes
     }
 }

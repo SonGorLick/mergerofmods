@@ -1,0 +1,41 @@
+tech_space_cloud_weapon_2 = {
+    area = physics
+    cost = @tier5cost1
+    tier = 5
+    is_rare = yes
+    category = {
+        particles
+    }
+    ai_update_type = military
+    prerequisites = {
+        "tech_space_cloud_weapon_1"
+    }
+    weight = @tier5weight1
+    weight_modifier = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_expertise_particles"
+            }
+        }
+    }
+    ai_weight = {
+        factor = 2
+        modifier = {
+            factor = 1.25
+            has_ethic = ethic_militarist
+        }
+        modifier = {
+            factor = 1.5
+            has_ethic = ethic_fanatic_militarist
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_expertise_particles"
+            }
+        }
+    }
+}

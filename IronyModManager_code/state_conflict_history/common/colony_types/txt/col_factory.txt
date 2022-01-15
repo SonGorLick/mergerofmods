@@ -48,7 +48,7 @@ col_factory = {
             planet_artisans_produces_mult = 0.05
         }
     }
-   triggered_planet_modifier = {
+    triggered_planet_modifier = {
         potential = {
             exists = owner
             owner = {
@@ -60,7 +60,7 @@ col_factory = {
             planet_artisans_produces_mult = 0.1
         }
     }
-weight_modifier = {
+    weight_modifier = {
         modifier = {
             add = 4
             owner = {

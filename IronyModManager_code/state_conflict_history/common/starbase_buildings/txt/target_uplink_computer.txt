@@ -31,5 +31,13 @@ target_uplink_computer = {
     ai_build_outside_chokepoint = no
     ai_weight = {
         weight = 0
+        modifier = {
+            factor = 0
+            NOR = {
+                has_starbase_module = gun_battery
+                has_starbase_module = missile_battery
+                has_starbase_module = hangar_bay
+            }
+        }
     }
 }

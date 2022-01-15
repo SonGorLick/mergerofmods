@@ -16,6 +16,8 @@ d_alien_pets_deposit = {
         }
         modifier = {
             building_xeno_zoo_max = 1
+        building_animal_evaluation_laboratory_max = 1
+        building_animal_evaluation_laboratory_hive_max = 1
         }
     }
     triggered_planet_modifier = {

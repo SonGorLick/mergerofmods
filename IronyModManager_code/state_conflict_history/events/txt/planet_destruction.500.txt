@@ -31,7 +31,11 @@ planet_event = {
                     NOT = {
                         is_same_value = from.owner
                     }
-                    is_playable_country = yes
+                    OR = {
+                        is_country_type = default
+                        is_country_type = fallen_empire
+                        is_country_type = awakened_fallen_empire
+                    }
                 }
             }
             add_threat = {
@@ -60,7 +64,7 @@ planet_event = {
                         }
                         has_ai_personality = awakened_fallen_empire_spiritualist
                         AND = {
-                            is_playable_country = yes
+                            is_country_type = default
                             OR = {
                                 is_egalitarian = yes
                                 is_spiritualist = yes
@@ -107,7 +111,7 @@ planet_event = {
                         has_communications = from.owner
                         has_communications = root.owner
                     }
-                    is_playable_country = yes
+                    is_country_type = default
                     NOR = {
                         is_xenophobe = yes
                         is_homicidal = yes
@@ -131,7 +135,7 @@ planet_event = {
                     OR = {
                         has_ai_personality = awakened_fallen_empire_xenophile
                         AND = {
-                            is_playable_country = yes
+                            is_country_type = default
                             is_xenophile = yes
                         }
                     }

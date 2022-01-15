@@ -1,0 +1,33 @@
+selective = {
+    trigger = {
+        exists = owner
+        owner = {
+            is_crisis_faction = no
+            OR = {
+                AND = {
+                    is_ai = yes
+                    has_policy_flag = orbital_bombardment_selective
+                    NOR = {
+                        has_policy_flag = orbital_bombardment_indiscriminate
+                        has_policy_flag = orbital_bombardment_armageddon
+                        has_valid_civic = civic_barbaric_despoilers
+                        has_ascension_perk = ap_nihilistic_acquisition
+                    }
+                }
+                is_ai = no
+            }
+        }
+    }
+    default = yes
+    stop_when_armies_dead = no
+    abduct_pops = no
+    planet_damage = 0.75
+    army_damage = 1.25
+    kill_pop_chance = {
+        base = 0
+    }
+    min_pops_to_kill_pop = 2
+    ai_weight = {
+        weight = 1
+    }
+}

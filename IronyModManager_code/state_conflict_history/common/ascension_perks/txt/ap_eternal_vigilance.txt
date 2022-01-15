@@ -1,9 +1,9 @@
 ap_eternal_vigilance = {
-    possible = {
-        custom_tooltip = {
-            fail_text = "requires_technology_starbase_4"
-            has_technology = tech_starbase_4
-        }
+    modifier = {
+        shipclass_starbase_hull_mult = 1
+        shipclass_starbase_damage_mult = 0.25
+        shipclass_military_station_hull_mult = 1
+        starbase_defense_platform_capacity_add = 5
     }
     on_enabled = {
         custom_tooltip = "adds_4_asteroid_artillery_points"
@@ -13,12 +13,14 @@ ap_eternal_vigilance = {
                 value = 4
             }
         }
-    }
-    modifier = {
-        shipclass_starbase_damage_mult = 0.25
-        shipclass_starbase_hull_mult = 0.25
-        shipclass_military_station_damage_mult = 0.25
-        starbase_defense_platform_capacity_add = 5
+        if = {
+            limit = {
+                NOT = {
+                    has_technology = tech_starbase_3
+                }
+            }
+            add_research_option = tech_starbase_3
+        }
     }
     potential = {
         NOT = {

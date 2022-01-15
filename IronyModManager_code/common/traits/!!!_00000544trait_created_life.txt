@@ -1,0 +1,16 @@
+trait_created_life = {
+    cost = -1
+    icon = "gfx/interface/icons/traits/trait_uplifted.dds"
+    initial = no
+    randomized = no
+    modification = no
+    allowed_archetypes = {
+        BIOLOGICAL
+        LITHOID
+    }
+    modifier = {
+    }
+    ai_weight = {
+        weight = 0
+    }
+}

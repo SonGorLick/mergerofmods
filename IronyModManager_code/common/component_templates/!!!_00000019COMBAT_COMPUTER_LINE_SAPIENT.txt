@@ -18,8 +18,6 @@ utility_component_template = {
     }
     size_restriction = {
         destroyer
-        cruiser
-        battleship
         crisis_destroyer
         pirate_destroyer
         marauder_destroyer
@@ -37,6 +35,7 @@ utility_component_template = {
     prerequisites = {
         "tech_combat_computers_3"
     }
+    upgrades_to = "COMBAT_COMPUTER_LINE_PRECOG"
     ship_modifier = {
         ship_fire_rate_mult = 0.2
         ship_accuracy_add = 20
@@ -51,6 +50,7 @@ utility_component_template = {
                 has_global_flag = ghost_signal_3_flag
                 has_global_flag = ghost_signal_2_flag
                 has_global_flag = ghost_signal_1_flag
+                has_policy_flag = ai_outlawed
             }
         }
     }

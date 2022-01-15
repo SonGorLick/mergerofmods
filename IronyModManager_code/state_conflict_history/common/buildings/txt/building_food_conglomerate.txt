@@ -8,10 +8,8 @@ building_food_conglomerate = {
                 has_valid_civic = civic_mutualistic_behavior
                 has_valid_civic = civic_machine_trading
             }
+            is_ai = no
             is_criminal_syndicate = no
-            NOT = {
-                is_ai = yes
-            }
         }
         NOR = {
             is_planet_class = pc_hive
@@ -19,8 +17,44 @@ building_food_conglomerate = {
             is_planet_class = pc_relic
         }
     }
-    planet_modifier = {
-        job_farmer_add = 1
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            OR = {
+                owner = {
+                    is_anglers_empire = no
+                    AND = {
+                        is_anglers_empire = yes
+                        NOT = {
+                            PREV = {
+                                planet = {
+                                    is_wet = yes
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        modifier = {
+            job_farmer_add = 1
+        }
+    }
+    triggered_planet_modifier = {
+        potential = {
+            exists = owner
+            owner = {
+                is_anglers_empire = yes
+                PREV = {
+                    planet = {
+                        is_wet = yes
+                    }
+                }
+            }
+        }
+        modifier = {
+            job_angler_add = 1
+        }
     }
     resources = {
         category = planet_branch_office_buildings

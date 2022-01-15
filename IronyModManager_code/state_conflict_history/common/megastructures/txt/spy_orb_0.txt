@@ -1,13 +1,15 @@
-@phase_0_entity_x = -15
-@phase_0_entity_y = -5
 spy_orb_0 = {
     entity = "construction_platform_entity"
     construction_entity = "construction_platform_entity"
     portrait = "GFX_megastructure_construction_background"
     place_entity_on_planet_plane = no
     entity_offset = {
-        x = @phase_0_entity_x
-        y = @phase_0_entity_y
+        x = -15
+        y = -5
+    }
+    prerequisites = {
+        "tech_sentry_array"
+                "tech_ariphaos_sensors_pulsar"
     }
     build_time = 1800
     resources = {
@@ -34,10 +36,6 @@ spy_orb_0 = {
                 value < giga_vanilla_array_cap
             }
         }
-    }
-    prerequisites = {
-        "tech_sentry_array"
-        "tech_ariphaos_sensors_pulsar"
     }
     possible = {
         exists = starbase
@@ -119,11 +117,11 @@ spy_orb_0 = {
                     NOT = {
                         owner = {
                             is_same_value = from
-                            }
                         }
                     }
                 }
             }
+        }
         modifier = {
             factor = 2
             from = {
