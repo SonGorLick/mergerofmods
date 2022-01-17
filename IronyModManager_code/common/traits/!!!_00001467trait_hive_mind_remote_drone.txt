@@ -10,6 +10,8 @@ trait_hive_mind_remote_drone = {
         LITHOID
     }
     opposites = {
+        "trait_extremely_adaptive"
+        "trait_adaptive"
         "trait_nonadaptive"
         "trait_fleeting"
         "trait_fleeting_lithoid"
@@ -18,6 +20,23 @@ trait_hive_mind_remote_drone = {
         "trait_venerable"
         "trait_enduring"
         "trait_talented"
+        "trait_just-more-traits_longlived"
+        "trait_just-more-traits_indelible"
+        "trait_just-more-traits_ephemeral"
+        "trait_just-more-traits_virtuosos"
+        "trait_just-more-traits_dimwitted"
+        "trait_just-more-traits_prodigious"
+        "trait_just-more-traits_flexible"
+        "trait_just-more-traits_hardy"
+        "trait_just-more-traits_sensitive"
+        "trait_just-more-traits_particular"
+        "trait_just-more-traits_exacting"
+        "trait_just-more-traits_longlived"
+        "trait_just-more-traits_indelible"
+        "trait_just-more-traits_ephemeral"
+        "trait_just-more-traits_virtuosos"
+        "trait_just-more-traits_dimwitted"
+        "trait_just-more-traits_prodigious"
     }
     custom_tooltip = TRAIT_REMOTE_DRONE_EFFECT
     modifier = {

@@ -1,0 +1,27 @@
+pm_extensive_moon_system = {
+    spawn_chance = {
+        modifier = {
+            add = 10
+            is_planet_class = "pc_gas_giant"
+        }
+        modifier = {
+            factor = 2
+            num_moons > 1
+        }
+        modifier = {
+            factor = 2
+            num_moons > 2
+        }
+        modifier = {
+            factor = 0
+            OR = {
+                has_planet_modifier = "pm_extensive_moon_system"
+                has_moon = no
+                NOT = {
+                    is_planet_class = "pc_gas_giant"
+                }
+            }
+        }
+    }
+    modifier = "extensive_moon_system"
+}

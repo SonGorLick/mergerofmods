@@ -1,17 +1,12 @@
 trait_electroid = {
-    cost = 0
-    potential_crossbreeding_chance = 0.7
-    initial = no
-    randomized = no
+    cost = -1
+    potential_crossbreeding_chance = 1
     modification = no
     allowed_archetypes = {
         LITHOID
     }
-    opposites = {
-        "trait_energy_synthesis"
-    }
-    modifier = {
-        planet_pops_energy_upkeep_mult = 0.5
-        planet_pops_minerals_upkeep_mult = -0.5
+    custom_tooltip = TRAIT_ELECTROID_EFFECT
+    species_class = {
+        SLCOD
     }
 }

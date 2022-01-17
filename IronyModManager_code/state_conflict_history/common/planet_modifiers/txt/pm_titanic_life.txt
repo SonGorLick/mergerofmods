@@ -1,0 +1,53 @@
+pm_titanic_life = {
+    spawn_chance = {
+        modifier = {
+            add = 10
+            is_dry = yes
+        }
+        modifier = {
+            add = 10
+            is_wet = yes
+        }
+        modifier = {
+            add = 10
+            is_cold = yes
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_gaia"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_relic"
+        }
+        modifier = {
+            factor = 2
+            has_planet_modifier = "pm_lush"
+        }
+        modifier = {
+            factor = 8
+            has_planet_modifier = "pm_high_gravity"
+        }
+        modifier = {
+            factor = 0.5
+            has_planet_modifier = "pm_low_gravity"
+        }
+        modifier = {
+            factor = 0
+                has_planet_modifier = "pm_titanic_life"
+        }
+        modifier = {
+            factor = 0
+                has_planet_modifier = "pm_dangerous_wildlife"
+            }
+        modifier = {
+            factor = 0
+            has_planet_modifier = "pm_docile_wildlife"
+        }
+        modifier = {
+            factor = 0
+            has_planet_modifier = "pm_burrowing_wildlife"
+        }
+    }
+    modifier = "titanic_life"
+}

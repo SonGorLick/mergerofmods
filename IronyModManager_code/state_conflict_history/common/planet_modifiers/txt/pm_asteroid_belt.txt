@@ -1,0 +1,65 @@
+pm_asteroid_belt = {
+    spawn_chance = {
+        modifier = {
+            add = 10
+            is_dry = yes
+        }
+        modifier = {
+            add = 10
+            is_wet = yes
+        }
+        modifier = {
+            add = 10
+            is_cold = yes
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_molten"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_barren"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_barren_cold"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_toxic"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_frozen"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_gaia"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = "pc_relic"
+        }
+        modifier = {
+            factor = 2
+            has_planet_modifier = "pm_low_gravity"
+        }
+        modifier = {
+            factor = 0
+            has_planet_modifier = "pm_asteroid_belt"
+        }
+        modifier = {
+            factor = 0
+            has_moon = yes
+        }
+        modifier = {
+            factor = 0
+            is_moon = yes
+        }
+        modifier = {
+            factor = 0
+            num_modifiers > 1
+        }
+    }
+    modifier = "asteroid_belt"
+}

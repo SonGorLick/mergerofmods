@@ -479,6 +479,7 @@ habitat_0 = {
                 which = habitat_count
                 value = 1
             }
+            giga_calculate_allowed_habitats = yes
             set_timed_country_flag = {
                 flag = has_recently_built_habitat
                 years = 20

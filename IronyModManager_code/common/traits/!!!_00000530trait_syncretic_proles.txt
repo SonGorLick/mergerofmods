@@ -7,6 +7,9 @@ trait_syncretic_proles = {
         "trait_natural_engineers"
         "trait_natural_physicists"
         "trait_natural_sociologists"
+        "trait_talented"
+        "trait_quick_learners"
+        "trait_decadent"
     }
     initial = no
     modification = yes

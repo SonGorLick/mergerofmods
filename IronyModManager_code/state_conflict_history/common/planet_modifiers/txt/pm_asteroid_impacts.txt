@@ -1,0 +1,33 @@
+pm_asteroid_impacts = {
+    spawn_chance = {
+        modifier = {
+            add = 10
+            is_dry = yes
+        }
+        modifier = {
+            add = 10
+            is_wet = yes
+        }
+        modifier = {
+            add = 10
+            is_cold = yes
+        }
+        modifier = {
+            add = 0
+            is_planet_class = "pc_gaia"
+        }
+        modifier = {
+            add = 1
+            is_planet_class = pc_relic
+        }
+        modifier = {
+            factor = 0
+            has_planet_modifier = "pm_asteroid_impacts"
+        }
+        modifier = {
+            factor = 0
+            num_modifiers > 1
+        }
+    }
+    modifier = "asteroid_impacts"
+}

@@ -1,0 +1,73 @@
+pm_high_gravity = {
+    spawn_chance = {
+        modifier = {
+            add = 10
+            is_dry = yes
+        }
+        modifier = {
+            add = 10
+            is_wet = yes
+        }
+        modifier = {
+            add = 10
+            is_cold = yes
+        }
+        modifier = {
+            add = 0
+            is_planet_class = "pc_gaia"
+        }
+        modifier = {
+            add = 10
+            is_planet_class = pc_relic
+        }
+        modifier = {
+            factor = 2
+            planet_size > 19
+            OR = {
+                is_wet = yes
+                is_cold = yes
+                is_dry = yes
+                is_planet_class = pc_relic
+            }
+        }
+        modifier = {
+            factor = 2
+            planet_size > 22
+            OR = {
+                is_wet = yes
+                is_cold = yes
+                is_dry = yes
+                is_planet_class = pc_relic
+            }
+        }
+        modifier = {
+            factor = 0.5
+            planet_size < 16
+            OR = {
+                is_wet = yes
+                is_cold = yes
+                is_dry = yes
+                is_planet_class = pc_relic
+            }
+        }
+        modifier = {
+            factor = 0
+            planet_size < 12
+            OR = {
+                is_wet = yes
+                is_cold = yes
+                is_dry = yes
+                is_planet_class = pc_relic
+            }
+        }
+        modifier = {
+            factor = 0
+            OR = {
+                is_planet_class = "pc_gaia"
+                has_planet_modifier = "pm_low_gravity"
+                has_planet_modifier = "pm_high_gravity"
+            }
+        }
+    }
+    modifier = "high_gravity"
+}

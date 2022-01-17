@@ -1,0 +1,17 @@
+trait_idealized_structure = {
+    cost = 2
+    potential_crossbreeding_chance = 1
+    allowed_archetypes = {
+        LITHOID
+    }
+    opposites = {
+        trait_demanding_structure
+    }
+    modifier = {
+        planet_pops_consumer_goods_upkeep_mult = -0.1
+        planet_pops_minerals_upkeep_mult = -0.2
+    }
+    species_class = {
+        SLCOD
+    }
+}
