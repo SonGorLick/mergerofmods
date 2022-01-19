@@ -10,7 +10,7 @@ tech_gene_tailoring = {
         "tech_genome_mapping"
     }
     weight = @tier3weight1
-    gateway = biological
+    gateway = plague
     modifier = {
         description = tech_gene_tailoring_modifier_desc
         description_parameters = {

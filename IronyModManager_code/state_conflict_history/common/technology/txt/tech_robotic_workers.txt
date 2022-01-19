@@ -39,6 +39,10 @@ tech_robotic_workers = {
             }
         }
         modifier = {
+            factor = 10
+            has_valid_civic = civic_engineering_cult
+        }
+        modifier = {
             factor = 1.25
             research_leader = {
                 area = engineering

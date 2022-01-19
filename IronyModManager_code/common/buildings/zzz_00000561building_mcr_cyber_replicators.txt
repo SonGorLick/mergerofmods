@@ -1,0 +1,43 @@
+building_mcr_cyber_replicators = {
+    base_buildtime = @b1_time
+    icon = unused/building_carrion_processor_2
+    category = pop_assembly
+    base_cap_amount = 1
+    prerequisites = {
+        "tech_mcr_cyber_replicators"
+    }
+    potential = {
+        exists = owner
+        owner = {
+            OR = {
+                has_country_flag = IS_COUNTRY_MECHROID
+                has_civic = civic_mcr_cyber_aristocracy
+            }
+        }
+    }
+    destroy_trigger = {
+        exists = owner
+        owner = {
+            NOR = {
+                has_country_flag = IS_COUNTRY_MECHROID
+                has_civic = civic_mcr_cyber_aristocracy
+            }
+        }
+    }
+    planet_modifier = {
+        job_bio_assembler_add = 2
+    }
+    resources = {
+        category = planet_buildings
+        cost = {
+            minerals = 250
+            alloys = 50
+        }
+        upkeep = {
+            energy = 2
+        }
+    }
+    triggered_desc = {
+        text = tech_mcr_cyber_replicators_custom_tooltip
+    }
+}

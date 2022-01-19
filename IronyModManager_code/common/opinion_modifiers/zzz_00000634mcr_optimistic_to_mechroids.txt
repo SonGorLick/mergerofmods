@@ -1,0 +1,5 @@
+mcr_optimistic_to_mechroids = {
+    opinion = {
+        base = 100
+    }
+}

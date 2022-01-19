@@ -9,6 +9,7 @@ tech_ecological_adaptation = {
         "tech_terrestrial_sculpting"
     }
     weight = @tier3weight2
+    gateway = plague2
     feature_flags = {
         terraform_inhabited
     }

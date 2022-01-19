@@ -1,0 +1,61 @@
+trait_mechroid = {
+    cost = 0
+    allowed_archetypes = {
+        BIOLOGICAL
+    }
+    species_class = {
+        MECHROID
+    }
+    potential_crossbreeding_chance = 0
+    opposites = {
+        "trait_adaptive"
+        "trait_extremely_adaptive"
+        "trait_nonadaptive"
+        "trait_rapid_breeders"
+        "trait_slow_breeders"
+        "trait_fertile"
+        "trait_delicious"
+        "trait_robust"
+        "trait_resilient"
+    }
+    sorting_priority = 20
+    initial = no
+    randomized = no
+    modification = no
+    ai_weight = {
+        weight = 0
+    }
+    icon = "gfx/interface/icons/trait_mechroid.dds"
+    custom_tooltip_with_modifiers = "trait_mechroid_tooltip"
+    triggered_pop_modifier = {
+        potential = {
+            exists = planet
+            planet = {
+                owner = {
+                    has_ascension_perk = ap_mcr_reproduction
+                }
+            }
+        }
+        planet_pops_organics_food_upkeep_mult = 0.5
+    }
+    triggered_planet_growth_modifier = {
+        potential = {
+            exists = planet
+            planet = {
+                owner = {
+                    NOT = {
+                        has_ascension_perk = ap_mcr_reproduction
+                    }
+                }
+            }
+        }
+        pop_growth_from_immigration = -10
+        pop_growth_speed = -10
+    }
+    modifier = {
+        leader_age = 100
+        pop_environment_tolerance = 0.3
+        planet_pops_organics_food_upkeep_mult = -0.5
+        pop_assembly_speed = -0.5
+    }
+}

@@ -1,0 +1,18 @@
+triggered_opinion_uses_emotion_inhibitor_xenophile = {
+    trigger = {
+        OR = {
+            has_ethic = ethic_xenophile
+            has_ethic = ethic_fanatic_xenophile
+        }
+        NOR = {
+            has_trait = trait_emotion_inhibitor
+            is_country_type = fallen_empire
+        }
+        FROM = {
+            has_trait = trait_emotion_inhibitor
+        }
+    }
+    opinion = {
+        base = -50
+    }
+}

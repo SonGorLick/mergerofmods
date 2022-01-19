@@ -10,6 +10,7 @@ tech_frontier_health = {
         "tech_colonization_1"
     }
     weight = @tier1weight2
+    gateway = plague3
     potential = {
         is_gestalt = no
     }

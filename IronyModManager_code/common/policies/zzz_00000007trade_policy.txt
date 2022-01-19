@@ -128,6 +128,20 @@ trade_policy = {
         }
     }
     option = {
+        name = "trade_policy_technocorp"
+        potential = {
+            has_valid_civic = civic_technocorp
+        }
+        policy_flags = {
+            trade_conversion_technocorp
+        }
+        modifier = {
+        }
+        AI_weight = {
+            factor = 12
+        }
+    }
+    option = {
         name = "trade_policy_growth_dev"
         policy_flags = {
             trade_conversion_growth_dev

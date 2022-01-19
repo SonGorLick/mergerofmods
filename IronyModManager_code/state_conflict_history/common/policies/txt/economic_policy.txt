@@ -12,6 +12,7 @@ economic_policy = {
         valid = {
             NOR = {
                 has_valid_civic = "civic_military_junta"
+                has_valid_civic = civic_war_economy
             }
         }
         modifier = {
@@ -80,6 +81,7 @@ economic_policy = {
         valid = {
             NOR = {
                 has_valid_civic = "civic_peaceful_republic"
+                has_valid_civic = civic_peaceful_society
             }
         }
         modifier = {

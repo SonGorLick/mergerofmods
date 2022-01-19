@@ -9,13 +9,6 @@ native_indoctrination = {
                 is_country_type = primitive
             }
         }
-        OR = {
-            has_policy_flag = interference_active
-            has_policy_flag = interference_full
-        }
-        NOT = {
-            has_ethic = ethic_gestalt_consciousness
-        }
     }
     in_breach_of = {
          {
@@ -61,7 +54,6 @@ native_indoctrination = {
             NAND = {
                 has_ai_personality = democratic_crusaders
                 from = {
-                    exists = owner
                     owner = {
                         NOR = {
                             has_ethic = ethic_egalitarian
@@ -70,10 +62,6 @@ native_indoctrination = {
                     }
                 }
             }
-        }
-        modifier = {
-            factor = 0
-            is_active_resolution = "resolution_galacticcooperation_sanctity_of_life"
         }
     }
 }

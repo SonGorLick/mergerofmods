@@ -1,0 +1,16 @@
+namespace = crisis_trigger
+event = {
+    id = crisis_trigger.1
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        is_crises_allowed = yes
+    }
+    immediate = {
+        event_target:CmtGlobalVar = {
+            country_event = {
+                id = CrisisManagerControl.0011
+            }
+        }
+    }
+}

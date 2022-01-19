@@ -96,6 +96,7 @@ More Origins Mod
 More Origins - Planetary Diversity compat
 More Events Mod
 More Default Origins
+Mechroids 2: A Cyborg Species Expansion
 Machine & Robot Expansion
 Inflection Point
 Guillified Precursor Story Pack (Compat Patch)
@@ -159,7 +160,7 @@ Decentralized Empires 3.2 (Regentmaker)
 Claims Decay - Dynamic Diplomacy [3.2]
 Civil Wars
 Change Shipset
-Bigger Colonies
+Bigger Planets
 Better Terraforming Candidates
 Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
 Better Interactions for Megacorps
@@ -211,6 +212,7 @@ Intervene: Help Friendly Nations - FunEFork
 Homeworld Ethics (3.X)
 Guilli's Technologies
 Gigastructural Engineering & More (3.2)
+asteroid creation mod
 Gigas Stellar Manipulation
 Formidable Star Eater - The Companion Cube
 Expanded Starbases
@@ -264,11 +266,13 @@ Planetary Wonders
 Legendary Worlds 3.2.x
 UI Overhaul Dynamic + Planetary Diversity
 Amazing Civics - Megacorp
+Empires Expanded (formerly Civics Expanded+)
 Mercenary Megacorps
 Ethics and Civics Alternative - Redux
 Relytor's Empire Governance - Redux
 Government Variety Pack
 Ethics & Civics Overhaul/GVP Sanity Patch
+EMEX - ECA Redux Comp Patch
 Governance Patch
 UI Overhaul Dynamic + Ethics and Civics Alternative
 Tiny Ship Components

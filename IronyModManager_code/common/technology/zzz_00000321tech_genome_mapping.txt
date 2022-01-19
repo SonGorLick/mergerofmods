@@ -6,7 +6,7 @@ tech_genome_mapping = {
         biology
     }
     weight = @tier1weight1
-    gateway = biological
+    gateway = plague
     modifier = {
         pop_growth_speed = 0.1
     }

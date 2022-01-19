@@ -1,0 +1,52 @@
+@tier3cost3 = 6000
+@tier3weight2 = 60
+tech_mcr_pk_prereq = {
+    cost = @tier3cost3
+    area = society
+    tier = 3
+    category = {
+        biology
+    }
+    prerequisites = {
+        "tech_gene_tailoring"
+        "tech_mcr_cyber_replicators"
+    }
+    weight = @tier3weight2
+    feature_flags = {
+        advanced_gene_modding
+    }
+    modifier = {
+        custom_tooltip = tech_mcr_pk_prereq_custom_tooltip
+        show_only_custom_tooltip = no
+    }
+    potential = {
+        has_country_flag = IS_COUNTRY_MECHROID
+    }
+    weight_modifier = {
+        factor = 1.5
+        modifier = {
+            factor = 1.25
+            has_authority = auth_hive_mind
+        }
+        modifier = {
+            factor = 1.25
+            has_tradition = tr_supremacy_adopt
+        }
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = "leader_trait_expertise_biology"
+            }
+        }
+    }
+    ai_weight = {
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = society
+                has_trait = "leader_trait_expertise_biology"
+            }
+        }
+    }
+}

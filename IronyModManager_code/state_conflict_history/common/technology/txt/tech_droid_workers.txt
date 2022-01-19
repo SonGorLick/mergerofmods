@@ -46,6 +46,10 @@ tech_droid_workers = {
             has_origin = origin_mechanists
         }
         modifier = {
+            factor = 10
+            has_valid_civic = civic_engineering_cult
+        }
+        modifier = {
             factor = 2
             has_valid_civic = civic_machine_cult
         }

@@ -9,6 +9,7 @@ tech_terrestrial_sculpting = {
         "tech_colonization_1"
     }
     weight = @tier2weight3
+    gateway = plague2
     feature_flags = {
         build_terraform_station
     }

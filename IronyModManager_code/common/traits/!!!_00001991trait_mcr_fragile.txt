@@ -1,0 +1,16 @@
+trait_mcr_fragile = {
+    cost = -1
+    opposites = {
+        "trait_mcr_resilient"
+    }
+    species_class = {
+        MECHROID
+    }
+    allowed_archetypes = {
+        BIOLOGICAL
+    }
+    modifier = {
+        army_health = -0.2
+    }
+    icon = "gfx/interface/icons/trait_mcr_fragile.dds"
+}

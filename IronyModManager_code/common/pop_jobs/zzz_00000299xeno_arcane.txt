@@ -1,0 +1,51 @@
+xeno_arcane = {
+    category = specialist
+    condition_string = SPECIALIST_JOB_TRIGGER
+    building_icon = building_xeno_corps
+    clothes_texture_index = 5
+    possible_pre_triggers = {
+        has_owner = yes
+        is_being_purged = no
+        is_being_assimilated = no
+        is_sapient = yes
+        is_enslaved = no
+    }
+    possible_precalc = can_fill_specialist_job
+    planet_modifier = {
+    }
+    resources = {
+        category = planet_archaeologists
+        produces = {
+            minor_artifacts = 0.05
+        }
+        upkeep = {
+            consumer_goods = 1.5
+        }
+    }
+    weight = {
+        weight = @specialist_job_weight
+        modifier = {
+            factor = 0
+            OR = {
+                has_ethic = ethic_xenophobe
+                has_ethic = ethic_fanatic_xenophobe
+            }
+        }
+        modifier = {
+            factor = 0.2
+            has_citizenship_rights = no
+        }
+        modifier = {
+            factor = 2
+            has_trait = trait_natural_sociologists
+        }
+        modifier = {
+            factor = 0.1
+            can_take_servant_job = yes
+        }
+        modifier = {
+            factor = 1.5
+            has_job = xeno_arcane
+        }
+    }
+}

@@ -55,10 +55,6 @@ specimen_collection = {
             owner = {
                 is_country_type = primitive
             }
-        OR = {
-            has_policy_flag = interference_active
-            has_policy_flag = interference_full
-        }
         }
     }
     valid = {

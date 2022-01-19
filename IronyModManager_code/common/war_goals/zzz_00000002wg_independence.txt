@@ -39,6 +39,19 @@ wg_independence = {
             }
             if = {
                 limit = {
+                    has_modifier = "satrapy_of_horde"
+                }
+                remove_modifier = "satrapy_of_horde"
+            }
+            if = {
+                limit = {
+                    has_modifier = "SUBJECT_member_state"
+                }
+                remove_modifier = "SUBJECT_member_state"
+            }
+        }
+            if = {
+                limit = {
                     has_federation = yes
                     federation = {
                         has_federation_type = vf_ef_federation
@@ -48,13 +61,24 @@ wg_independence = {
                     override_requirements = yes
                 }
             }
-        }
     }
     on_accept = {
         custom_tooltip = wg_independence_accept
         hidden_effect = {
             set_subject_of = {
                 who = none
+            }
+            if = {
+                limit = {
+                    has_modifier = "satrapy_of_horde"
+                }
+                remove_modifier = "satrapy_of_horde"
+            }
+            if = {
+                limit = {
+                    has_modifier = "SUBJECT_member_state"
+                }
+                remove_modifier = "SUBJECT_member_state"
             }
             if = {
                 limit = {
@@ -94,8 +118,9 @@ wg_independence = {
         }
         if = {
             limit = {
+                has_global_flag = marauder_crisis_ongoing
                 from = {
-                    CmtTriggerIsKhanCountry = yes
+                    is_country_type = awakened_marauders
                 }
             }
             country_event = {
@@ -165,9 +190,79 @@ wg_independence = {
                             NOR = {
                                 is_same_empire = from
                                 has_origin = "origin_khan_successor"
-                                is_subject_type = war_satrapy
+                                AND = {
+                                    has_global_flag = gf_great_khan_active
+                                    is_subject_type = war_satrapy
+                                }
                             }
-                            CmtTriggerIsMarauder = no
+                            NOR = {
+                                is_country_type = dormant_marauders
+                                is_country_type = ruined_marauders
+                                is_country_type = awakened_marauders
+                                is_country_type = marauder_raiders
+                            }
+                        }
+                        prev = {
+                            remove_war_participant = prev
+                        }
+                    }
+                }
+            }
+        }
+        else_if = {
+            limit = {
+                from = {
+                    OR = {
+                        has_modifier = decentralized_leader
+                        has_modifier = electoral
+                    }
+                }
+            }
+            from = {
+                save_event_target_as = decentralizer
+            }
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    has_modifier = decentralized_leader
+                    has_modifier = electoral
+                }
+            }
+            save_event_target_as = decentralizer
+        }
+        if = {
+            limit = {
+                exists = event_target:decentralizer
+            }
+            event_target:decentralizer = {
+                random_war = {
+                    limit = {
+                        is_war_participant = {
+                            who = root
+                        }
+                        is_war_participant = {
+                            who = from
+                        }
+                        any_war_participant = {
+                            prev = {
+                                using_war_goal = {
+                                    type = wg_independence
+                                    owner = prev
+                                }
+                            }
+                        }
+                    }
+                    every_defender = {
+                        limit = {
+                            OR = {
+                                is_subject = no
+                                is_subject_type = member_state
+                            }
+                            NOR = {
+                                is_same_empire = from
+                                is_same_empire = event_target:decentralizer
+                            }
                         }
                         prev = {
                             remove_war_participant = prev

@@ -9,6 +9,7 @@ tech_colonization_3 = {
         "tech_colonization_2"
     }
     weight = @tier2weight3
+    gateway = plague2
     modifier = {
         pop_environment_tolerance = 0.05
     }

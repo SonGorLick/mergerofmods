@@ -1,0 +1,24 @@
+trait_emotion_inhibitor = {
+    cost = 1
+    potential_crossbreeding_chance = 0
+    opposites = {
+        "trait_decadent"
+        "trait_nerve_stapled"
+        "trait_deviants"
+        "trait_emotion_regulator"
+    }
+    species_class = {
+        MECHROID
+    }
+    initial = yes
+    randomized = no
+    forced_happiness = yes
+    allowed_archetypes = {
+        BIOLOGICAL
+    }
+    icon = "gfx/interface/icons/trait_emotionsuppressor.dds"
+    custom_tooltip_with_modifiers = trait_emotion_inhibitor_tooltip
+    modifier = {
+        planet_pops_consumer_goods_upkeep_mult = -0.5
+    }
+}
