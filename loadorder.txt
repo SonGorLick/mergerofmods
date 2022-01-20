@@ -25,7 +25,7 @@ Just Name Lists
 Elf Names
 Cybrxkhan's Assortment of Namelists for Stellaris
 Benjaseth's Species Names
-Trace's Better Lithoids
+Trace's Better Lithoids Lite
 Talking Non-Humanoid Portraits
 Spaceborne Civs Expanded
 Segek's Animated Portraits
@@ -96,7 +96,6 @@ More Origins Mod
 More Origins - Planetary Diversity compat
 More Events Mod
 More Default Origins
-Mechroids 2: A Cyborg Species Expansion
 Machine & Robot Expansion
 Inflection Point
 Guillified Precursor Story Pack (Compat Patch)
