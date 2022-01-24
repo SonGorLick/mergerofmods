@@ -14,7 +14,7 @@ Amazing Space Battles
 ASB Addon: More Particles
 Crisis Manager - Sleeper Edition (3.2.¢)
 Crisis Manager - Mid-Game Edition (3.2.¢)
-Crisis Manager - End-Game Edition (3.1.¢)
+Crisis Manager - End-Game Edition (3.3.¢)
 [v1.0] Insults and Injuries
 Shadowrun Name List
 Random Species Names - Updated
@@ -25,7 +25,7 @@ Just Name Lists
 Elf Names
 Cybrxkhan's Assortment of Namelists for Stellaris
 Benjaseth's Species Names
-Trace's Better Lithoids Lite
+Trace's Better Lithoids
 Talking Non-Humanoid Portraits
 Spaceborne Civs Expanded
 Segek's Animated Portraits
@@ -112,7 +112,7 @@ Better Remnants
 Basic Ordinary Origins
 Archaeology Story Pack
 Ancient Juggernaut Origin
-A Deadly Tempest [3.2.☠]
+A Deadly Tempest [3.3.☠]
 Nanite Machines & Distant Stars Overhaul
 Silfae's city sets updated
 Just More Flags (Achievement Compatible)
@@ -155,7 +155,7 @@ Dynamic Difficulty : More Modifiers
 Dynamic Difficulty - Ultimate Customization
 Diplomacy Adjustments
 Deficit Penalties - Reasonable Reductions [3.2]
-Decentralized Empires 3.2 (Regentmaker)
+Decentralized Empires 3.3 (Regentmaker)
 Claims Decay - Dynamic Diplomacy [3.2]
 Civil Wars
 Change Shipset
@@ -361,6 +361,7 @@ More Civic Points [S-02]
 !! K !! - Realistic Asteroids
 !!Universal Modifier Patch (3.2.*)
 !!!Universal Resource Patch [2.4+]
+Assorted Fixes for Dukko's Collection
 ! The Merger of Rules 3.2
 ! Camera & Galaxy Map Tweaks
 Silent Galaxy-Ambient-Sound
