@@ -6,10 +6,12 @@ action_demand_subsidiary = {
     diplo_view_acceptance_icon = yes
     should_notify_all_communications = no
     requires_recipient_independence = no
-    AI_acceptance_base_value = -50
+    AI_acceptance_base_value = -100
     action_type = aggressive
     potential = {
+        hidden_trigger = {
         is_megacorp = yes
+        }
         or = {
             is_ai = no
             years_passed > @str_years_of_twilight

@@ -6,10 +6,14 @@ action_demand_vassalization = {
     diplo_view_acceptance_icon = yes
     should_notify_all_communications = yes
     requires_recipient_independence = no
-    AI_acceptance_base_value = -50
+    AI_acceptance_base_value = -100
     action_type = aggressive
     potential = {
-        is_megacorp = no
+        hidden_trigger = {
+            NOT = {
+                is_megacorp = yes
+            }
+        }
         years_passed > @str_ai_will_not_declare_war_until
         or = {
             is_ai = no

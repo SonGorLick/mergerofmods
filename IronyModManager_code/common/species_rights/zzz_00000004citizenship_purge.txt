@@ -19,7 +19,7 @@ citizenship_purge = {
                 from = {
                     has_authority = auth_hive_mind
                 }
-                is_robotic_species = yes
+                is_robotic = yes
             }
         }
     }

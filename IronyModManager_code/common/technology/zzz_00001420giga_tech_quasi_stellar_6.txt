@@ -34,7 +34,7 @@ giga_tech_quasi_stellar_6 = {
         }
     }
     ai_weight = {
-        factor = @giga_aiweight_multiplier
+        factor = @giga_aiweight_multiplier_insane
         modifier = {
             factor = 1.25
             research_leader = {

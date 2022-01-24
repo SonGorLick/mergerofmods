@@ -21,7 +21,7 @@ citizenship_assimilation = {
                         has_civic = civic_hive_devouring_swarm
                     }
                     ROOT = {
-                        is_robotic_species = no
+                        is_robotic = no
                     }
                 }
                 AND = {
@@ -136,7 +136,7 @@ citizenship_assimilation = {
             }
             custom_tooltip = {
                 fail_text = TRANSCENDING_SPECIES_MUST_BE_ORGANIC
-                is_robotic_species = no
+                is_robotic = no
                 NOT = {
                     has_trait = trait_cybernetic
                 }

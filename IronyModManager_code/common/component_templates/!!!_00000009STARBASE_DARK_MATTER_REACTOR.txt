@@ -23,7 +23,6 @@ utility_component_template = {
         juggernaut
         graygoo_factory
     }
-    upgrades_to = "STARBASE_ESC_DARK_MATTER_CORE_2"
     ai_weight = {
         weight = 6
         modifier = {

@@ -1,8 +1,0 @@
-pm_tidal_locked = {
-    spawn_chance = {
-        modifier = {
-            add = 0
-        }
-    }
-    modifier = "tidal_locked"
-}

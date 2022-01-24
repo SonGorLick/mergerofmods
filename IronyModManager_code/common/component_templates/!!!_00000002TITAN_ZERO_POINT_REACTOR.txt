@@ -16,6 +16,11 @@ utility_component_template = {
             alloys = 0.456
         }
     }
+    valid_for_country = {
+        NOT = {
+            has_global_flag = @NSC_active_flag
+        }
+    }
     prerequisites = {
         "tech_zero_point_power"
     }
@@ -26,7 +31,7 @@ utility_component_template = {
         scavenger_bot
         dreadnought
     }
-    upgrades_to = "TITAN_ESC_REACTOR_6"
+    upgrades_to = TITAN_ESC_REACTOR_6
     ai_weight = {
         weight = 5
     }

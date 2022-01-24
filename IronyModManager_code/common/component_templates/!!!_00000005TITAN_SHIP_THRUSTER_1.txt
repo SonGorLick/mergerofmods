@@ -20,6 +20,8 @@ utility_component_template = {
     component_set = "thruster_components"
     size_restriction = {
         titan
+        @PFE_Titan
+        graygoo_mothership
         galleon
         marauder_galleon
     }

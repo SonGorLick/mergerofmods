@@ -12,7 +12,7 @@ tech_ehof_sentient_tier_2 = {
         planet_researchers_engineering_research_produces_mult = 0.05
     }
     ai_weight = {
-        factor = @ehof_t1_weight
+        factor = @giga_aiweight_multiplier_questionable
         modifier = {
             factor = 1.5
             research_leader = {

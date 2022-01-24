@@ -9,7 +9,11 @@ action_demand_tributary = {
     AI_acceptance_base_value = -50
     action_type = aggressive
     potential = {
-        is_megacorp = no
+        hidden_trigger = {
+            NOT = {
+                is_megacorp = yes
+            }
+        }
         or = {
             is_ai = no
             years_passed > @str_years_of_twilight

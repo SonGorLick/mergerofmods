@@ -36,13 +36,12 @@ gateway_0 = {
         }
         custom_tooltip = {
             fail_text = "requires_surveyed_system"
-            NOT = {
-                any_system_planet = {
-                    is_surveyed = {
-                        who = prev.from
-                        status = no
-                    }
-                }
+            giga_system_is_surveyed = yes
+        }
+        custom_tooltip = {
+            fail_text = "requires_technology_gateway_construction"
+            from = {
+                has_technology = tech_gateway_construction
             }
         }
         custom_tooltip = {
@@ -74,7 +73,7 @@ gateway_0 = {
     placement_rules = {
     }
     ai_weight = {
-        factor = 5
+        factor = 15
         modifier = {
             factor = 0
             NOT = {

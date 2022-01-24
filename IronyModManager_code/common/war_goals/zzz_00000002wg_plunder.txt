@@ -35,20 +35,6 @@ wg_plunder = {
     }
     possible = {
         custom_tooltip = {
-            fail_text = has_claimed_all_systems
-            from = {
-                is_country_type = default
-                any_owned_planet = {
-                    is_colony = yes
-                    root = {
-                        NOT = {
-                            has_claim = prev.solar_system
-                        }
-                    }
-                }
-            }
-        }
-        custom_tooltip = {
             fail_text = cannot_use_against_emperor
             OR = {
                 from = {
@@ -69,20 +55,6 @@ wg_plunder = {
         }
     }
     on_accept = {
-        custom_tooltip = wg_plunder_accept_them
-        add_resource = {
-            energy = 250
-            minerals = 250
-            mult = from.trigger:num_owned_planets
-        }
-        hidden_effect = {
-            from = {
-                add_modifier = {
-                    modifier = raided
-                    days = 3600
-                }
-            }
-        }
         custom_tooltip = wg_humiliation_accept
         hidden_effect = {
             add_resource = {
@@ -102,24 +74,6 @@ wg_plunder = {
                         option = diplo_stance_belligerent
                         cooldown = yes
                     }
-                }
-            }
-        }
-    }
-    on_wargoal_set = {
-        random_war = {
-            limit = {
-                using_war_goal = {
-                    type = wg_end_threat
-                    owner = root
-                }
-            }
-            every_war_participant = {
-                limit = {
-                    has_country_flag = empire_fed_no_war_subject
-                }
-                prev = {
-                    remove_war_participant = prev
                 }
             }
         }

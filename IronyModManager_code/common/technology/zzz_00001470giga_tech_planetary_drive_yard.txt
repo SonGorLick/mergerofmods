@@ -51,7 +51,7 @@ giga_tech_planetary_drive_yard = {
         }
     }
     ai_weight = {
-        factor = @giga_aiweight_multiplier
+        factor = @giga_aiweight_multiplier_medium
         modifier = {
             factor = 1.25
             research_leader = {

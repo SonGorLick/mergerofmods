@@ -31,6 +31,8 @@ utility_component_template = {
         constructor
         science
         transport
+        @EAC_PatrolCraft_1
+        @EAC_PatrolCraft_2
     }
     upgrades_to = "SHIP_THRUSTER_3"
     ai_weight = {

@@ -29,7 +29,6 @@ utility_component_template = {
         military_station_medium
         military_station_large
     }
-    upgrades_to = "PLATFORM_ESC_DARK_MATTER_CORE_2"
     ai_weight = {
         weight = 6
         modifier = {

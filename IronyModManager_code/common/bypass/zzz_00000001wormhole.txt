@@ -41,21 +41,15 @@ wormhole = {
                     is_at_war_with = root
                 }
                 from = {
-                    NOR = {
-                        is_country_type_with_subjects = yes
-                        is_country_type = fallen_empire
-                    }
+                    is_country_type_with_subjects = no
                 }
                 AND = {
-                    exists = from
                     from = {
                         is_galactic_community_member = yes
                     }
-                    OR = {
-                        root = {
+                    root = {
+                        OR = {
                             is_galactic_custodian = yes
-                        }
-                        root = {
                             is_galactic_emperor = yes
                         }
                     }

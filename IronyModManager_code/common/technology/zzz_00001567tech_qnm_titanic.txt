@@ -29,7 +29,7 @@ tech_qnm_titanic = {
         }
     }
     ai_weight = {
-        factor = @ehof_t1_weight
+        factor = @giga_aiweight_multiplier_questionable
         modifier = {
             factor = 1.25
             has_ethic = ethic_militarist

@@ -26,7 +26,6 @@ utility_component_template = {
         crisis_cruiser
         graygoo_interdictor
     }
-    upgrades_to = "CRUISER_ESC_DARK_MATTER_CORE_2"
     ai_weight = {
         weight = 6
         modifier = {

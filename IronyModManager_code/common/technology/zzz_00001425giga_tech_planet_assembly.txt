@@ -29,4 +29,14 @@ giga_tech_planet_assembly = {
             has_global_flag = giga_disable_celestial_printing_planet
         }
     }
+    ai_weight = {
+        factor = @giga_aiweight_multiplier_insane
+        modifier = {
+            factor = 1.25
+            research_leader = {
+                area = physics
+                has_trait = "leader_trait_expertise_particles"
+            }
+        }
+    }
 }

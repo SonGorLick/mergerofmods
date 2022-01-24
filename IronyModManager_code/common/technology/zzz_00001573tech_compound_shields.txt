@@ -15,7 +15,7 @@ tech_compound_shields = {
         factor = 0
     }
     ai_weight = {
-        factor = @ehof_t2_weight
+        factor = @giga_aiweight_multiplier_questionable
         modifier = {
             factor = 1.25
             research_leader = {

@@ -23,7 +23,7 @@ utility_component_template = {
         starbase_gatebuilders
         graygoo_factory
     }
-    upgrades_to = "STARBASE_ESC_REACTOR_6"
+    upgrades_to = "STARBASE_DARK_MATTER_REACTOR"
     ai_weight = {
         weight = 5
     }

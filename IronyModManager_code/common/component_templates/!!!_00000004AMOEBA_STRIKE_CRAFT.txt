@@ -23,8 +23,8 @@ strike_craft_component_template = {
         max = 30
     }
     cooldown = 5
-    range = @attack_range
-    engagement_range = @engagement_range
+    range = @ESC_STRIKECRAFT_attack_range_bomber
+    engagement_range = @ESC_STRIKECRAFT_engagement_range
     accuracy = 0.7
     tracking = 0.5
     health = 50

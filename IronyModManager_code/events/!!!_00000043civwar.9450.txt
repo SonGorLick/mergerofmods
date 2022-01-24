@@ -1,0 +1,27 @@
+namespace = civwar
+country_event = {
+    id = civwar.9450
+    hide_window = yes
+    is_triggered_only = yes
+    trigger = {
+        from = {
+            OR = {
+                has_leader_flag = admiral_copy_1
+                has_leader_flag = admiral_copy_2
+            }
+        }
+    }
+    immediate = {
+        every_owned_leader = {
+            limit = {
+                OR = {
+                    has_leader_flag = admiral_copy_1
+                    has_leader_flag = admiral_copy_2
+                }
+            }
+            kill_leader = {
+                show_notification = no
+            }
+        }
+    }
+}

@@ -3,8 +3,8 @@ lgate = {
     is_pathfind = yes
     uses_action = no
     always_active = no
-    windup_time = 20
-    winddown_time = 20
+    windup_time = 0
+    winddown_time = 0
     ftl_multiplier = 0
     icon_frame = 30
     remember_instances = no
@@ -46,8 +46,11 @@ lgate = {
             fail_text = LGATE_COUNTRY_CANNOT_USE
             OR = {
                 has_global_flag = lgates_activated_globally
-                has_country_flag = lgates_activated
+                root = {
+                    has_country_flag = lgates_activated
+                }
             }
+            root = {
             NOR = {
                 is_country_type = amoeba
                 is_country_type = amoeba_borderless
@@ -60,6 +63,7 @@ lgate = {
                 is_country_type = vluur
             }
         }
+    }
     }
     on_action = "on_entering_lgate"
     scripted_connection = {

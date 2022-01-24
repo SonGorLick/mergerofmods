@@ -53,7 +53,7 @@ giga_tech_maginot_planetcraft_upgrade = {
         }
     }
     ai_weight = {
-        factor = @giga_aiweight_multiplier
+        factor = @giga_aiweight_multiplier_strong
         modifier = {
             factor = 1.25
             research_leader = {

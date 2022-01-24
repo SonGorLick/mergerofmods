@@ -17,6 +17,11 @@ utility_component_template = {
             alloys = 0.593
         }
     }
+    valid_for_country = {
+        NOT = {
+            has_global_flag = @NSC_active_flag
+        }
+    }
     prerequisites = {
         "tech_dark_matter_power_core"
     }
@@ -27,7 +32,7 @@ utility_component_template = {
         scavenger_bot
         dreadnought
     }
-    upgrades_to = "TITAN_ESC_DARK_MATTER_CORE_2"
+    upgrades_to = TITAN_ESC_DARK_MATTER_CORE_2
     ai_weight = {
         weight = 6
         modifier = {

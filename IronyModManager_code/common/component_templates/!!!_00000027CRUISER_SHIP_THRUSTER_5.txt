@@ -24,6 +24,11 @@ utility_component_template = {
     size_restriction = {
         cruiser
         crisis_cruiser
+        graygoo_interdictor
+        @RS_SupportCruiser
+        @RS_ElectronicCruiser
+        @RS_BattleCruiser
+        @PFE_Escort
         pirate_cruiser
         marauder_cruiser
     }

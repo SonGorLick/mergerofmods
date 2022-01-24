@@ -5,7 +5,7 @@ weapon_component_template = {
     icon = "GFX_ship_part_arc_emitter_1"
     icon_frame = 1
     firing_arc = 35
-    min_range = 10
+    min_range = @ESC_WEAPON_MIN_RANGE_2
     use_ship_kill_target = no
     prerequisites = {
         "tech_arc_emitter_1"

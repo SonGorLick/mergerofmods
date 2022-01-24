@@ -32,6 +32,8 @@ utility_component_template = {
         constructor
         science
         transport
+        @EAC_PatrolCraft_1
+        @EAC_PatrolCraft_2
     }
     ai_weight = {
         weight = 5
