@@ -100,7 +100,7 @@ Machine & Robot Expansion
 Inflection Point
 Guillified Precursor Story Pack (Compat Patch)
 Gods & Guardians (3.X)
-Fatal Foundations Story Pack [3.2]
+Fatal Foundations Story Pack [3.3]
 Extra Origins (3.2)
 Extra Events 3.2
 Expanded Gestalts: Forgotten Queens
@@ -146,7 +146,6 @@ Invasion! (3.2)
 Improved Planet and Sector Automation
 Fatherland: Colonial Empires
 Fatherland: Frontier Worlds
-Fatherland 3.2 Quick Patch
 Experience Adjustments
 Expanded Mandates
 End Truce & Close Borders
@@ -186,7 +185,6 @@ Machine Shipset
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
 Kurogane Expanded (New)
-Kurosections Expanded
 Humanoid Dark Ships Redux
 Enigmatic Shipset
 Enigmatic Shipset Add-on: Aesthetic Terraform Station Compatibility
@@ -260,7 +258,6 @@ Planetary Diversity - Gaia Worlds
 Planetary Diversity - Ringworlds
 Planetary Diversity - Space Habitats
 Planetary Diversity - Reworked Habitability
-Cryogenesis - PD Patch
 Planetary Wonders
 Legendary Worlds 3.2.x
 UI Overhaul Dynamic + Planetary Diversity
