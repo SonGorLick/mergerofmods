@@ -82,7 +82,7 @@ Leader Overhaul - Full Edition
 Just More Traits 3.0.x
 Hands of State (3.X)
 Void Dwellers Expanded 3+
-The Great Khan Expanded [3.2.☠]
+The Great Khan Expanded [3.3.☠]
 Starborn: Improved Voidtouched
 Starborn Disable Normal Habitats
 Shroud Rising
@@ -103,6 +103,7 @@ Gods & Guardians (3.X)
 Fatal Foundations Story Pack [3.3]
 Extra Origins (3.2)
 Extra Events 3.2
+Extragalactic Cluster Start
 Expanded Gestalts: Forgotten Queens
 Even More Origins
 Endless Frontier: An Event Mod
@@ -152,13 +153,13 @@ End Truce & Close Borders
 Dynamic Mod Menu (3.1.*)
 Dynamic Difficulty : More Modifiers
 Dynamic Difficulty - Ultimate Customization
+Shroud Rising - Dynamic Difficulty Patch
 Diplomacy Adjustments
 Deficit Penalties - Reasonable Reductions [3.2]
 Decentralized Empires 3.3 (Regentmaker)
 Claims Decay - Dynamic Diplomacy [3.2]
 Civil Wars
 Change Shipset
-Bigger Planets
 Better Terraforming Candidates
 Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
 Better Interactions for Megacorps
@@ -210,6 +211,7 @@ Homeworld Ethics (3.X)
 Guilli's Technologies
 Gigastructural Engineering & More (3.2)
 asteroid creation mod
+Nicoll Dyson Beam Defense Plataform
 Gigas Stellar Manipulation
 Formidable Star Eater - The Companion Cube
 Expanded Starbases
