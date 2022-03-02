@@ -1,0 +1,230 @@
+!!Ariphaos Unofficial Patch (3.3)
+[v1.0] Insults and Injuries
+Bypass Adjustments
+Change Shipset
+Dynamic Mod Menu (3.3.*)
+Sensor Expansion
+Start with AutoExplore
+Tass Cheat Tool
+5 Times Faster Reinforcement Transit
+Additional Machine Portraits
+Additional Machine Portraits - Dark Core
+Additional Machine Portraits - Light Matrix
+Additional Machine Portraits | Forgotten Atomotons
+Another Animated Avali
+Animated Octee-lan Portraits
+Animated Aquilese Portraits
+Animated Hollow Portraits
+Animated Xirmian Portraits
+Animated Raptor Portraits
+Holosphere Rising
+Animated Serpentoid Portraits
+Animated Quarian Portraits - Mass Effect
+Animated Asari Portraits - Mass Effect
+Animated Eldar Portraits - Warhammer 40K
+Deprecated Humanoid Ship Sections Patch
+Animated Portraits - The Hidden Eye
+Animated Silicoid Portraits
+Animated Hyena Portraits
+Animated Shark Portraits
+Aquatic Empire Colours
+Benjaseth's Species Names
+CSix
+Cybrxkhan's Assortment of Namelists for Stellaris
+Elf Names
+Enhanced - Plavalaguna Portraits
+Enhanced - Vulcan Portraits
+Fishbowl Robot Head Fix
+Flags, Emblems n Crests Merged
+Ketaros Clothes Base
+Portrait Trigger Pack - Core
+Portrait Trigger Pack - Dynamic Political Events
+Portrait Trigger Pack - Ethics and Civics
+Portrait Trigger Pack - Machine & Robot Expansion
+Portrait Trigger Pack - Planetary Diversity
+Premium Presapient Portraits
+Restored Content: Fungoids
+Silfae's city sets updated
+Silfae's Portraits: Revisited
+Segek's Animated Portraits
+*Remastered Human Portraits
+Stellerotica - Human Hair v2
+Talking Non-Humanoid Portraits
+Just Star Names
+Just Name Lists
+Leader Overhaul - Full Edition
+Leader Tweaks
+Leader Traits: All Eligible Species Traits
+Leader Traits: Enhanced Randomisation
+Leader Traits: Scientist AI Assistant Upgrader
+Special Leadership Privileges for Battle Thralls and Bio-Trophies
+Retain Leaders from Integrated Subjects
+Trait Diversity
+Zro Lithoid Trait
+[3.3.*] Planet States
+Aggressive Crisis Engine
+AI-Player Exclusive Archaeology
+Ancient Juggernaut Origin
+APSR: Anomalies, Planetary and Space Resources
+Archaeology Story Pack
+Basic Ordinary Origins
+Battle Debris - Starship Graveyards
+Better Ecumenopoli
+Better Purge
+Better Terraforming Candidates
+Building: Aquaponics Farms
+Building Slot Technologies
+Colony Designation: Ecumenopolis Commercial
+Decentralized Empires 3.3 (Regentmaker)
+Dynamic Difficulty : More Modifiers
+Dynamic Difficulty - Ultimate Customization
+Dynamic Political Events
+Elves of Stellaris
+Endless Frontier: An Event Mod
+Enhanced Trade Districts and Designations
+Even More Origins
+Expanded Diplomacy and Espionage
+Expanded Megastructures and Technology
+Extragalactic Cluster Start
+Extra Events 3.3
+Extra Fallen Empires
+Extra Ship Components NEXT
+Expanded Mandates
+Fatal Foundations Story Pack [3.3]
+Federations Expanded
+Federations - No Hard Feelings for Declined Votes
+Fleet Formation Mod 3.0.+
+Foreign Gateway Construction
+Galactic Market Foundation Tweak
+Guilli's Planet Modifiers and Features
+Guilli's Technologies
+Gigastructural Engineering & More (3.3)
+Loyal Subjects Have Nothing to Fear (From the Colossus)[3.2]
+Machine & Robot Expansion
+Magnum's Mods - Tradition Cost Scaling
+Magnum's Mods - Megastructure Build Speed Research
+Magnum's Mods - Resource Storage Research
+Magnum's Mods - More Influence Research
+Merged Leader Levels
+Megastructure Policies
+More AI Personalities
+More Events Mod
+More Federation Names
+Penal Colony: Enhanced
+Planetary Wonders
+Planet Raider
+Potent Rebellions
+Precursor Story Pack
+Primitive Conquest Enhancements
+Psionic Ascension: Even in Other Empires
+Psionic Species Expansion
+Psionic Species Expansion - Gigastructural Engineering
+Random Species Names - Updated
+Real Machine Worlds (Now v3.0.* Compatible)
+Resettlement Tool
+Shroud Rising
+Shroud Rising - Dynamic Difficulty Patch
+Spaceborne Civs Expanded
+Starborn: Improved Voidtouched
+Starborn Disable Normal Habitats
+Stellaris Enhanced Sound Project
+Vassals and Tributaries - Exalted Domination [3.3]
+Vassals Expanded and Reworked - FunEFork
+Void Dwellers Expanded 3+
+Marauders but Cooler
+A Deadly Tempest [3.3.☠]
+Crisis Manager - Mid-Game Edition (3.3.¢)
+Crisis Manager - End-Game Edition (3.3.¢)
+Crisis Manager - Sleeper Edition (3.3.¢)
+Powerful & Realistic Orbital Bombardments [3.3.☠]
+The Great Khan Expanded [3.3.☠]
+Realistic Pirates [3.3.☠]
+Borg Shipset 3.0
+Colourable Elves of Stellaris Ships
+Enigmatic Shipset
+Expanded Starbases
+Expanded Starbase: No Bastions
+Formidable Star Eater - The Companion Cube
+Humanoid Dark Ships Redux
+Kurogane Expanded (New)
+Machine Shipset
+Retextured Ships
+We are the Imperial Navy
+White-Gold Humanoid
+White-Gold Shipset
+United Fleet Shipset
+UI Overhaul Dynamic
+UI Overhaul Dynamic - Checksum Schism Version
+[3.1.*] UI Overhaul Dynamic + Planet States
+Tiny Ship Components
+Kaityo`s Tiny Planet Buildings for UI Overhaul Dynamic
+36 Building Slots
+Planetary Diversity
+Planetary Diversity - Exotic Worlds
+Planetary Diversity - Gaia Worlds
+Planetary Diversity - More Arcologies
+Planetary Diversity - Planetary Habitats
+Planetary Diversity - Ringworlds
+Planetary Diversity - Shroud Worlds
+Planetary Diversity - Space Habitats
+Planetary Diversity - Unique Worlds
+Planetary Diversity - Reworked Habitability
+Elves of Stellaris - Planetary Diversity Patch v3.3
+Immersive Galaxie - Planet Variety Reborn 4K
+Immersive Galaxie - Nuclear Fire Reborn
+UI Overhaul Dynamic + Planetary Diversity
+Planetary Modifier Enhancements
+Compatibility - Guilli's Techs & Planetary Diversity
+Perked Up Perks
+! Reworked Advanced Ascension
+Real Space 3.8
+Ethics & Civics: Bug Branch
+Ethics and Civics: Bug Branch Corporate Buildings
+Amazing Civics - Megacorp [3.3.*]
+Amazing Civics: Megacorp - Bug Branch Compatibility Patch [3.3.*]
+Government Variety Pack 4
+Mercenary Megacorps
+Ethics & Civics Overhaul/GVP Sanity Patch
+UI Overhaul Dynamic + Bug Branch
+Aesthetic Terraform Stations
+All Anomaly Spawns
+Advanced Ship Behaviour Modules
+Advanced Ship Behavior Modules: Revisited
+Better Rings
+Color coded pop status icons
+Colored Ethics Alternate
+Higher Fallen Empire Limit
+Habitat AI colonisation fix
+More Civic Points [S-02]
+Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
+Machine Shipset Add-on: Shattered Ring and Habitat Appearance
+Enigmatic Shipset Add-on: Aesthetic Terraform Station Compatibility
+Ringworld Graphical Enhancements
+Shut Up, We Don't Care! (3.3)
+Simple Leader Skill Icons
+Titan (& Jugg.) Interdictor Module
+Tier Numbers: Tech
+Tier Numbers: Buildings
+Zeta / Map Modes
+!Stellaris Enhanced Sound Project - Unofficial ESC Patch
+!Patch - Cubemap Fix
+Arcane Institue Fix
+Automated Dreadnought Fix - 2.8 Compatible
+Combat Graphic Bug Fix
+Longer Greetings Timer
+!Colossus Hiveworld Fix
+! Immersive Beautiful Stellaris !
+Real Space Nebulae
+! Dark Blue UI Remake
+RLS + Dark UI Patch
+Improved Music Player
+Improved Music Player & Dark UI Fix
+! Dark Blue UI Universial Patch
+Alternative Federation Backgrounds LITE
+Alternative Galactic Federation Backgrounds LITE
+Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
+!! K !! - Realistic Asteroids
+! The Merger of Rules 3.3
+!!Universal Modifier Patch (3.3.*)
+Silent Galaxy-Ambient-Sound
+!!!Universal Resource Patch [2.4+]
