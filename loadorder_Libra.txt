@@ -6,6 +6,7 @@ Dynamic Mod Menu (3.3.*)
 Sensor Expansion
 Start with AutoExplore
 Tass Cheat Tool
+Yet Another Galaxy Enhancement Mod
 5 Times Faster Reinforcement Transit
 Additional Machine Portraits
 Additional Machine Portraits - Dark Core
@@ -61,12 +62,14 @@ Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Retain Leaders from Integrated Subjects
 Trait Diversity
 Zro Lithoid Trait
+[3.3.*] New Enclaves
 [3.3.*] Planet States
 Aggressive Crisis Engine
 AI-Player Exclusive Archaeology
 Ancient Juggernaut Origin
 APSR: Anomalies, Planetary and Space Resources
 Archaeology Story Pack
+Automatic Pop Migration (3.1.1)
 Basic Ordinary Origins
 Battle Debris - Starship Graveyards
 Better Ecumenopoli
@@ -110,16 +113,19 @@ Megastructure Policies
 More AI Personalities
 More Events Mod
 More Federation Names
+Origins of Civilization for 3.x
 Penal Colony: Enhanced
 Planetary Wonders
 Planet Raider
 Potent Rebellions
 Precursor Story Pack
 Primitive Conquest Enhancements
+Primitive Worlds for 3.x
 Psionic Ascension: Even in Other Empires
 Psionic Species Expansion
 Psionic Species Expansion - Gigastructural Engineering
 Random Species Names - Updated
+Rapid Evolution for 3.x
 Real Machine Worlds (Now v3.0.* Compatible)
 Resettlement Tool
 Shroud Rising
@@ -139,6 +145,7 @@ Crisis Manager - Sleeper Edition (3.3.¢)
 Powerful & Realistic Orbital Bombardments [3.3.☠]
 The Great Khan Expanded [3.3.☠]
 Realistic Pirates [3.3.☠]
+AI Ship Set 3.1
 Borg Shipset 3.0
 Colourable Elves of Stellaris Ships
 Enigmatic Shipset
@@ -155,6 +162,7 @@ White-Gold Shipset
 United Fleet Shipset
 UI Overhaul Dynamic
 UI Overhaul Dynamic - Checksum Schism Version
+[3.1.*] UI Overhaul Dynamic + New Enclaves
 [3.1.*] UI Overhaul Dynamic + Planet States
 Tiny Ship Components
 Kaityo`s Tiny Planet Buildings for UI Overhaul Dynamic
@@ -178,11 +186,12 @@ Compatibility - Guilli's Techs & Planetary Diversity
 Perked Up Perks
 ! Reworked Advanced Ascension
 Real Space 3.8
+Simple Traditions
 Ethics & Civics: Bug Branch
 Ethics and Civics: Bug Branch Corporate Buildings
 Amazing Civics - Megacorp [3.3.*]
 Amazing Civics: Megacorp - Bug Branch Compatibility Patch [3.3.*]
-Government Variety Pack 4
+Government Variety Pack
 Mercenary Megacorps
 Ethics & Civics Overhaul/GVP Sanity Patch
 UI Overhaul Dynamic + Bug Branch
@@ -226,5 +235,9 @@ Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
 !! K !! - Realistic Asteroids
 ! The Merger of Rules 3.3
 !!Universal Modifier Patch (3.3.*)
+! Camera & Galaxy Map Tweaks
+Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
+!Patch - Elegant Galaxy Purple - No Quadrant
+!Patch - Elegant Galaxy Purple - Yet Another Galaxy Enhancement Mod
 Silent Galaxy-Ambient-Sound
 !!!Universal Resource Patch [2.4+]
