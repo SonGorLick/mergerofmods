@@ -53,6 +53,9 @@ Stellerotica - Human Hair v2
 Talking Non-Humanoid Portraits
 Just Star Names
 Just Name Lists
+Admiral Level Skills
+Governor Level Extended
+Scientist Level Extension
 Leader Overhaul - Full Edition
 Leader Tweaks
 Leader Traits: All Eligible Species Traits
@@ -108,7 +111,6 @@ Magnum's Mods - Tradition Cost Scaling
 Magnum's Mods - Megastructure Build Speed Research
 Magnum's Mods - Resource Storage Research
 Magnum's Mods - More Influence Research
-Merged Leader Levels
 Megastructure Policies
 More AI Personalities
 More Events Mod
@@ -163,7 +165,7 @@ United Fleet Shipset
 UI Overhaul Dynamic
 UI Overhaul Dynamic - Checksum Schism Version
 [3.1.*] UI Overhaul Dynamic + New Enclaves
-[3.1.*] UI Overhaul Dynamic + Planet States
+[3.3.*] UI Overhaul Dynamic + Planet States
 Tiny Ship Components
 Kaityo`s Tiny Planet Buildings for UI Overhaul Dynamic
 36 Building Slots
