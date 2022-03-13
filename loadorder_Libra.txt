@@ -23,7 +23,6 @@ Animated Serpentoid Portraits
 Animated Quarian Portraits - Mass Effect
 Animated Asari Portraits - Mass Effect
 Animated Eldar Portraits - Warhammer 40K
-Deprecated Humanoid Ship Sections Patch
 Animated Portraits - The Hidden Eye
 Animated Silicoid Portraits
 Animated Hyena Portraits
@@ -53,6 +52,7 @@ Stellerotica - Human Hair v2
 Talking Non-Humanoid Portraits
 Just Star Names
 Just Name Lists
+Additional Traits
 Admiral Level Skills
 Governor Level Extended
 Scientist Level Extension
@@ -63,7 +63,6 @@ Leader Traits: Enhanced Randomisation
 Leader Traits: Scientist AI Assistant Upgrader
 Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Retain Leaders from Integrated Subjects
-Trait Diversity
 Zro Lithoid Trait
 [3.3.*] New Enclaves
 [3.3.*] Planet States
@@ -105,6 +104,8 @@ Galactic Market Foundation Tweak
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
 Gigastructural Engineering & More (3.3)
+Improved Planet and Sector Automation
+Intervene: Help Friendly Nations - FunEFork
 Loyal Subjects Have Nothing to Fear (From the Colossus)[3.2]
 Machine & Robot Expansion
 Magnum's Mods - Tradition Cost Scaling
@@ -116,6 +117,7 @@ More AI Personalities
 More Events Mod
 More Federation Names
 Origins of Civilization for 3.x
+Origins Expanded
 Penal Colony: Enhanced
 Planetary Wonders
 Planet Raider
@@ -130,6 +132,7 @@ Random Species Names - Updated
 Rapid Evolution for 3.x
 Real Machine Worlds (Now v3.0.* Compatible)
 Resettlement Tool
+Shadowgate
 Shroud Rising
 Shroud Rising - Dynamic Difficulty Patch
 Spaceborne Civs Expanded
@@ -150,6 +153,7 @@ Realistic Pirates [3.3.☠]
 AI Ship Set 3.1
 Borg Shipset 3.0
 Colourable Elves of Stellaris Ships
+Deprecated Humanoid Ship Sections Patch
 Enigmatic Shipset
 Expanded Starbases
 Expanded Starbase: No Bastions
@@ -189,10 +193,15 @@ Perked Up Perks
 ! Reworked Advanced Ascension
 Real Space 3.8
 Simple Traditions
+工整传统3.3.*
+工整传统：63传统槽+64飞升槽
+Tidy Traditions: Superior English Localisation
 Ethics & Civics: Bug Branch
 Ethics and Civics: Bug Branch Corporate Buildings
 Amazing Civics - Megacorp [3.3.*]
 Amazing Civics: Megacorp - Bug Branch Compatibility Patch [3.3.*]
+Empires Expanded (formerly Civics Expanded+)
+EMEX - E&CBB Comp Patch
 Government Variety Pack
 Mercenary Megacorps
 Ethics & Civics Overhaul/GVP Sanity Patch
@@ -234,6 +243,8 @@ Improved Music Player & Dark UI Fix
 Alternative Federation Backgrounds LITE
 Alternative Galactic Federation Backgrounds LITE
 Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
+ESC NEXT: Overwrites: Component Progression
+Giga Diversity
 !! K !! - Realistic Asteroids
 ! The Merger of Rules 3.3
 !!Universal Modifier Patch (3.3.*)
