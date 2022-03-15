@@ -77,6 +77,7 @@ Battle Debris - Starship Graveyards
 Better Ecumenopoli
 Better Purge
 Better Terraforming Candidates
+Better Starbases
 Building: Aquaponics Farms
 Building Slot Technologies
 Colony Designation: Ecumenopolis Commercial
@@ -85,7 +86,6 @@ Dynamic Difficulty : More Modifiers
 Dynamic Difficulty - Ultimate Customization
 Dynamic Political Events
 Elves of Stellaris
-Endless Frontier: An Event Mod
 Enhanced Trade Districts and Designations
 Even More Origins
 Expanded Diplomacy and Espionage
@@ -141,6 +141,7 @@ Starborn Disable Normal Habitats
 Stellaris Enhanced Sound Project
 Vassals and Tributaries - Exalted Domination [3.3]
 Vassals Expanded and Reworked - FunEFork
+Vassals Love Powerful Overlords
 Void Dwellers Expanded 3+
 Marauders but Cooler
 A Deadly Tempest [3.3.☠]
