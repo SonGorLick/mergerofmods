@@ -67,6 +67,7 @@ Zro Lithoid Trait
 [3.3.*] New Enclaves
 [3.3.*] Planet States
 Aggressive Crisis Engine
+Agreements Boost Diplomatic Weight [3.3.*]
 AI-Player Exclusive Archaeology
 Ancient Juggernaut Origin
 APSR: Anomalies, Planetary and Space Resources
@@ -116,6 +117,7 @@ Megastructure Policies
 More AI Personalities
 More Events Mod
 More Federation Names
+No More Exclaves
 Origins of Civilization for 3.x
 Origins Expanded
 Penal Colony: Enhanced
@@ -211,6 +213,11 @@ Aesthetic Terraform Stations
 All Anomaly Spawns
 Advanced Ship Behaviour Modules
 Advanced Ship Behavior Modules: Revisited
+At War: Advanced Ship Sections (3.3)
+At War: Better Admiral Experience (3.3)
+At War: Carrier Improvements (3.3)
+At War: Defense Platform Longevity(3.3)
+At War: Starbase Improvements (3.3)
 Better Rings
 Color coded pop status icons
 Colored Ethics Alternate
