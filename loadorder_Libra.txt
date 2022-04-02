@@ -1,4 +1,5 @@
 !!Ariphaos Unofficial Patch (3.3)
+StarTech AI
 [v1.0] Insults and Injuries
 Bypass Adjustments
 Change Shipset
@@ -87,6 +88,7 @@ Dynamic Difficulty : More Modifiers
 Dynamic Difficulty - Ultimate Customization
 Dynamic Political Events
 Elves of Stellaris
+Endless Frontier: An Event Mod
 Enhanced Trade Districts and Designations
 Even More Origins
 Expanded Diplomacy and Espionage
@@ -107,6 +109,7 @@ Guilli's Technologies
 Gigastructural Engineering & More (3.3)
 Improved Planet and Sector Automation
 Intervene: Help Friendly Nations - FunEFork
+Legendary Worlds 3.3
 Loyal Subjects Have Nothing to Fear (From the Colossus)[3.2]
 Machine & Robot Expansion
 Magnum's Mods - Tradition Cost Scaling
@@ -121,6 +124,7 @@ No More Exclaves
 Origins of Civilization for 3.x
 Origins Expanded
 Penal Colony: Enhanced
+Planetary Decision Build Speed
 Planetary Wonders
 Planet Raider
 Potent Rebellions
@@ -136,11 +140,11 @@ Real Machine Worlds (Now v3.0.* Compatible)
 Resettlement Tool
 Shadowgate
 Shroud Rising
-Shroud Rising - Dynamic Difficulty Patch
 Spaceborne Civs Expanded
 Starborn: Improved Voidtouched
 Starborn Disable Normal Habitats
 Stellaris Enhanced Sound Project
+Technology Ascendant
 Vassals and Tributaries - Exalted Domination [3.3]
 Vassals Expanded and Reworked - FunEFork
 Vassals Love Powerful Overlords
@@ -196,10 +200,10 @@ Perked Up Perks
 ! Reworked Advanced Ascension
 Real Space 3.8
 Simple Traditions
-工整传统3.3.*
-工整传统：63传统槽+64飞升槽
-Tidy Traditions: Superior English Localisation
+Traditional Thinking (3.3)
+UI Overhaul Dynamic - More Tradition Categories (32)
 Ethics & Civics: Bug Branch
+Planetary Diversity + Bug Branch
 Ethics and Civics: Bug Branch Corporate Buildings
 Amazing Civics - Megacorp [3.3.*]
 Amazing Civics: Megacorp - Bug Branch Compatibility Patch [3.3.*]
