@@ -60,7 +60,9 @@ Scientist Level Extension
 Leader Overhaul - Full Edition
 Leader Tweaks
 Leader Traits: All Eligible Species Traits
+Leader Traits: Clone Army - All Leader Classes
 Leader Traits: Enhanced Randomisation
+Leader Traits: Merge-Add Species Traits
 Leader Traits: Scientist AI Assistant Upgrader
 Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Retain Leaders from Integrated Subjects
@@ -120,6 +122,8 @@ Megastructure Policies
 More AI Personalities
 More Events Mod
 More Federation Names
+More Origins Mod
+Nanite Machines & Distant Stars Overhaul
 No More Exclaves
 Origins of Civilization for 3.x
 Origins Expanded
@@ -257,6 +261,7 @@ Alternative Galactic Federation Backgrounds LITE
 Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
 ESC NEXT: Overwrites: Component Progression
 Giga Diversity
+Guillified Precursor  Story Pack (Compat Patch)
 !! K !! - Realistic Asteroids
 ! The Merger of Rules 3.3
 !!Universal Modifier Patch (3.3.*)
