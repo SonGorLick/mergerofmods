@@ -4,7 +4,7 @@ Don't forget to subscribe to all the mods here: https://steamcommunity.com/works
 
 How to apply the collection:
 - Download the latest zip from above
-- Subscribe to all mods (https://steamcommunity.com/sharedfiles/filedetails/?id=2664934021). 
+- Subscribe to all mods (https://steamcommunity.com/sharedfiles/filedetails/?id=2770171323). 
 - LET STEAM FINISH DOWNLOADING BEFORE GOING TO THE NEXT STEP.
 - DID YOU CHECK IF STEAM IS DONE DOWNLOADING? IT WILL STOP AND START A FEW TIMES.
 - Open Irony Mod Manager and click Import
