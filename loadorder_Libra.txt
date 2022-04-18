@@ -113,9 +113,11 @@ Dynamic Political Events
 Elves of Stellaris
 Endless Frontier: An Event Mod
 Enhanced Trade Districts and Designations
+EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.3.X)
 Even More Origins
 Expanded Espionage and Diplomacy
 Expanded Megastructures and Technology
+Expanded Xeno Diplomacy
 Extended Aquatics
 Extended Humanoids
 Extended Plantoids
@@ -126,18 +128,24 @@ Extra Ship Components NEXT
 Expanded Mandates
 Expanded Notifications
 Experience Adjustments
+Fallen Empires Expanded 3 (Beta)
 Fatal Foundations Story Pack [3.3]
 Federations Expanded
 Federations - No Hard Feelings for Declined Votes
 Fleet Formation Mod 3.0.+
 Foreign Gateway Construction
 Galactic Market Foundation Tweak
+Galatic Imperium Origin
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
 Gigastructural Engineering & More (3.3)
+Gigas Stellar Manipulation
 Improved Planet and Sector Automation
+Intel Expanded
 Intervene: Help Friendly Nations - FunEFork
+Invasion! (3.3)
 Legendary Worlds 3.3
+Legendaries Extended
 Loyal Subjects Have Nothing to Fear (From the Colossus)[3.2]
 Machine & Robot Expansion
 Magnum's Mods - Tradition Cost Scaling
@@ -181,6 +189,7 @@ Vassals Expanded and Reworked - FunEFork
 Vassals Love Powerful Overlords
 Void Dwellers Expanded 3+
 We Require Borders
+星海帝皇起源：帝国税
 Marauders but Cooler
 A Deadly Tempest [3.3.☠]
 Crisis Manager - Mid-Game Edition (3.3.¢)
@@ -194,6 +203,8 @@ Sensible Late Game Techs
 AI Ship Set 3.1
 Arkchitecture Shipsets
 Borg Shipset 3.0
+Caitian Shipset
+Cardassian Shipset
 Colourable Elves of Stellaris Ships
 Deprecated Humanoid Ship Sections Patch
 Enigmatic Shipset
@@ -201,12 +212,19 @@ Expanded Starbases
 Expanded Starbase: No Bastions
 Formidable Star Eater - The Companion Cube
 Humanoid Dark Ships Redux
+Klingon Shipset
 Kurogane Expanded (New)
 Machine Shipset
 Retextured Ships
+Romulan Shipset
 Sins of the Prophets: Stellaris
+Starfleet NX Era Shipset
+Starfleet TMP Era Shipset
 Strega 3.x
+Terran NX Era Shipset
+Tholian Shipset
 Treasure Planet: Terran Empire Shipset
+Yridian Shipset
 We are the Imperial Navy
 White-Gold Humanoid
 White-Gold Shipset
@@ -215,6 +233,7 @@ UI Overhaul Dynamic
 UI Overhaul Dynamic - Checksum Schism Version
 [3.3.*] UI Overhaul Dynamic + New Enclaves
 [3.3.*] UI Overhaul Dynamic + Planet States
+!Intel Expanded/UI Overhaul Dynamic compatibility patch
 Tiny Ship Components
 Kaityo`s Tiny Planet Buildings for UI Overhaul Dynamic
 36 Building Slots
@@ -241,8 +260,14 @@ Plentiful Traditions 3.x
 !Patch - EST & PT Duplicated Traditions Update
 Expanded Stellaris Ascension Perks
 Perked Up Perks
+Plentiful Traditions 3.x - Extra Perks
+Patch for Plentiful Perks and Pl-Di
+Unique Ascension Perks
+Unique Ascension Perks PATCH 3.3
 ! Reworked Advanced Ascension
+Ascension Perks Mega Patch
 Real Space 3.8
+Real Space - All Unique Systems
 Simple Traditions
 Traditional Thinking (3.3)
 UI Overhaul Dynamic - More Tradition Categories (64)
@@ -252,15 +277,13 @@ Ethics and Civics: Bug Branch Corporate Buildings
 Amazing Civics - Megacorp [3.3.*]
 Amazing Civics: Megacorp - Bug Branch Compatibility Patch [3.3.*]
 Empires Expanded (formerly Civics Expanded+)
-EMEX - E&CBB Comp Patch
 Government Variety Pack
 Mercenary Megacorps
 Ethics & Civics Overhaul/GVP Sanity Patch
+Ethics And Civic Bug Branch FEE3 Compatability Patch
 UI Overhaul Dynamic + Bug Branch
 Aesthetic Terraform Stations
 All Anomaly Spawns
-Advanced Ship Behaviour Modules
-Advanced Ship Behavior Modules: Revisited
 At War: Advanced Ship Sections (3.3)
 At War: Better Admiral Experience (3.3)
 At War: Carrier Improvements (3.3)
@@ -292,6 +315,7 @@ Auto-Research Repeatable Targeting: Gigastructures Version
 Automated Dreadnought Fix - 2.8 Compatible
 Combat Graphic Bug Fix
 Longer Greetings Timer
+Technology Rubberbanding
 ! Immersive Beautiful Stellaris !
 Real Space Nebulae
 ! Dark Blue UI Remake
@@ -314,5 +338,7 @@ Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
 !Patch - Elegant Galaxy Purple - Yet Another Galaxy Enhancement Mod
 Silent Galaxy-Ambient-Sound
 ! Better Performance & Utilities
+! Reworked Tactical System [Battlefield] !
+! ! Reworked Tactical System [attrib]
 ! The Merger of Rules 3.3
 Absolutely no prescripted countries pls
