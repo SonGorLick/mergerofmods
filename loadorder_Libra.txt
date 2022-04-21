@@ -11,26 +11,16 @@ Tass Cheat Tool
 Yet Another Galaxy Enhancement Mod
 5 Times Faster Reinforcement Transit
 Mythez's Compendium of Animation
-Another Animated Avali
-Animated Budgie Species
-Animated Geometry Species
-Animated Kriken Species
-Animated Lykos Species
-Animated Pardus Species
-Animated Valbaran Species
 Aquatic Empire Colours
 Benjaseth's Species Names
 CSix
 Cybrxkhan's Assortment of Namelists for Stellaris
-Diamont Species
 Elf Names
 Enhanced - Plavalaguna Portraits
 Enhanced - Vulcan Portraits
 Fishbowl Robot Head Fix
 Flags, Emblems n Crests Merged
 Ketaros Clothes Base
-Mucor
-Necrats
 Plant's Species Expansion
 Portrait Trigger Pack - Core
 Portrait Trigger Pack - Dynamic Political Events
@@ -315,5 +305,6 @@ Silent Galaxy-Ambient-Sound
 ! Reworked Tactical System [Battlefield] !
 ! ! Reworked Tactical System [attrib]
 ! The Merger of Rules 3.3
+Portraits Patch (Merger of Mods)
 Absolutely no prescripted countries pls
 Kurogane Expanded (New)
