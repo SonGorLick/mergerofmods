@@ -10,30 +10,13 @@ Start with AutoExplore
 Tass Cheat Tool
 Yet Another Galaxy Enhancement Mod
 5 Times Faster Reinforcement Transit
-Additional Machine Portraits
-Additional Machine Portraits - Dark Core
-Additional Machine Portraits - Light Matrix
-Additional Machine Portraits | Forgotten Atomotons
+Mythez's Compendium of Animation
 Another Animated Avali
-Animated Octee-lan Portraits
-Animated Aquilese Portraits
 Animated Budgie Species
 Animated Geometry Species
-Animated Hollow Portraits
 Animated Kriken Species
 Animated Lykos Species
-Animated Xirmian Portraits
 Animated Pardus Species
-Animated Raptor Portraits
-Holosphere Rising
-Animated Serpentoid Portraits
-Animated Quarian Portraits - Mass Effect
-Animated Asari Portraits - Mass Effect
-Animated Eldar Portraits - Warhammer 40K
-Animated Portraits - The Hidden Eye
-Animated Silicoid Portraits
-Animated Hyena Portraits
-Animated Shark Portraits
 Animated Valbaran Species
 Aquatic Empire Colours
 Benjaseth's Species Names
@@ -55,15 +38,7 @@ Portrait Trigger Pack - Ethics and Civics
 Portrait Trigger Pack - Machine & Robot Expansion
 Portrait Trigger Pack - Planetary Diversity
 Premium Presapient Portraits
-Project Xenotype: Chapter 2: Ascellians
-Protoss Ihan-rii Portrait Set
-Protoss Khalai Portrait Set
-Protoss Nerazim Portrait Set
-Protoss Tal'darim Portrait Set
 Restored Content: Fungoids
-Silfae's city sets updated
-Silfae's Portraits: Revisited
-Segek's Animated Portraits
 Trace's Better Lithoids
 *Remastered Human Portraits
 Stellerotica - Human Hair v2
@@ -213,7 +188,6 @@ Expanded Starbase: No Bastions
 Formidable Star Eater - The Companion Cube
 Humanoid Dark Ships Redux
 Klingon Shipset
-Kurogane Expanded (New)
 Machine Shipset
 Retextured Ships
 Romulan Shipset
@@ -342,3 +316,4 @@ Silent Galaxy-Ambient-Sound
 ! ! Reworked Tactical System [attrib]
 ! The Merger of Rules 3.3
 Absolutely no prescripted countries pls
+Kurogane Expanded (New)
