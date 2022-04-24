@@ -142,8 +142,6 @@ Random Species Names - Updated
 Rapid Evolution for 3.x
 Real Machine Worlds (Now v3.0.* Compatible)
 Resettlement Tool
-Shadowgate
-Shroud Rising
 Spaceborne Civs Expanded
 Starborn: Improved Voidtouched
 Starborn Disable Normal Habitats
@@ -178,6 +176,7 @@ Expanded Starbase: No Bastions
 Formidable Star Eater - The Companion Cube
 Humanoid Dark Ships Redux
 Klingon Shipset
+Kurogane without the extras
 Machine Shipset
 Retextured Ships
 Romulan Shipset
@@ -261,6 +260,7 @@ Higher Fallen Empire Limit
 Habitat AI colonisation fix
 Lotus Mod - Advanced Ship Sections
 More Civic Points [S-02]
+Names for Primitive Planets
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
 Enigmatic Shipset Add-on: Aesthetic Terraform Station Compatibility
@@ -291,6 +291,7 @@ Alternative Federation Backgrounds LITE
 Alternative Galactic Federation Backgrounds LITE
 Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost
 ESC NEXT: Overwrites: Component Progression
+Starforming
 Giga Diversity
 Guillified Precursor  Story Pack (Compat Patch)
 ASB Addon: More Particles
@@ -303,8 +304,6 @@ Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
 Silent Galaxy-Ambient-Sound
 ! Better Performance & Utilities
 ! Reworked Tactical System [Battlefield] !
-! ! Reworked Tactical System [attrib]
 ! The Merger of Rules 3.3
 Portraits Patch (Merger of Mods)
 Absolutely no prescripted countries pls
-Kurogane Expanded (New)
