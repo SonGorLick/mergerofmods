@@ -1,10 +1,12 @@
-! Core Framework & Modmenu
 !!Ariphaos Unofficial Patch (3.3)
+Start with auto explore & research
+Dynamic Mod Menu (3.3.*)
 Amazing Space Battles
 StarTech AI
 [v1.0] Insults and Injuries
 Bypass Adjustments
 Change Shipset
+Mass Effect: Beyond the Advisors
 Sensor Expansion
 Start with AutoExplore
 Tass Cheat Tool
@@ -74,8 +76,11 @@ Colony Designation: Ecumenopolis Commercial
 Cross Border Trade
 Decentralized Empires 3.3 (Regentmaker)
 Diverse Prosperous Unifications
+Dynamic Difficulty : More Modifiers
+Dynamic Difficulty - Ultimate Customization
 Dynamic Political Events
 Elves of Stellaris
+Enclave Adjustment 3.3.4
 Endless Frontier: An Event Mod
 Enhanced Trade Districts and Designations
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.3.X)
@@ -105,6 +110,7 @@ Guilli's Planet Modifiers and Features
 Guilli's Technologies
 Gigastructural Engineering & More (3.3)
 Gigas Stellar Manipulation
+Hemothep's Dynamic Difficulty
 Improved Planet and Sector Automation
 Intel Expanded
 Intervene: Help Friendly Nations - FunEFork
@@ -258,12 +264,14 @@ Color coded pop status icons
 Colored Ethics Alternate
 Higher Fallen Empire Limit
 Habitat AI colonisation fix
+Liara's Rebalanced Tech Tiers
 Lotus Mod - Advanced Ship Sections
 More Civic Points [S-02]
 Names for Primitive Planets
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
 Enigmatic Shipset Add-on: Aesthetic Terraform Station Compatibility
+Realistic Logistic Growth
 Ringworld Graphical Enhancements
 Shut Up, We Don't Care! (3.3)
 Simple Leader Skill Icons
@@ -274,6 +282,8 @@ Young Leaders
 Zeta / Map Modes
 !Stellaris Enhanced Sound Project - Unofficial ESC Patch
 !Patch - Cubemap Fix
+AI Game Performance Optimisation Fix
+Merge AI Species
 Arcane Institue Fix
 Auto-Research Repeatable Targeting: Gigastructures Version
 Automated Dreadnought Fix - 2.8 Compatible
@@ -302,8 +312,8 @@ Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
 !Patch - Elegant Galaxy Purple - No Quadrant
 !Patch - Elegant Galaxy Purple - Yet Another Galaxy Enhancement Mod
 Silent Galaxy-Ambient-Sound
-! Better Performance & Utilities
-! Reworked Tactical System [Battlefield] !
+!!!Universal Resource Patch [2.4+]
+!!Universal Modifier Patch (3.3.*)
 ! The Merger of Rules 3.3
 Portraits Patch (Merger of Mods)
 Absolutely no prescripted countries pls
