@@ -267,7 +267,6 @@ Habitat AI colonisation fix
 Liara's Rebalanced Tech Tiers
 Lotus Mod - Advanced Ship Sections
 More Civic Points [S-02]
-Names for Primitive Planets
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
 Enigmatic Shipset Add-on: Aesthetic Terraform Station Compatibility
