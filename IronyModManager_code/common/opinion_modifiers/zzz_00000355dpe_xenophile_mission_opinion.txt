@@ -1,8 +1,0 @@
-dpe_xenophile_mission_opinion = {
-    opinion = {
-        base = 20
-    }
-    decay = {
-        base = 1
-    }
-}

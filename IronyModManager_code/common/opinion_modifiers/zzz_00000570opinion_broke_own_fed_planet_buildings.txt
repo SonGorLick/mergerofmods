@@ -1,8 +1,0 @@
-opinion_broke_own_fed_planet_buildings = {
-    opinion = {
-        base = -75
-    }
-    decay = {
-        base = 1
-    }
-}

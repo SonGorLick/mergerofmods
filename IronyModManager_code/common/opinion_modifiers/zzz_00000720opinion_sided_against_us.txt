@@ -1,8 +1,0 @@
-opinion_sided_against_us = {
-    opinion = {
-        base = -25
-    }
-    decay = {
-        base = 1
-    }
-}

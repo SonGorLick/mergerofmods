@@ -1,5 +1,0 @@
-sofe_light_seeker = {
-    ai = {
-        enabled = no
-    }
-}

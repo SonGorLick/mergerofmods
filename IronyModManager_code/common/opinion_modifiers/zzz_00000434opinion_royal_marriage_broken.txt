@@ -1,8 +1,0 @@
-opinion_royal_marriage_broken = {
-    opinion = {
-        base = -50
-    }
-    decay = {
-        base = 3
-    }
-}

@@ -1,5 +1,0 @@
-sofe_sentinel_active = {
-    ai = {
-        enabled = no
-    }
-}

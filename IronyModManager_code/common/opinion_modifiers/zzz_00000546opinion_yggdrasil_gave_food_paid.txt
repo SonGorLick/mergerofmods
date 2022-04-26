@@ -1,8 +1,0 @@
-opinion_yggdrasil_gave_food_paid = {
-    opinion = {
-        base = 50
-    }
-    decay = {
-        base = -1
-    }
-}

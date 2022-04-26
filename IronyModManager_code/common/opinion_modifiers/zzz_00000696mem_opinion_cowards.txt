@@ -1,5 +1,0 @@
-mem_opinion_cowards = {
-    opinion = {
-        base = -50
-    }
-}

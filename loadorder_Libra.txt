@@ -6,7 +6,6 @@ StarTech AI
 [v1.0] Insults and Injuries
 Bypass Adjustments
 Change Shipset
-Mass Effect: Beyond the Advisors
 Sensor Expansion
 Start with AutoExplore
 Tass Cheat Tool
@@ -296,6 +295,7 @@ RLS + Dark UI Patch
 Improved Music Player
 Improved Music Player & Dark UI Fix
 ! Dark Blue UI Universial Patch
+Galactic Community Expanded Defines
 Alternative Federation Backgrounds LITE
 Alternative Galactic Federation Backgrounds LITE
 Better Sliders - Mid/End/Victory Game Years and Tech/Tradition cost

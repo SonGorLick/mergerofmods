@@ -1,8 +1,0 @@
-dpe_defect_leader_interference = {
-    opinion = {
-        base = -60
-    }
-    decay = {
-        base = 3
-    }
-}

@@ -1,8 +1,0 @@
-mem_crawler_killed = {
-    opinion = {
-        base = 50
-    }
-    decay = {
-        base = 2
-    }
-}

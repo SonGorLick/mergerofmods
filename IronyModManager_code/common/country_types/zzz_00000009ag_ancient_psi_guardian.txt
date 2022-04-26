@@ -1,5 +1,0 @@
-ag_ancient_psi_guardian = {
-    ai = {
-        enabled = no
-    }
-}

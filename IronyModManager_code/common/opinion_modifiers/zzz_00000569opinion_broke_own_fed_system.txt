@@ -1,8 +1,0 @@
-opinion_broke_own_fed_system = {
-    opinion = {
-        base = -750
-    }
-    decay = {
-        base = 1
-    }
-}

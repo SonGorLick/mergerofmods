@@ -1,8 +1,0 @@
-opinion_destroyed_ne_shroud_trade = {
-    opinion = {
-        base = -30
-    }
-    decay = {
-        base = 2
-    }
-}

@@ -1,5 +1,0 @@
-opinion_giga_galactic_threat = {
-    opinion = {
-        base = -1000
-    }
-}

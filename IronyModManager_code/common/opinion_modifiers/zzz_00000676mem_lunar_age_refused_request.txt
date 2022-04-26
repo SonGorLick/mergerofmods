@@ -1,8 +1,0 @@
-mem_lunar_age_refused_request = {
-    opinion = {
-        base = -30
-    }
-    decay = {
-        base = 1
-    }
-}

@@ -1,5 +1,0 @@
-opinion_fatherland_plucky = {
-    opinion = {
-        base = 20
-    }
-}

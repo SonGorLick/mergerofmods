@@ -1,8 +1,0 @@
-opinion_capital_helped = {
-    opinion = {
-        base = 50
-    }
-    decay = {
-        base = 5
-    }
-}

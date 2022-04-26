@@ -1,5 +1,0 @@
-acot_crazed_stellarite = {
-    ai = {
-        enabled = no
-    }
-}

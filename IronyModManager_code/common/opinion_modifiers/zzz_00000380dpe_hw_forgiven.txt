@@ -1,8 +1,0 @@
-dpe_hw_forgiven = {
-    opinion = {
-        base = 50
-    }
-    decay = {
-        base = 3
-    }
-}

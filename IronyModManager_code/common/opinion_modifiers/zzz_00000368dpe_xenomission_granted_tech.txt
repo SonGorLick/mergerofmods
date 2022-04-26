@@ -1,8 +1,0 @@
-dpe_xenomission_granted_tech = {
-    opinion = {
-        base = 20
-    }
-    decay = {
-        base = 2
-    }
-}

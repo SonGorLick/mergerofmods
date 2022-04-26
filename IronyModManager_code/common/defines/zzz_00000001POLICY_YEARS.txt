@@ -1,3 +1,0 @@
-NGameplay = {
-    POLICY_YEARS = 5
-}

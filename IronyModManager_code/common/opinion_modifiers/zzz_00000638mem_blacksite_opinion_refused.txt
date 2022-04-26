@@ -1,8 +1,0 @@
-mem_blacksite_opinion_refused = {
-    opinion = {
-        base = -40
-    }
-    decay = {
-        base = 2
-    }
-}

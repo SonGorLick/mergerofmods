@@ -1,8 +1,0 @@
-dpe_defect_leader_incarcerated_national = {
-    opinion = {
-        base = -100
-    }
-    decay = {
-        base = 3
-    }
-}

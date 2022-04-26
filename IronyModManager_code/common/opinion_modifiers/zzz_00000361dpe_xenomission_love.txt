@@ -1,5 +1,0 @@
-dpe_xenomission_love = {
-    opinion = {
-        base = 50
-    }
-}

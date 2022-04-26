@@ -1,5 +1,0 @@
-opinion_fatalf_shot_colony = {
-    opinion = {
-        base = -100
-    }
-}

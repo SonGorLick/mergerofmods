@@ -1,8 +1,0 @@
-mem_opinion_science_convention_scientist_dead = {
-    opinion = {
-        base = -25
-    }
-    decay = {
-        base = 1
-    }
-}

@@ -1,5 +1,0 @@
-opinion_withheld_monolith_knowledge = {
-    opinion = {
-        base = -50
-    }
-}

@@ -1,8 +1,0 @@
-dpe_sought_our_help = {
-    opinion = {
-        base = 20
-    }
-    decay = {
-        base = 1
-    }
-}

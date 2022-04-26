@@ -1,5 +1,0 @@
-opinion_fatherland_mutual_persecuted = {
-    opinion = {
-        base = 20
-    }
-}

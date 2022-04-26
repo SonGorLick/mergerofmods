@@ -1,5 +1,0 @@
-dpe_xenomission_not_like = {
-    opinion = {
-        base = -25
-    }
-}

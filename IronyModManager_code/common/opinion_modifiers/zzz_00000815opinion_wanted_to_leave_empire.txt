@@ -1,8 +1,0 @@
-opinion_wanted_to_leave_empire = {
-    opinion = {
-        base = -20
-    }
-    decay = {
-        base = 1
-    }
-}

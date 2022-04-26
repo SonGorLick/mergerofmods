@@ -1,5 +1,0 @@
-original_empire_active = {
-    ai = {
-        enabled = no
-    }
-}

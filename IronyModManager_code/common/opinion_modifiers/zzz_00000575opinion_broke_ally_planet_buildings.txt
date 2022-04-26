@@ -1,8 +1,0 @@
-opinion_broke_ally_planet_buildings = {
-    opinion = {
-        base = -50
-    }
-    decay = {
-        base = 1
-    }
-}

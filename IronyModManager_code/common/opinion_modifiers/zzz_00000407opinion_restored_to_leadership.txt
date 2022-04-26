@@ -1,5 +1,0 @@
-opinion_restored_to_leadership = {
-    opinion = {
-        base = 500
-    }
-}

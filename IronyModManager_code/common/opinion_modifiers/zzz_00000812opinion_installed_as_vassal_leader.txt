@@ -1,5 +1,0 @@
-opinion_installed_as_vassal_leader = {
-    opinion = {
-        base = 250
-    }
-}

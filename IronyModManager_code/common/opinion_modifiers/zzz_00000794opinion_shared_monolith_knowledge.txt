@@ -1,5 +1,0 @@
-opinion_shared_monolith_knowledge = {
-    opinion = {
-        base = 75
-    }
-}

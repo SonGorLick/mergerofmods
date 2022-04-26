@@ -1,8 +1,0 @@
-dpe_rejected_help_with_elections = {
-    opinion = {
-        base = -50
-    }
-    decay = {
-        base = 3
-    }
-}

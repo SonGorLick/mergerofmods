@@ -1,8 +1,0 @@
-opinion_outrageous_demands_weaker = {
-    opinion = {
-        base = -50
-    }
-    decay = {
-        base = 4
-    }
-}

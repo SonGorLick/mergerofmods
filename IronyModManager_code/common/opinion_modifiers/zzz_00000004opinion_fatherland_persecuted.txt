@@ -1,5 +1,0 @@
-opinion_fatherland_persecuted = {
-    opinion = {
-        base = -40
-    }
-}

@@ -1,8 +1,0 @@
-opinion_yggdrasil_denied_food = {
-    opinion = {
-        base = -50
-    }
-    decay = {
-        base = 1
-    }
-}

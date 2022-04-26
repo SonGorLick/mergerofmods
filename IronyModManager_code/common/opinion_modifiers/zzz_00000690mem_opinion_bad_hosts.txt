@@ -1,8 +1,0 @@
-mem_opinion_bad_hosts = {
-    opinion = {
-        base = -25
-    }
-    decay = {
-        base = 5
-    }
-}

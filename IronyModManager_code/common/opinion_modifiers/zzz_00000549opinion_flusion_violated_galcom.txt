@@ -1,8 +1,0 @@
-opinion_flusion_violated_galcom = {
-    opinion = {
-        base = -75
-    }
-    decay = {
-        base = 2
-    }
-}

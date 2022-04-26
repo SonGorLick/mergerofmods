@@ -1,9 +1,0 @@
-dpe_spiritualist_mission_accepted_mission = {
-    opinion = {
-        base = 30
-    }
-    accumulative = no
-    decay = {
-        base = 2
-    }
-}

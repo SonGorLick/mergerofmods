@@ -1,8 +1,0 @@
-opinion_recent_royal_wedding = {
-    opinion = {
-        base = 30
-    }
-    decay = {
-        base = 3
-    }
-}

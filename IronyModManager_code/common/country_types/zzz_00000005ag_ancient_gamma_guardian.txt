@@ -1,5 +1,0 @@
-ag_ancient_gamma_guardian = {
-    ai = {
-        enabled = no
-    }
-}

@@ -1,5 +1,0 @@
-ev_leviathans_crisis = {
-    ai = {
-        enabled = no
-    }
-}

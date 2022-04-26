@@ -1,5 +1,0 @@
-void_lifeforms_2 = {
-    ai = {
-        enabled = no
-    }
-}

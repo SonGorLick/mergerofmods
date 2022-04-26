@@ -1,5 +1,0 @@
-opinion_fatalf_lost_country = {
-    opinion = {
-        base = 75
-    }
-}

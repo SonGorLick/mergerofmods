@@ -1,9 +1,0 @@
-AAR_opinion_dominion_FEAR_enemy = {
-    opinion = {
-        base = -2
-    }
-    accumulative = yes
-    decay = {
-        base = 2
-    }
-}

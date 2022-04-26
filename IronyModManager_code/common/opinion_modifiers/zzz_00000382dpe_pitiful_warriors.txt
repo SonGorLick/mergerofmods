@@ -1,8 +1,0 @@
-dpe_pitiful_warriors = {
-    opinion = {
-        base = -30
-    }
-    decay = {
-        base = 2
-    }
-}
