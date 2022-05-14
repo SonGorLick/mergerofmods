@@ -1,76 +1,9 @@
 ~~Ariphaos Unofficial Patch (3.4)
+Start with auto explore & research
 Bypass Adjustments
-Additional Machine Portraits
-Additional Machine Portraits - Dark Core
-Additional Machine Portraits - Light Matrix
-Additional Machine Portraits | Forgotten Atomotons
-Alien Suns
-Additional Humanoid Portraits
-LabRats Fixed
-Animated Furdrake Species
+Sensor Expansion
+5 Times Faster Reinforcement Transit
 Project Xenotype: Chapter 2: Ascellians
-Animated Flayed Humanoids
-Animated Kriken Species
-Animated Raven Portraits (Skeksis)
-Animated Sectoid
-Animated Skeletor Portrait
-Animated Synthetics Portraits - Expanded: Simplified
-Xenomorph Species
-Zyralynn species
-Diamont Species
-Cyborg Horror
-Cyborg Portraits
-Cyborg Species
-Distant Creature
-Dromaeosauridae Animated Portraits
-Evil ExHumans - Humanoid version
-Human Hive
-Human Revolution (standalone)
-Mass Effect - Geth Portraits
-Mass Effect Species Pack (Updated)
-Metroid Alimbic Animated Portrait
-Nefalem
-Prothean Portraits
-Protoss Nerazim Portrait Set
-Protoss Khalai Portrait Set
-Protoss Ihan-rii Portrait Set
-Protoss Tal'darim Portrait Set
-The Psilons - Animated Species
-Twinks Engineer Species
-Warframe Portraits: Organics
-Warframe Portraits: Machines
-Twinks Demon Species
-( Twinks I.A.A.T )
-( Twinks Dessanu )
-Animated Aquilese Portraits
-Animated Eldar Portraits - Warhammer 40K
-Animated Hollow Portraits
-Animated Hyena Portraits
-Animated Octee-lan Portraits
-Animated Portraits - The Hidden Eye
-Animated Raptor Portraits
-Animated Serpentoid Portraits
-Animated Silicoid Portraits
-Animated Shark Portraits
-Animated Xirmian Portraits
-Holosphere Rising
-Sophon Portraits
-Spinosauridae Animated Portraits
-Synthetic Portrait Pack
-Vampire Portraits
-Vampire Beast Portraits
-Xeno Biodiversity
-Xenon Sector - Race & Ship Only
-The Chiss Species
-Space Greeks and Romans 2.0 - Hephaestus Update
-Space Egyptians
-( Twinks Paradise Initiative )
-( Twinks Sin'dorei )
-( Twinks Kaldorei )
-( Twinks Atlanteans )
-Gnomes Portraits
-Segek's Animated Portraits
-Merger of Portraits
 Aesthetic Terraform Stations
 At War: Advanced Ship Sections (3.4.*)
 At War: Better Admiral Experience (3.4.*)
@@ -81,18 +14,33 @@ Automatic Pop Migration (3.4.*)
 Cross Border Trade
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
 Expanded Mandates
+Extragalactic Cluster Start
+Guilli's Exploration And Expansion Tweaks
+Guilli's Planet Modifiers and Features
+Guilli's Technologies
+Leader Traits: Enhanced Randomisation
+Machine & Robot Expansion
 New Enclaves [3.4.*]
 Planet States [3.4.*]
-Plant's Species Expansion
+Planet Raider
 Planetary Modifier Enhancements
 Primitive Conquest Enhancements
+Psionic Ascension: Even in Other Empires
 Quantum Trebuchet (3.4.X)
+Restored Content: Fungoids
 Ringworld Graphical Enhancements
-Sensor Expansion
 Special Leadership Privileges for Battle Thralls and Bio-Trophies
+Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
+Station Solar System Exploitation
 Technology Rubberbanding
-Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
+The Utopian Dream (3.4)
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
+Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
+UI Overhaul Dynamic
+36 Building Slots
+UI Overhaul Dynamic + Complete Colors
+UI Overhaul Dynamic - Checksum Schism Version
+UI Overhaul Dynamic - Extended Topbar
 Planetary Diversity
 Planetary Diversity - Exotic Worlds
 Planetary Diversity - Gaia Worlds
@@ -103,13 +51,30 @@ Planetary Diversity - Shroud Worlds
 Planetary Diversity - Space Habitats
 Planetary Diversity - Unique Worlds
 Planetary Diversity - Reworked Habitability
-Guilli's Exploration And Expansion Tweaks
-Guilli's Planet Modifiers and Features
-Guilli's Technologies
-UI Overhaul Dynamic
-UI Overhaul Dynamic - Checksum Schism Version
-Simple Traditions
-UI Overhaul Dynamic - More Tradition Categories (64)
+Planetary Diversity - Reworked Terraforming
 UI Overhaul Dynamic + Planetary Diversity
+Tiny Outliner v2
+UI Overhaul Dynamic + Tiny Outliner v2
+Tiny Fleets
+Tiny Starbase Modules and Buildings
+Tiny Planetary Construction Panel
+Tiny Megastructures
+Tiny Ship Components
+Government Variety Pack
+Money's Corporate Civic Parities
+Simple Traditions
+Traditional Thinking (3.4)
+Forerunner - A Traditions Overhaul
+Ascendant Stars (3.4)
+UI Overhaul Dynamic - Ascension Slots
+UI Overhaul Dynamic - More Tradition Categories (64)
+UI Overhaul Dynamic + New Enclaves
+UI Overhaul Dynamic + Planet States
+Dark UI
+UI Overhaul Dynamic - Dark UI
+Tier Numbers: Buildings
+Shut Up, We Don't Care! (3.4)
+Lord Visceral's Overflow Fleet Power fix
 !!Universal Modifier Patch (3.4.*)
+! The Merger of Rules 3.4
 Absolutely no prescripted countries pls
