@@ -2,28 +2,59 @@
 Start with auto explore & research
 Bypass Adjustments
 Sensor Expansion
+! Immersive Beautiful Universe !
+Cybrxkhan's Assortment of Namelists for Stellaris
+Dimorphic Shark Portraits
+Dimorphism - Chirpy Portraits
+Enhanced - Plavalaguna Portraits
+Enhanced - Vulcan Portraits
+LLX's Mods - Compiled Dimorphism (3.2 'Herbert')
+Alternative Federation Backgrounds LITE
+Alternative Galactic Federation Backgrounds LITE
 5 Times Faster Reinforcement Transit
 Project Xenotype: Chapter 2: Ascellians
 A Deadly Tempest [3.4.☠]
+"Agrarian" Idyll for Lithoids
 Aesthetic Terraform Stations
+AI-Player Exclusive Archaeology
 At War: Advanced Ship Sections (3.4.*)
 At War: Better Admiral Experience (3.4.*)
 At War: Carrier Improvements (3.4.*)
 At War: Defense Platform Longevity(3.4.*)
 At War: Starbase Improvements (3.4:*)
 Automatic Pop Migration (3.4.*)
+Basic Ordinary Origins
+Better Interactions for Megacorps
+Building: Aquaponics Farms
+Building Slot Technologies
+Colony Designations: Capital Building Job Swaps
+Colony Designation: Ecumenopolis Commercial
+Consecrated Worlds: Adjustable Limit
+Counter-Limited Armies Fix
 Cross Border Trade
+Deassimilate Machines
+Deassimlated Machine Worlds
+Enhanced Trade Districts and Designations
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
 Expanded Mandates
 Extragalactic Cluster Start
 Extra Events 3.4
+Extra Fallen Empires
 Guilli's Exploration And Expansion Tweaks
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
+Leader Traits: All Eligible Species Traits
+Leader Traits: Clone Army - All Leader Classes
 Leader Traits: Enhanced Randomisation
+Leader Traits: Merge-Add Species Traits
+Leader Traits: Scientist AI Assistant Upgrader
+Leader Traits: Synthetic Leader Traits for Machine Units
 Machine & Robot Expansion
+Machine World Preference for Resource Consolidation
+More Standard Districts
 New Enclaves [3.4.*]
 Origins of Civilization for 3.x
+Penal Colony: Enhanced
 Planet States [3.4.*]
 Planet Raider
 Planetary Modifier Enhancements
@@ -39,6 +70,7 @@ Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
 Station Solar System Exploitation
 Technology Rubberbanding
+"Terraform" to Tomb World
 The Utopian Dream (3.4)
 Vassals Expanded and Reworked - FunEFork
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
@@ -59,6 +91,7 @@ Planetary Diversity - Space Habitats
 Planetary Diversity - Unique Worlds
 Planetary Diversity - Reworked Habitability
 Planetary Diversity - Reworked Terraforming
+"Terraform" to Tomb World: Planetary Diversity Compatibility
 UI Overhaul Dynamic + Planetary Diversity
 Tiny Outliner v2
 UI Overhaul Dynamic + Tiny Outliner v2
@@ -68,6 +101,7 @@ Tiny Planetary Construction Panel
 Tiny Megastructures
 Tiny Ship Components
 Amazing Civics - Megacorp
+Empires Expanded (formerly Civics Expanded+)
 Government Variety Pack
 Money's Corporate Civic Parities
 Simple Traditions
@@ -80,6 +114,8 @@ UI Overhaul Dynamic + New Enclaves
 UI Overhaul Dynamic + Planet States
 Dark UI
 UI Overhaul Dynamic - Dark UI
+Habitat AI colonisation fix
+Higher Fallen Empire Limit
 Tier Numbers: Buildings
 Shut Up, We Don't Care! (3.4)
 Overflow fleet power fix
