@@ -4,6 +4,7 @@ Bypass Adjustments
 Sensor Expansion
 5 Times Faster Reinforcement Transit
 Project Xenotype: Chapter 2: Ascellians
+A Deadly Tempest [3.4.☠]
 Aesthetic Terraform Stations
 At War: Advanced Ship Sections (3.4.*)
 At War: Better Admiral Experience (3.4.*)
@@ -66,6 +67,7 @@ Tiny Starbase Modules and Buildings
 Tiny Planetary Construction Panel
 Tiny Megastructures
 Tiny Ship Components
+Amazing Civics - Megacorp
 Government Variety Pack
 Money's Corporate Civic Parities
 Simple Traditions
