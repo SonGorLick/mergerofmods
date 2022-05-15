@@ -15,18 +15,23 @@ Cross Border Trade
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
 Expanded Mandates
 Extragalactic Cluster Start
+Extra Events 3.4
 Guilli's Exploration And Expansion Tweaks
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
 Leader Traits: Enhanced Randomisation
 Machine & Robot Expansion
 New Enclaves [3.4.*]
+Origins of Civilization for 3.x
 Planet States [3.4.*]
 Planet Raider
 Planetary Modifier Enhancements
 Primitive Conquest Enhancements
+Primitive Worlds for 3.x
 Psionic Ascension: Even in Other Empires
 Quantum Trebuchet (3.4.X)
+Rapid Evolution for 3.x
+Realistic Logistic Growth
 Restored Content: Fungoids
 Ringworld Graphical Enhancements
 Special Leadership Privileges for Battle Thralls and Bio-Trophies
@@ -34,6 +39,7 @@ Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
 Station Solar System Exploitation
 Technology Rubberbanding
 The Utopian Dream (3.4)
+Vassals Expanded and Reworked - FunEFork
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
 Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
 UI Overhaul Dynamic
@@ -74,7 +80,7 @@ Dark UI
 UI Overhaul Dynamic - Dark UI
 Tier Numbers: Buildings
 Shut Up, We Don't Care! (3.4)
-Lord Visceral's Overflow Fleet Power fix
+Overflow fleet power fix
 !!Universal Modifier Patch (3.4.*)
 ! The Merger of Rules 3.4
 Absolutely no prescripted countries pls
