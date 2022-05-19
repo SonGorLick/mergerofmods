@@ -1,6 +1,9 @@
 ~~Ariphaos Unofficial Patch (3.4)
+Dynamic Mod Menu [3.4.*]
 Start with auto explore & research
 Bypass Adjustments
+More Civic Points [S-02]
+Portrait Trigger Pack - Core
 Sensor Expansion
 ! Immersive Beautiful Universe !
 Cybrxkhan's Assortment of Namelists for Stellaris
@@ -50,14 +53,21 @@ Leader Traits: Merge-Add Species Traits
 Leader Traits: Scientist AI Assistant Upgrader
 Leader Traits: Synthetic Leader Traits for Machine Units
 Machine & Robot Expansion
+Portrait Trigger Pack - Machine & Robot Expansion
 Machine World Preference for Resource Consolidation
+Magnum's Mods - Megastructure Build Speed Research
+Magnum's Mods - More Influence Research
+Magnum's Mods - Resource Storage Research
+More AI Personalities
 More Standard Districts
 New Enclaves [3.4.*]
+No More Exclaves
 Origins of Civilization for 3.x
 Penal Colony: Enhanced
 Planet States [3.4.*]
 Planet Raider
 Planetary Modifier Enhancements
+Planetary Wonders
 Primitive Conquest Enhancements
 Primitive Worlds for 3.x
 Psionic Ascension: Even in Other Empires
@@ -68,6 +78,7 @@ Restored Content: Fungoids
 Ringworld Graphical Enhancements
 Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
+Expanded Starbases
 Station Solar System Exploitation
 Technology Rubberbanding
 "Terraform" to Tomb World
@@ -75,6 +86,8 @@ The Utopian Dream (3.4)
 Vassals Expanded and Reworked - FunEFork
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
 Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
+Landmass
+Miniatures
 UI Overhaul Dynamic
 36 Building Slots
 UI Overhaul Dynamic + Complete Colors
@@ -92,7 +105,9 @@ Planetary Diversity - Unique Worlds
 Planetary Diversity - Reworked Habitability
 Planetary Diversity - Reworked Terraforming
 "Terraform" to Tomb World: Planetary Diversity Compatibility
+Portrait Trigger Pack - Planetary Diversity
 UI Overhaul Dynamic + Planetary Diversity
+Landmass - Planetary Diversity
 Tiny Outliner v2
 UI Overhaul Dynamic + Tiny Outliner v2
 Tiny Fleets
@@ -103,11 +118,13 @@ Tiny Ship Components
 Amazing Civics - Megacorp
 Empires Expanded (formerly Civics Expanded+)
 Government Variety Pack
+Mercenary Megacorps
 Money's Corporate Civic Parities
 Simple Traditions
 Traditional Thinking (3.4)
 Forerunner - A Traditions Overhaul
 Ascendant Stars (3.4)
+Forerunner+Ascendant Stars Patch
 UI Overhaul Dynamic - Ascension Slots
 UI Overhaul Dynamic - More Tradition Categories (64)
 UI Overhaul Dynamic + New Enclaves
@@ -117,6 +134,7 @@ UI Overhaul Dynamic - Dark UI
 Habitat AI colonisation fix
 Higher Fallen Empire Limit
 Tier Numbers: Buildings
+We Require Borders
 Shut Up, We Don't Care! (3.4)
 Overflow fleet power fix
 !!Universal Modifier Patch (3.4.*)
