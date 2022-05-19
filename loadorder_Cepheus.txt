@@ -1,8 +1,11 @@
 ~~Ariphaos Unofficial Patch (3.4)
+AI Game Performance Optimisation Fix
+Tass Cheat Tool
 Dynamic Mod Menu [3.4.*]
 Start with auto explore & research
 Bypass Adjustments
 More Civic Points [S-02]
+Names for Primitive Planets
 Portrait Trigger Pack - Core
 Sensor Expansion
 ! Immersive Beautiful Universe !
@@ -11,11 +14,14 @@ Dimorphic Shark Portraits
 Dimorphism - Chirpy Portraits
 Enhanced - Plavalaguna Portraits
 Enhanced - Vulcan Portraits
+Extended Aquatics
+Extended Humanoids
+Extended Machines
 LLX's Mods - Compiled Dimorphism (3.2 'Herbert')
 Alternative Federation Backgrounds LITE
 Alternative Galactic Federation Backgrounds LITE
 5 Times Faster Reinforcement Transit
-Project Xenotype: Chapter 2: Ascellians
+星海帝皇起源：帝国税
 A Deadly Tempest [3.4.☠]
 "Agrarian" Idyll for Lithoids
 Aesthetic Terraform Stations
@@ -28,6 +34,7 @@ At War: Starbase Improvements (3.4:*)
 Automatic Pop Migration (3.4.*)
 Basic Ordinary Origins
 Better Interactions for Megacorps
+Branch Office Expansion Planner
 Building: Aquaponics Farms
 Building Slot Technologies
 Colony Designations: Capital Building Job Swaps
@@ -37,8 +44,12 @@ Counter-Limited Armies Fix
 Cross Border Trade
 Deassimilate Machines
 Deassimlated Machine Worlds
+Dynamic Difficulty - Ultimate Customization
+Dynamic Difficulty : More Modifiers
+Enclave Adjustment 3.4.2
 Enhanced Trade Districts and Designations
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
+Expanded Espionage and Diplomacy
 Expanded Mandates
 Extragalactic Cluster Start
 Extra Events 3.4
@@ -66,6 +77,7 @@ Origins of Civilization for 3.x
 Penal Colony: Enhanced
 Planet States [3.4.*]
 Planet Raider
+Planetary Decision Build Speed
 Planetary Modifier Enhancements
 Planetary Wonders
 Primitive Conquest Enhancements
@@ -76,6 +88,9 @@ Rapid Evolution for 3.x
 Realistic Logistic Growth
 Restored Content: Fungoids
 Ringworld Graphical Enhancements
+Sensible Late Game Techs
+Shroud Rising [3.4]
+Spaceborne Civs Expanded
 Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
 Expanded Starbases
@@ -107,10 +122,12 @@ Planetary Diversity - Reworked Terraforming
 "Terraform" to Tomb World: Planetary Diversity Compatibility
 Portrait Trigger Pack - Planetary Diversity
 UI Overhaul Dynamic + Planetary Diversity
+Extended Aquatics + PD
 Landmass - Planetary Diversity
 Tiny Outliner v2
 UI Overhaul Dynamic + Tiny Outliner v2
-Tiny Fleets
+Tiny Outliner Tweaks
+Tiny Fleets for UI Overhaul Dynamic
 Tiny Starbase Modules and Buildings
 Tiny Planetary Construction Panel
 Tiny Megastructures
@@ -131,6 +148,7 @@ UI Overhaul Dynamic + New Enclaves
 UI Overhaul Dynamic + Planet States
 Dark UI
 UI Overhaul Dynamic - Dark UI
+!!!Dark UI Orbital Citadel Fix
 Habitat AI colonisation fix
 Higher Fallen Empire Limit
 Tier Numbers: Buildings
@@ -138,5 +156,6 @@ We Require Borders
 Shut Up, We Don't Care! (3.4)
 Overflow fleet power fix
 !!Universal Modifier Patch (3.4.*)
+!!!Universal Resource Patch [2.4+]
 ! The Merger of Rules 3.4
 Absolutely no prescripted countries pls
