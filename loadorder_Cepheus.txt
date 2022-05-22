@@ -1,5 +1,7 @@
 ~~Ariphaos Unofficial Patch (3.4)
+Aggressive Crisis Engine
 AI Game Performance Optimisation Fix
+AI Spymaster
 Tass Cheat Tool
 Dynamic Mod Menu [3.4.*]
 Start with auto explore & research
@@ -8,7 +10,10 @@ More Civic Points [S-02]
 Names for Primitive Planets
 Portrait Trigger Pack - Core
 Sensor Expansion
+Yet Another Galaxy Enhancement Mod
 ! Immersive Beautiful Universe !
+Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
+!Patch - Elegant Galaxy Purple - Yet Another Galaxy Enhancement Mod
 Cybrxkhan's Assortment of Namelists for Stellaris
 Dimorphic Shark Portraits
 Dimorphism - Chirpy Portraits
@@ -17,15 +22,20 @@ Enhanced - Vulcan Portraits
 Extended Aquatics
 Extended Humanoids
 Extended Machines
+Flags, Emblems n Crests Merged
 LLX's Mods - Compiled Dimorphism (3.2 'Herbert')
 Alternative Federation Backgrounds LITE
 Alternative Galactic Federation Backgrounds LITE
 5 Times Faster Reinforcement Transit
+Young Leaders
+*Remastered Human Portraits
 星海帝皇起源：帝国税
 A Deadly Tempest [3.4.☠]
 "Agrarian" Idyll for Lithoids
+Agreements Boost Diplomatic Weight
 Aesthetic Terraform Stations
 AI-Player Exclusive Archaeology
+Archaeology Story Pack
 At War: Advanced Ship Sections (3.4.*)
 At War: Better Admiral Experience (3.4.*)
 At War: Carrier Improvements (3.4.*)
@@ -46,17 +56,20 @@ Deassimilate Machines
 Deassimlated Machine Worlds
 Dynamic Difficulty - Ultimate Customization
 Dynamic Difficulty : More Modifiers
-Enclave Adjustment 3.4.2
+Enclave Adjustment 3.4.3
 Enhanced Trade Districts and Designations
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
 Expanded Espionage and Diplomacy
 Expanded Mandates
+Expanded Megastructures and Technology
 Extragalactic Cluster Start
 Extra Events 3.4
 Extra Fallen Empires
+Foreign Gateway Construction
 Guilli's Exploration And Expansion Tweaks
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
+Intervene: Help Friendly Nations - FunEFork
 Leader Traits: All Eligible Species Traits
 Leader Traits: Clone Army - All Leader Classes
 Leader Traits: Enhanced Randomisation
@@ -80,6 +93,8 @@ Planet Raider
 Planetary Decision Build Speed
 Planetary Modifier Enhancements
 Planetary Wonders
+Precursor Story Pack
+Guillified Precursor  Story Pack (Compat Patch)
 Primitive Conquest Enhancements
 Primitive Worlds for 3.x
 Psionic Ascension: Even in Other Empires
@@ -95,10 +110,12 @@ Special Leadership Privileges for Battle Thralls and Bio-Trophies
 Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
 Expanded Starbases
 Station Solar System Exploitation
+Starborn: Improved Voidtouched
 Technology Rubberbanding
 "Terraform" to Tomb World
 The Utopian Dream (3.4)
 Vassals Expanded and Reworked - FunEFork
+Void Dwellers Expanded 3+
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
 Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
 Landmass
@@ -124,6 +141,8 @@ Portrait Trigger Pack - Planetary Diversity
 UI Overhaul Dynamic + Planetary Diversity
 Extended Aquatics + PD
 Landmass - Planetary Diversity
+Immersive Galaxie - Planet Variety Reborn 4K
+Immersive Galaxie - Nuclear Fire Reborn
 Tiny Outliner v2
 UI Overhaul Dynamic + Tiny Outliner v2
 Tiny Outliner Tweaks
@@ -149,12 +168,17 @@ UI Overhaul Dynamic + Planet States
 Dark UI
 UI Overhaul Dynamic - Dark UI
 !!!Dark UI Orbital Citadel Fix
+Simple Leader Skill Icons
+Galactic Community Expanded Defines
 Habitat AI colonisation fix
 Higher Fallen Empire Limit
 Tier Numbers: Buildings
 We Require Borders
 Shut Up, We Don't Care! (3.4)
+Starborn Disable Normal Habitats
 Overflow fleet power fix
+Vassal Traditions Fix
+Zeta / Map Modes
 !!Universal Modifier Patch (3.4.*)
 !!!Universal Resource Patch [2.4+]
 ! The Merger of Rules 3.4
