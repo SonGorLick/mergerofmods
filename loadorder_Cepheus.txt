@@ -119,6 +119,10 @@ Void Dwellers Expanded 3+
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
 Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
 Landmass
+Landmass - Guilli's Planet Modifiers and Features
+Landmass - Shroud Rising
+Crystalline
+Landmass - Crystalline
 Miniatures
 UI Overhaul Dynamic
 36 Building Slots
