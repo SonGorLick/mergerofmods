@@ -1,0 +1,214 @@
+~~Ariphaos Unofficial Patch (3.4)
+Aggressive Crisis Engine
+AI Game Performance Optimisation Fix
+AI Spymaster
+Tass Cheat Tool
+Dynamic Mod Menu [3.4.*]
+Start with auto explore & research
+Bypass Adjustments
+More Civic Points [S-02]
+Names for Primitive Planets
+Portrait Trigger Pack - Core
+Sensor Expansion
+Yet Another Galaxy Enhancement Mod
+! Immersive Beautiful Universe !
+Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
+!Patch - Elegant Galaxy Purple - Yet Another Galaxy Enhancement Mod
+Cybrxkhan's Assortment of Namelists for Stellaris
+Dimorphic Shark Portraits
+Dimorphism - Chirpy Portraits
+Enhanced - Plavalaguna Portraits
+Enhanced - Vulcan Portraits
+Extended Aquatics
+Extended Humanoids
+Extended Machines
+Extended Plantoids
+Flags, Emblems n Crests Merged
+LLX's Mods - Compiled Dimorphism (3.2 'Herbert')
+Alternative Federation Backgrounds LITE
+Alternative Galactic Federation Backgrounds LITE
+5 Times Faster Reinforcement Transit
+Young Leaders
+*Remastered Human Portraits
+星海帝皇起源：帝国税
+Crisis Manager - End-Game Edition (3.4.¢)
+Crisis Manager - Mid-Game Edition (3.4.¢)
+Crisis Manager - Sleeper Edition (3.4.¢)
+A Deadly Tempest [3.4.☠]
+The Great Khan Expanded [3.4.☠]
+"Agrarian" Idyll for Lithoids
+Agreements Boost Diplomatic Weight
+Aesthetic Terraform Stations
+AI-Player Exclusive Archaeology
+Archaeology Story Pack
+At War: Advanced Ship Sections (3.4.*)
+At War: Better Admiral Experience (3.4.*)
+At War: Carrier Improvements (3.4.*)
+At War: Defense Platform Longevity(3.4.*)
+At War: Starbase Improvements (3.4:*)
+Automatic Pop Migration (3.4.*)
+Basic Ordinary Origins
+Better Interactions for Megacorps
+Branch Office Expansion Planner
+Building: Aquaponics Farms
+Building Slot Technologies
+Colony Designations: Capital Building Job Swaps
+Colony Designation: Ecumenopolis Commercial
+Consecrated Worlds: Adjustable Limit
+Counter-Limited Armies Fix
+Cross Border Trade
+Deassimilate Machines
+Deassimlated Machine Worlds
+Diverse Prosperous Unifications
+Dynamic Difficulty - Ultimate Customization
+Dynamic Difficulty : More Modifiers
+Dynamic Political Events
+Portrait Trigger Pack - Dynamic Political Events
+Endless Frontier: An Event Mod
+Enclave Adjustment 3.4.3
+Enhanced Trade Districts and Designations
+EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
+Even More Origins
+Expanded Espionage and Diplomacy
+Expanded Mandates
+Expanded Megastructures and Technology
+Expanded Notifications
+Expanded Xeno Diplomacy
+Extragalactic Cluster Start
+Extra Events 3.4
+Extra Fallen Empires
+Foreign Gateway Construction
+Galatic Imperium Origin
+Guilli's Exploration And Expansion Tweaks
+Guilli's Planet Modifiers and Features
+Guilli's Technologies
+Intervene: Help Friendly Nations - FunEFork
+Leader Traits: All Eligible Species Traits
+Leader Traits: Clone Army - All Leader Classes
+Leader Traits: Enhanced Randomisation
+Leader Traits: Merge-Add Species Traits
+Leader Traits: Scientist AI Assistant Upgrader
+Leader Traits: Synthetic Leader Traits for Machine Units
+Machine & Robot Expansion
+Portrait Trigger Pack - Machine & Robot Expansion
+Machine World Preference for Resource Consolidation
+Magnum's Mods - Megastructure Build Speed Research
+Magnum's Mods - More Influence Research
+Magnum's Mods - Resource Storage Research
+More AI Personalities
+More Federation Names
+More Standard Districts
+New Enclaves [3.4.*]
+No More Exclaves
+Origins of Civilization for 3.x
+Penal Colony: Enhanced
+Planet States [3.4.*]
+Planet Raider
+Planetary Decision Build Speed
+Planetary Modifier Enhancements
+Planetary Wonders
+Powerful & Realistic Orbital Bombardments [3.4.☠]
+Psionic Species Expansion
+Precursor Story Pack
+Guillified Precursor  Story Pack (Compat Patch)
+Primitive Conquest Enhancements
+Primitive Worlds for 3.x
+Psionic Ascension: Even in Other Empires
+Quantum Trebuchet (3.4.X)
+Random Species Names - Updated
+Rapid Evolution for 3.x
+Realistic Logistic Growth
+Realistic Pirates [3.4.☠]
+Restored Content: Fungoids
+Ringworld Graphical Enhancements
+Sensible Late Game Techs
+Shroud Rising [3.4]
+Spaceborne Civs Expanded
+Special Leadership Privileges for Battle Thralls and Bio-Trophies
+Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
+Expanded Starbases
+Station Solar System Exploitation
+Starborn: Improved Voidtouched
+Technology Rubberbanding
+"Terraform" to Tomb World
+The Utopian Dream (3.4)
+Vassals Expanded and Reworked - FunEFork
+Void Dwellers Expanded 3+
+Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
+Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
+Landmass
+Landmass - Guilli's Planet Modifiers and Features
+Landmass - Shroud Rising
+Crystalline
+Landmass - Crystalline
+Miniatures
+UI Overhaul Dynamic
+36 Building Slots
+UI Overhaul Dynamic + Complete Colors
+UI Overhaul Dynamic - Checksum Schism Version
+UI Overhaul Dynamic - Extended Topbar
+Planetary Diversity
+Planetary Diversity - Exotic Worlds
+Planetary Diversity - Gaia Worlds
+Planetary Diversity - More Arcologies
+Planetary Diversity - Planetary Habitats
+Planetary Diversity - Ringworlds
+Planetary Diversity - Shroud Worlds
+Planetary Diversity - Space Habitats
+Planetary Diversity - Unique Worlds
+Planetary Diversity - Reworked Habitability
+Planetary Diversity - Reworked Terraforming
+"Terraform" to Tomb World: Planetary Diversity Compatibility
+Portrait Trigger Pack - Planetary Diversity
+UI Overhaul Dynamic + Planetary Diversity
+Extended Aquatics + PD
+Landmass - Planetary Diversity
+Immersive Galaxie - Planet Variety Reborn 4K
+Immersive Galaxie - Nuclear Fire Reborn
+Real Machine Worlds (Now v3.0.* Compatible)
+Stellaris Enhanced Sound Project
+Tiny Outliner v2
+UI Overhaul Dynamic + Tiny Outliner v2
+Tiny Outliner Tweaks
+Tiny Fleets for UI Overhaul Dynamic
+Tiny Starbase Modules and Buildings
+Tiny Planetary Construction Panel
+Tiny Megastructures
+Tiny Ship Components
+Amazing Civics - Megacorp
+Empires Expanded (formerly Civics Expanded+)
+Government Variety Pack
+Mercenary Megacorps
+Money's Corporate Civic Parities
+Simple Traditions
+Traditional Thinking (3.4)
+Forerunner - A Traditions Overhaul
+Ascendant Stars (3.4)
+Forerunner+Ascendant Stars Patch
+UI Overhaul Dynamic - Ascension Slots
+UI Overhaul Dynamic - More Tradition Categories (64)
+UI Overhaul Dynamic + New Enclaves
+UI Overhaul Dynamic + Planet States
+Dark UI
+UI Overhaul Dynamic - Dark UI
+!!!Dark UI Orbital Citadel Fix
+Fishbowl Robot Head Fix
+Simple Leader Skill Icons
+Machine Shipset
+Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
+Machine Shipset Add-on: Shattered Ring and Habitat Appearance
+Galactic Community Expanded Defines
+Galactic Market Foundation Tweak
+Habitat AI colonisation fix
+Higher Fallen Empire Limit
+Tier Numbers: Buildings
+We Require Borders
+Shut Up, We Don't Care! (3.4)
+Starborn Disable Normal Habitats
+Overflow fleet power fix
+Vassal Traditions Fix
+Zeta / Map Modes
+!!Universal Modifier Patch (3.4.*)
+!!!Universal Resource Patch [2.4+]
+! The Merger of Rules 3.4
+Absolutely no prescripted countries pls
