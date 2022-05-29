@@ -22,6 +22,7 @@ Enhanced - Vulcan Portraits
 Extended Aquatics
 Extended Humanoids
 Extended Machines
+Extended Plantoids
 Flags, Emblems n Crests Merged
 LLX's Mods - Compiled Dimorphism (3.2 'Herbert')
 Alternative Federation Backgrounds LITE
@@ -30,8 +31,11 @@ Alternative Galactic Federation Backgrounds LITE
 Young Leaders
 *Remastered Human Portraits
 星海帝皇起源：帝国税
+Crisis Manager - End-Game Edition (3.4.¢)
+Crisis Manager - Mid-Game Edition (3.4.¢)
+Crisis Manager - Sleeper Edition (3.4.¢)
 A Deadly Tempest [3.4.☠]
-"Agrarian" Idyll for Lithoids
+The Great Khan Expanded [3.4.☠]
 Agreements Boost Diplomatic Weight
 Aesthetic Terraform Stations
 AI-Player Exclusive Archaeology
@@ -47,25 +51,32 @@ Better Interactions for Megacorps
 Branch Office Expansion Planner
 Building: Aquaponics Farms
 Building Slot Technologies
-Colony Designations: Capital Building Job Swaps
 Colony Designation: Ecumenopolis Commercial
 Consecrated Worlds: Adjustable Limit
 Counter-Limited Armies Fix
 Cross Border Trade
 Deassimilate Machines
 Deassimlated Machine Worlds
+Diverse Prosperous Unifications
 Dynamic Difficulty - Ultimate Customization
 Dynamic Difficulty : More Modifiers
+Dynamic Political Events
+Portrait Trigger Pack - Dynamic Political Events
+Endless Frontier: An Event Mod
 Enclave Adjustment 3.4.3
 Enhanced Trade Districts and Designations
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
+Even More Origins
 Expanded Espionage and Diplomacy
 Expanded Mandates
 Expanded Megastructures and Technology
+Expanded Notifications
+Expanded Xeno Diplomacy
 Extragalactic Cluster Start
 Extra Events 3.4
 Extra Fallen Empires
 Foreign Gateway Construction
+Galatic Imperium Origin
 Guilli's Exploration And Expansion Tweaks
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
@@ -83,6 +94,7 @@ Magnum's Mods - Megastructure Build Speed Research
 Magnum's Mods - More Influence Research
 Magnum's Mods - Resource Storage Research
 More AI Personalities
+More Federation Names
 More Standard Districts
 New Enclaves [3.4.*]
 No More Exclaves
@@ -93,14 +105,18 @@ Planet Raider
 Planetary Decision Build Speed
 Planetary Modifier Enhancements
 Planetary Wonders
+Powerful & Realistic Orbital Bombardments [3.4.☠]
+Psionic Species Expansion
 Precursor Story Pack
 Guillified Precursor  Story Pack (Compat Patch)
 Primitive Conquest Enhancements
 Primitive Worlds for 3.x
 Psionic Ascension: Even in Other Empires
 Quantum Trebuchet (3.4.X)
+Random Species Names - Updated
 Rapid Evolution for 3.x
 Realistic Logistic Growth
+Realistic Pirates [3.4.☠]
 Restored Content: Fungoids
 Ringworld Graphical Enhancements
 Sensible Late Game Techs
@@ -147,6 +163,8 @@ Extended Aquatics + PD
 Landmass - Planetary Diversity
 Immersive Galaxie - Planet Variety Reborn 4K
 Immersive Galaxie - Nuclear Fire Reborn
+Real Machine Worlds (Now v3.0.* Compatible)
+Stellaris Enhanced Sound Project
 Tiny Outliner v2
 UI Overhaul Dynamic + Tiny Outliner v2
 Tiny Outliner Tweaks
@@ -160,6 +178,9 @@ Empires Expanded (formerly Civics Expanded+)
 Government Variety Pack
 Mercenary Megacorps
 Money's Corporate Civic Parities
+z Expanded Traits, Civics, Pops, and More
+!EMEX-Expanded Pops Patch
+!GVP-Expanded Pops Patch
 Simple Traditions
 Traditional Thinking (3.4)
 Forerunner - A Traditions Overhaul
@@ -172,8 +193,14 @@ UI Overhaul Dynamic + Planet States
 Dark UI
 UI Overhaul Dynamic - Dark UI
 !!!Dark UI Orbital Citadel Fix
+Psionic Species Expansion - Gigastructural Engineering
+Fishbowl Robot Head Fix
 Simple Leader Skill Icons
+Machine Shipset
+Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
+Machine Shipset Add-on: Shattered Ring and Habitat Appearance
 Galactic Community Expanded Defines
+Galactic Market Foundation Tweak
 Habitat AI colonisation fix
 Higher Fallen Empire Limit
 Tier Numbers: Buildings
@@ -182,7 +209,6 @@ Shut Up, We Don't Care! (3.4)
 Starborn Disable Normal Habitats
 Overflow fleet power fix
 Vassal Traditions Fix
-Zeta / Map Modes
 !!Universal Modifier Patch (3.4.*)
 !!!Universal Resource Patch [2.4+]
 ! The Merger of Rules 3.4
