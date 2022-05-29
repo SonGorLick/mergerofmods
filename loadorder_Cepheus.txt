@@ -76,7 +76,7 @@ Extragalactic Cluster Start
 Extra Events 3.4
 Extra Fallen Empires
 Foreign Gateway Construction
-Galatic Imperium Origin
+Galactic Imperium Origin
 Guilli's Exploration And Expansion Tweaks
 Guilli's Planet Modifiers and Features
 Guilli's Technologies
@@ -188,6 +188,7 @@ Traditional Thinking (3.4)
 Forerunner - A Traditions Overhaul
 Ascendant Stars (3.4)
 Forerunner+Ascendant Stars Patch
+Forerunner+Gigastructures Patch
 UI Overhaul Dynamic - Ascension Slots
 UI Overhaul Dynamic - More Tradition Categories (64)
 UI Overhaul Dynamic + New Enclaves
