@@ -114,6 +114,7 @@ Guillified Precursor  Story Pack (Compat Patch)
 Primitive Conquest Enhancements
 Primitive Worlds for 3.x
 Psionic Ascension: Even in Other Empires
+Quantum Gateway
 Quantum Trebuchet (3.4.X)
 Random Species Names - Updated
 Rapid Evolution for 3.x
@@ -182,7 +183,6 @@ Empires Expanded (formerly Civics Expanded+)
 Government Variety Pack
 Mercenary Megacorps
 z Expanded Traits, Civics, Pops, and More
-!EMEX-Expanded Pops Patch
 !GVP-Expanded Pops Patch
 Simple Traditions
 Traditional Thinking (3.4)
