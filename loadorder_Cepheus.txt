@@ -113,6 +113,7 @@ Precursor Story Pack
 Guillified Precursor  Story Pack (Compat Patch)
 Primitive Conquest Enhancements
 Primitive Worlds for 3.x
+Private Military Companies
 Psionic Ascension: Even in Other Empires
 Quantum Gateway
 Quantum Trebuchet (3.4.X)
@@ -122,7 +123,6 @@ Realistic Logistic Growth
 Realistic Pirates [3.4.☠]
 Restored Content: Fungoids
 Ringworld Graphical Enhancements
-Rise of Cosmic Industry BETA
 Sensible Late Game Techs
 Shroud Rising [3.4]
 Spaceborne Civs Expanded
@@ -139,6 +139,7 @@ Void Dwellers Expanded 3+
 Xenology : Traits Expansion Unofficial - Annex Module (3.4.X)
 Xenology : Traits Expansion Unofficial - Biological Module (3.4.X)
 Gigastructural Engineering & More (3.4)
+ANZ Compound
 Landmass
 Landmass - Guilli's Planet Modifiers and Features
 Landmass - Shroud Rising
@@ -204,7 +205,7 @@ Simple Leader Skill Icons
 Machine Shipset
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
-Galactic Community Expanded Defines
+Faster Federations & Galactic Community
 Galactic Market Foundation Tweak
 Habitat AI colonisation fix
 Higher Fallen Empire Limit
