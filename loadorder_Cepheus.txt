@@ -131,6 +131,7 @@ Starbases/Orbital Rings Upgrades, Balances & Fixes (3.4)
 Expanded Starbases
 Station Solar System Exploitation
 Starborn: Improved Voidtouched
+Technology Ascendant
 Technology Rubberbanding
 "Terraform" to Tomb World
 The Utopian Dream (3.4)
