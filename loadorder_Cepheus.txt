@@ -38,6 +38,7 @@ Crisis Manager - Mid-Game Edition (3.4.¢)
 Crisis Manager - Sleeper Edition (3.4.¢)
 A Deadly Tempest [3.4.☠]
 The Great Khan Expanded [3.4.☠]
+AA's Consortiums (3.4)
 Agreements Boost Diplomatic Weight
 Aesthetic Terraform Stations
 AI-Player Exclusive Archaeology
@@ -65,7 +66,7 @@ Dynamic Difficulty : More Modifiers
 Dynamic Political Events
 Portrait Trigger Pack - Dynamic Political Events
 Endless Frontier: An Event Mod
-Enclave Adjustment 3.4.3
+Enclave Adjustment 3.4.4
 Enhanced Trade Districts and Designations
 EUTAB - Ethos Unique Techs and Buildings - Unofficial Update (3.4.X)
 Even More Origins
@@ -207,6 +208,7 @@ Machine Shipset
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
 Faster Federations & Galactic Community
+Foreign Affairs (3.4)
 Galactic Market Foundation Tweak
 Habitat AI colonisation fix
 Higher Fallen Empire Limit
