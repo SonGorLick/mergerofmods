@@ -17,6 +17,27 @@ Yet Another Galaxy Enhancement Mod
 Elegant Galaxy Purple for Immersive Beautiful Stellaris/Universe
 !Patch - Elegant Galaxy Purple - Yet Another Galaxy Enhancement Mod
 Cybrxkhan's Assortment of Namelists for Stellaris
+Animated Ape People
+Animated Ghoul
+Axolotl Animated Portrait
+Silfae's Portraits with updated city sets - organics
+Animated White Walkers
+Animated Skeletor Portrait
+Animated Prothean Race
+Metroid Alimbic Animated Portrait
+Animated Saurian Portraits
+Animated Raven Portraits (Skeksis)
+Animated Flayed Humanoids
+The Psilons - Animated Species
+Little Green Men
+Animated Sergal Portraits
+Robot Maids Animated Portraits
+Animated Kriken Species
+Custom Machines Animated Portaits
+Segek's Animated Portraits
+Cyborg Species
+Avali Animated Portrait 0.5.4² (for 3.4)
+Even More Different Human Portraits
 Dimorphic Shark Portraits
 Dimorphism - Chirpy Portraits
 Enhanced - Plavalaguna Portraits
@@ -220,5 +241,6 @@ Overflow fleet power fix
 Vassal Traditions Fix
 !!Universal Modifier Patch (3.4.*)
 !!!Universal Resource Patch [2.4+]
-! The Merger of Rules 3.4
 Absolutely no prescripted countries pls
+! The Merger of Rules 3.4
+Merger of Portraits [3.4]
