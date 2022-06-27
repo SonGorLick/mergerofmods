@@ -175,7 +175,7 @@ Landmass - Shroud Rising
 Crystalline
 Landmass - Crystalline
 Miniatures
-Gigastructures - Landmass - Miniatures patch
+Landmass - Miniatures - Gigastructural Engineering & More (3.4.X)
 UI Overhaul Dynamic
 36 Building Slots
 UI Overhaul Dynamic + Complete Colors
@@ -234,6 +234,9 @@ Simple Leader Skill Icons
 Machine Shipset
 Machine Shipset Add-on: Aesthetic Terraform Station Compatibility
 Machine Shipset Add-on: Shattered Ring and Habitat Appearance
+Machine Shipset - Miniatures Patch`
+New Genesis
+New Genesis - Miniatures
 Faster Federations & Galactic Community
 Foreign Affairs (3.4)
 Galactic Market Foundation Tweak
@@ -247,6 +250,7 @@ Overflow fleet power fix
 Vassal Traditions Fix
 !!Universal Modifier Patch (3.4.*)
 !!!Universal Resource Patch [2.4+]
+Dukko's Assorted Hacky Patches
 Absolutely no prescripted countries pls
 ! The Merger of Rules 3.4
 Merger of Portraits [3.4]
